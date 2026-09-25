@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calorie Counter</title>
+<meta name="description" content="Free, private calorie and macro counter. No account, no ads, data stays on your device.">
+<meta name="theme-color" content="#16a34a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1512" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Calories">
+<!--PWA-START-->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<!--PWA-END-->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-row">
+    <h1 id="viewTitle">Today</h1>
+    <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+  </div>
+  <div class="datenav" id="dateNav">
+    <button class="icon-btn" id="prevDay" aria-label="Previous day">‹</button>
+    <label class="date-label">
+      <span id="dateLabel">Today</span>
+      <input type="date" id="datePicker" aria-label="Pick a date">
+    </label>
+    <button class="icon-btn" id="nextDay" aria-label="Next day">›</button>
+    <button class="chip" id="todayBtn">Today</button>
+  </div>
+</header>
+
+<main>
+  <!-- TODAY -->
+  <section id="view-today" class="view active">
+    <div class="card summary">
+      <div class="ring-wrap" id="kcalRing"></div>
+      <div class="macro-bars" id="macroBars"></div>
+    </div>
+    <div id="meals"></div>
+    <div class="card weight-quick" id="weightQuick"></div>
+  </section>
+
+  <!-- HISTORY -->
+  <section id="view-history" class="view">
+    <div class="seg" id="rangeSeg" role="tablist">
+      <button data-range="7" class="active">Week</button>
+      <button data-range="30">Month</button>
+    </div>
+    <div class="range-nav">
+      <button class="icon-btn" id="rangePrev" aria-label="Previous period">‹</button>
+      <span id="rangeLabel"></span>
+      <button class="icon-btn" id="rangeNext" aria-label="Next period">›</button>
+    </div>
+    <div class="card"><h2>Calories</h2><div id="chartKcal" class="chart"></div></div>
+    <div class="card"><h2>Macros (g)</h2><div id="chartMacros" class="chart"></div><div class="legend" id="macroLegend"></div></div>
+    <div class="card"><h2>Averages <small>(days with entries)</small></h2><div id="avgTable"></div></div>
+    <div class="card">
+      <h2>Weight</h2>
+      <form id="weightForm" class="row-form">
+        <input type="date" id="weightDate" required aria-label="Weight date">
+        <input type="number" id="weightKg" step="0.1" min="20" max="400" inputmode="decimal" placeholder="kg" required aria-label="Weight in kg">
+        <button class="btn primary" type="submit">Save</button>
+      </form>
+      <div id="chartWeight" class="chart"></div>
+      <div id="weightList" class="list compact"></div>
+    </div>
+  </section>
+
+  <!-- FOODS -->
+  <section id="view-foods" class="view">
+    <div class="card">
+      <div class="card-head"><h2>My foods</h2><button class="btn small" id="newFoodBtn">+ New food</button></div>
+      <div id="myFoodsList" class="list"></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h2>Recipes &amp; meals</h2><button class="btn small" id="newRecipeBtn">+ New recipe</button></div>
+      <div id="recipesList" class="list"></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h2>Favorites</h2></div>
+      <div id="favList" class="list"></div>
+    </div>
+  </section>
+
+  <!-- SETTINGS -->
+  <section id="view-settings" class="view">
+    <form class="card" id="goalsForm">
+      <h2>Daily goals</h2>
+      <div class="grid2">
+        <label>Calories (kcal)<input type="number" name="kcal" min="0" step="10" inputmode="numeric"></label>
+        <label>Protein (g)<input type="number" name="protein" min="0" step="1" inputmode="numeric"></label>
+        <label>Carbs (g)<input type="number" name="carbs" min="0" step="1" inputmode="numeric"></label>
+        <label>Fat (g)<input type="number" name="fat" min="0" step="1" inputmode="numeric"></label>
+        <label>Fiber (g)<input type="number" name="fiber" min="0" step="1" inputmode="numeric"></label>
+        <label>Sugar max (g)<input type="number" name="sugar" min="0" step="1" inputmode="numeric"></label>
+      </div>
+      <p class="muted small" id="goalPct"></p>
+      <button class="btn primary block" type="submit">Save goals</button>
+    </form>
+
+    <form class="card" id="helperForm">
+      <h2>Goal helper <small>(Mifflin-St Jeor)</small></h2>
+      <div class="grid2">
+        <label>Sex<select name="sex"><option value="male">Male</option><option value="female">Female</option></select></label>
+        <label>Age<input type="number" name="age" min="12" max="100" inputmode="numeric" required></label>
+        <label>Height (cm)<input type="number" name="height" min="100" max="250" inputmode="numeric" required></label>
+        <label>Weight (kg)<input type="number" name="weight" min="30" max="300" step="0.1" inputmode="decimal" required></label>
+        <label class="span2">Activity
+          <select name="activity">
+            <option value="1.2">Sedentary (desk job, little exercise)</option>
+            <option value="1.375">Lightly active (1–3 workouts/week)</option>
+            <option value="1.55">Moderately active (3–5 workouts/week)</option>
+            <option value="1.725">Very active (6–7 workouts/week)</option>
+            <option value="1.9">Extremely active (physical job + training)</option>
+          </select>
+        </label>
+        <label class="span2">Goal
+          <select name="goal">
+            <option value="lose">Lose weight (≈ −0.5 kg/week)</option>
+            <option value="maintain">Maintain weight</option>
+            <option value="gain">Gain weight (lean bulk)</option>
+          </select>
+        </label>
+      </div>
+      <button class="btn block" type="submit">Calculate</button>
+      <div id="helperResult"></div>
+    </form>
+
+    <div class="card">
+      <h2>Appearance</h2>
+      <div class="seg" id="themeSeg">
+        <button data-theme="auto">Auto</button>
+        <button data-theme="light">Light</button>
+        <button data-theme="dark">Dark</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Data &amp; backup</h2>
+      <p class="muted small">All data is stored only in this browser on this device. Export a backup regularly.</p>
+      <div class="btn-col">
+        <button class="btn" id="exportJson">Export backup (JSON)</button>
+        <button class="btn" id="exportCsv">Export food log (CSV)</button>
+        <button class="btn" id="exportCsvDaily">Export daily totals (CSV)</button>
+        <label class="btn file-btn">Import backup (JSON)<input type="file" id="importJson" accept="application/json,.json" hidden></label>
+        <button class="btn danger" id="clearAll">Delete all data</button>
+      </div>
+      <p class="muted small" id="foodDbInfo"></p>
+    </div>
+    <div class="card" id="credits">
+      <h2>About &amp; credits</h2>
+      <p class="small">Free, private calorie &amp; macro counter. No tracking, no ads, no account — all data stays in this browser.</p>
+      <p class="small">Based on data from NEVO online version 2025/9.0, RIVM, Bilthoven (and other data sources)</p>
+      <ul class="small credits-list">
+        <li><a href="https://www.rivm.nl/en/dutch-food-composition-database" target="_blank" rel="noopener">NEVO</a> — Dutch Food Composition Database, RIVM.</li>
+        <li><a href="https://fdc.nal.usda.gov/" target="_blank" rel="noopener">USDA FoodData Central</a> — nutrient data and serving sizes (public domain).</li>
+        <li>Photo recognition: Google AIY <a href="https://www.kaggle.com/models/google/aiy/tfLite/vision-classifier-food-v1" target="_blank" rel="noopener">vision classifier food_V1</a> (MobileNet V1, Apache License 2.0), converted to ONNX; runs on-device with <a href="https://onnxruntime.ai" target="_blank" rel="noopener">ONNX Runtime Web</a> (MIT License). Photos never leave your device.</li>
+        <li><a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a> — online product search &amp; barcode lookup; data available under the <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database License (ODbL)</a>.</li>
+      </ul>
+      <p class="muted small">Nutrient values are shown as provided by the source (per 100 g or 100 ml); they are only rounded for display. Tap “Details &amp; source” when adding a food to see its exact values and origin.</p>
+    </div>
+  </section>
+</main>
+
+<button class="fab" id="fab" aria-label="Add food">+</button>
+
+<nav class="tabbar" id="tabbar">
+  <button data-view="today" class="active"><span class="ti">●</span>Today</button>
+  <button data-view="history"><span class="ti">▥</span>History</button>
+  <button data-view="foods"><span class="ti">☰</span>Foods</button>
+  <button data-view="settings"><span class="ti">⚙</span>Settings</button>
+</nav>
+
+<!-- ADD FOOD DIALOG -->
+<dialog id="addDialog" class="sheet">
+  <div class="sheet-head">
+    <h2 id="addTitle">Add food</h2>
+    <button class="icon-btn" data-close aria-label="Close">✕</button>
+  </div>
+  <div class="seg tabs" id="addTabs">
+    <button data-tab="search" class="active">Search</button>
+    <button data-tab="photo" aria-label="Photo recognition">📷 Photo</button>
+    <button data-tab="online">Online</button>
+    <button data-tab="barcode">Barcode</button>
+    <button data-tab="quick">Quick</button>
+  </div>
+  <div class="meal-pick" id="mealPickWrap">
+    <label>Meal <select id="addMeal"></select></label>
+  </div>
+
+  <div class="tab-panel active" data-panel="search">
+    <input type="search" id="localSearch" placeholder="Search foods, my foods, recipes…" autocomplete="off" enterkeyhint="search">
+    <div id="localResults" class="list"></div>
+  </div>
+
+  <div class="tab-panel" data-panel="photo">
+    <div id="photoUnsupported" class="empty" hidden></div>
+    <div id="photoControls">
+      <div class="btn-row photo-btns">
+        <label class="btn primary grow">📷 Take photo<input type="file" id="photoCamera" accept="image/*" capture="environment" hidden></label>
+        <label class="btn grow">🖼 Choose photo<input type="file" id="photoFile" accept="image/*" hidden></label>
+      </div>
+      <p class="muted small">Recognition runs entirely on your device: photos never leave your phone. The first use downloads the recognition model (about 25 MB, once); after that it also works offline.</p>
+    </div>
+    <div id="photoProgress" class="photo-progress" hidden><div class="track"><div class="fill" id="photoProgressFill"></div></div><p class="muted small" id="photoProgressMsg"></p></div>
+    <div id="photoOut"></div>
+  </div>
+
+  <div class="tab-panel" data-panel="online">
+    <form id="offForm" class="row-form">
+      <input type="search" id="offQuery" placeholder="Search Open Food Facts…" autocomplete="off" enterkeyhint="search">
+      <button class="btn primary" type="submit">Search</button>
+    </form>
+    <p class="muted small">Searches the free Open Food Facts database (needs internet). Values per 100 g.</p>
+    <div id="offResults" class="list"></div>
+  </div>
+
+  <div class="tab-panel" data-panel="barcode">
+    <div id="scanArea">
+      <button class="btn primary block" id="startScan">📷 Scan with camera</button>
+      <div class="video-wrap" id="videoWrap" hidden>
+        <video id="scanVideo" playsinline muted></video>
+        <div class="scan-line"></div>
+        <button class="btn small stop-scan" id="stopScan">Stop</button>
+      </div>
+      <p class="muted small" id="scanMsg"></p>
+    </div>
+    <form id="barcodeForm" class="row-form">
+      <input type="text" id="barcodeInput" inputmode="numeric" pattern="[0-9]{6,14}" placeholder="Enter barcode (EAN/UPC)" autocomplete="off">
+      <button class="btn primary" type="submit">Look up</button>
+    </form>
+    <div id="barcodeResult"></div>
+  </div>
+
+  <div class="tab-panel" data-panel="quick">
+    <form id="quickForm">
+      <label>Name (optional)<input type="text" name="name" placeholder="Quick add"></label>
+      <div class="grid3">
+        <label>kcal<input type="number" name="kcal" min="0" step="1" inputmode="decimal" required></label>
+        <label>Protein g<input type="number" name="protein" min="0" step="0.1" inputmode="decimal"></label>
+        <label>Carbs g<input type="number" name="carbs" min="0" step="0.1" inputmode="decimal"></label>
+        <label>Fat g<input type="number" name="fat" min="0" step="0.1" inputmode="decimal"></label>
+        <label>Fiber g<input type="number" name="fiber" min="0" step="0.1" inputmode="decimal"></label>
+        <label>Sugar g<input type="number" name="sugar" min="0" step="0.1" inputmode="decimal"></label>
+      </div>
+      <button class="btn primary block" type="submit">Add</button>
+    </form>
+  </div>
+</dialog>
+
+<!-- AMOUNT DIALOG -->
+<dialog id="amountDialog" class="sheet">
+  <div class="sheet-head">
+    <h2 id="amtTitle">Food</h2>
+    <button class="icon-btn" id="amtFav" aria-label="Favorite" title="Favorite">☆</button>
+    <button class="icon-btn" data-close aria-label="Close">✕</button>
+  </div>
+  <p class="muted small" id="amtSub"></p>
+  <details class="info small" id="amtInfo"></details>
+  <form id="amountForm">
+    <div class="amount-row">
+      <input type="number" id="amtValue" min="0" step="any" inputmode="decimal" required aria-label="Amount">
+      <select id="amtUnit" aria-label="Unit"></select>
+    </div>
+    <div class="quick-amts" id="quickAmts"></div>
+    <label id="amtMealWrap">Meal <select id="amtMeal"></select></label>
+    <div class="nutri-grid" id="amtPreview"></div>
+    <div class="btn-row">
+      <button type="button" class="btn danger" id="amtDelete" hidden>Delete</button>
+      <button type="button" class="btn" id="amtSaveFood" hidden>Save to My foods</button>
+      <button type="submit" class="btn primary grow" id="amtSubmit">Add</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- CUSTOM FOOD DIALOG -->
+<dialog id="foodDialog" class="sheet">
+  <div class="sheet-head"><h2 id="foodDlgTitle">New food</h2><button class="icon-btn" data-close aria-label="Close">✕</button></div>
+  <form id="foodForm">
+    <label>Name<input type="text" name="name" required></label>
+    <label>Brand (optional)<input type="text" name="brand"></label>
+    <div class="grid2">
+      <label>Values per 100<select name="unit"><option value="g">g</option><option value="ml">ml</option></select></label>
+      <label>Serving size (g/ml)<input type="number" name="serving_g" min="0" step="any" inputmode="decimal"></label>
+    </div>
+    <div class="grid3">
+      <label>kcal<input type="number" name="kcal" min="0" step="any" inputmode="decimal" required></label>
+      <label>Protein g<input type="number" name="protein" min="0" step="any" inputmode="decimal"></label>
+      <label>Carbs g<input type="number" name="carbs" min="0" step="any" inputmode="decimal"></label>
+      <label>Fat g<input type="number" name="fat" min="0" step="any" inputmode="decimal"></label>
+      <label>Fiber g<input type="number" name="fiber" min="0" step="any" inputmode="decimal"></label>
+      <label>Sugar g<input type="number" name="sugar" min="0" step="any" inputmode="decimal"></label>
+    </div>
+    <label>Barcode (optional)<input type="text" name="barcode" inputmode="numeric"></label>
+    <div class="btn-row">
+      <button type="button" class="btn danger" id="foodDelete" hidden>Delete</button>
+      <button class="btn primary grow" type="submit">Save food</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- RECIPE DIALOG -->
+<dialog id="recipeDialog" class="sheet">
+  <div class="sheet-head"><h2 id="recipeDlgTitle">New recipe</h2><button class="icon-btn" data-close aria-label="Close">✕</button></div>
+  <form id="recipeForm">
+    <label>Name<input type="text" name="name" required placeholder="e.g. Overnight oats"></label>
+    <div class="grid2">
+      <label>Servings<input type="number" name="servings" min="1" step="1" value="1" inputmode="numeric" required></label>
+      <label>Cooked weight g <small>(optional)</small><input type="number" name="totalWeight" min="0" step="any" inputmode="decimal" placeholder="sum"></label>
+    </div>
+    <div class="card-head"><h3>Ingredients</h3><button type="button" class="btn small" id="addIngredient">+ Ingredient</button></div>
+    <div id="ingredientList" class="list compact"></div>
+    <div id="recipeTotals" class="muted small"></div>
+    <div class="btn-row">
+      <button type="button" class="btn danger" id="recipeDelete" hidden>Delete</button>
+      <button class="btn primary grow" type="submit">Save recipe</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="foods-fallback.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

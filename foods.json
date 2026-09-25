@@ -1,0 +1,6838 @@
+[
+ {
+  "name": "Brown wheat bread (bruin brood)",
+  "kcal": 239.0,
+  "protein": 9.9,
+  "carbs": 43.3,
+  "fat": 1.8,
+  "fiber": 4.9,
+  "sugar": 1.9,
+  "serving_g": 32.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 32.0
+  },
+  "source": "NEVO 236 (Tarwebrood bruin; NEVO-online 2025/9.0, RIVM); serving: FDC 172688 portion '1 slice'"
+ },
+ {
+  "name": "White bread (witbrood)",
+  "kcal": 248.0,
+  "protein": 9.0,
+  "carbs": 48.1,
+  "fat": 1.6,
+  "fiber": 2.6,
+  "sugar": 2.2,
+  "serving_g": 29.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 29.0
+  },
+  "source": "NEVO 248 (Tarwebrood wit water; NEVO-online 2025/9.0, RIVM); serving: FDC 174924 portion '1 slice'"
+ },
+ {
+  "name": "Wholemeal bread (volkorenbrood)",
+  "kcal": 235.0,
+  "protein": 11.1,
+  "carbs": 39.0,
+  "fat": 2.3,
+  "fiber": 6.7,
+  "sugar": 1.9,
+  "serving_g": 32.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 32.0
+  },
+  "source": "NEVO 246 (Tarwebrood volkoren gem v fijn en grof; NEVO-online 2025/9.0, RIVM); serving: FDC 172688 portion '1 slice'"
+ },
+ {
+  "name": "Currant bread (krentenbrood)",
+  "kcal": 273.0,
+  "protein": 7.8,
+  "carbs": 53.3,
+  "fat": 2.4,
+  "fiber": 3.3,
+  "sugar": 23.8,
+  "serving_g": 32.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 32.0
+  },
+  "source": "NEVO 233 (Tarwekrentenbrood wit; NEVO-online 2025/9.0, RIVM); serving: FDC 172680 portion '1 slice, large'"
+ },
+ {
+  "name": "Rye bread, wholemeal (roggebrood)",
+  "kcal": 193.0,
+  "protein": 5.6,
+  "carbs": 35.6,
+  "fat": 1.3,
+  "fiber": 8.3,
+  "sugar": 8.2,
+  "serving_g": 32.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 32.0
+  },
+  "source": "NEVO 242 (Roggebrood volkoren; NEVO-online 2025/9.0, RIVM); serving: FDC 172684 portion '1 slice, regular'"
+ },
+ {
+  "name": "Soft white bread roll (zacht wit bolletje)",
+  "kcal": 262.0,
+  "protein": 9.7,
+  "carbs": 46.1,
+  "fat": 3.5,
+  "fiber": 3.7,
+  "sugar": 3.3,
+  "serving_g": 28.0,
+  "serving": {
+   "label": "1 roll",
+   "grams": 28.0
+  },
+  "source": "NEVO 230 (Tarwebroodje wit zacht; NEVO-online 2025/9.0, RIVM); serving: FDC 172793 portion '1 roll (1 oz)'"
+ },
+ {
+  "name": "Dutch crispbake (beschuit)",
+  "kcal": 408.0,
+  "protein": 14.1,
+  "carbs": 76.1,
+  "fat": 4.7,
+  "fiber": 2.8,
+  "sugar": 12.2,
+  "serving_g": 10.0,
+  "serving": {
+   "label": "1 beschuit",
+   "grams": 10.0
+  },
+  "source": "NEVO 227 (Beschuit naturel; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch spiced breakfast cake (ontbijtkoek)",
+  "kcal": 308.0,
+  "protein": 3.0,
+  "carbs": 69.5,
+  "fat": 1.2,
+  "fiber": 3.6,
+  "sugar": 37.3,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 25.0
+  },
+  "source": "NEVO 240 (Koek ontbijt-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Syrup waffle (stroopwafel)",
+  "kcal": 473.0,
+  "protein": 3.8,
+  "carbs": 70.2,
+  "fat": 19.3,
+  "fiber": 1.6,
+  "sugar": 36.7,
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 stroopwafel",
+   "grams": 30.0
+  },
+  "source": "NEVO 713 (Wafel stroop- gem; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Spiced biscuit (speculaas)",
+  "kcal": 469.0,
+  "protein": 5.0,
+  "carbs": 65.1,
+  "fat": 20.3,
+  "fiber": 3.0,
+  "sugar": 27.5,
+  "serving_g": 10.0,
+  "serving": {
+   "label": "1 biscuit",
+   "grams": 10.0
+  },
+  "source": "NEVO 261 (Speculaas gem; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Spiced biscuit bites (kruidnoten)",
+  "kcal": 442.0,
+  "protein": 5.8,
+  "carbs": 77.1,
+  "fat": 11.8,
+  "fiber": 2.0,
+  "sugar": 31.2,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 15.0
+  },
+  "source": "NEVO 5146 (Kruidnoten; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Almond-paste filled cookie (gevulde koek)",
+  "kcal": 411.0,
+  "protein": 6.4,
+  "carbs": 59.9,
+  "fat": 15.8,
+  "fiber": 2.0,
+  "sugar": 31.8,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "1 koek",
+   "grams": 60.0
+  },
+  "source": "NEVO 257 (Koek gevulde gem; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch cream slice (tompouce)",
+  "kcal": 315.0,
+  "protein": 3.8,
+  "carbs": 36.5,
+  "fat": 16.9,
+  "fiber": 0.9,
+  "sugar": 23.8,
+  "serving_g": 90.0,
+  "serving": {
+   "label": "1 tompouce",
+   "grams": 90.0
+  },
+  "source": "NEVO 468 (Tompouce; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch apple pie (appeltaart)",
+  "kcal": 225.0,
+  "protein": 2.9,
+  "carbs": 31.9,
+  "fat": 9.1,
+  "fiber": 1.6,
+  "sugar": 20.9,
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 125.0
+  },
+  "source": "NEVO 5236 (Taart appel- zandtaardeeg gem; NEVO-online 2025/9.0, RIVM); serving: FDC 175011 portion '1 piece (1/8 of 9\" dia)'"
+ },
+ {
+  "name": "Dutch doughnut, plain (oliebol)",
+  "kcal": 245.0,
+  "protein": 6.5,
+  "carbs": 32.2,
+  "fat": 9.6,
+  "fiber": 1.9,
+  "sugar": 2.2,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 oliebol",
+   "grams": 50.0
+  },
+  "source": "NEVO 3237 (Oliebol ongevuld; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Mini pancakes (poffertjes)",
+  "kcal": 154.0,
+  "protein": 5.7,
+  "carbs": 22.9,
+  "fat": 4.0,
+  "fiber": 1.5,
+  "sugar": 3.3,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 portion (10 poffertjes)",
+   "grams": 100.0
+  },
+  "source": "NEVO 5597 (Poffertjes huishoudelijk bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch pancake (pannenkoek)",
+  "kcal": 206.0,
+  "protein": 8.3,
+  "carbs": 29.2,
+  "fat": 5.8,
+  "fiber": 1.6,
+  "sugar": 4.9,
+  "serving_g": 120.0,
+  "serving": {
+   "label": "1 pancake",
+   "grams": 120.0
+  },
+  "source": "NEVO 467 (Pannenkoek huishoudelijk bereid m margarine; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch butter cake (boterkoek)",
+  "kcal": 456.0,
+  "protein": 4.6,
+  "carbs": 49.7,
+  "fat": 26.1,
+  "fiber": 1.5,
+  "sugar": 25.2,
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 30.0
+  },
+  "source": "NEVO 789 (Koek boter-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Chocolate sprinkles (hagelslag)",
+  "kcal": 449.0,
+  "protein": 5.7,
+  "carbs": 69.3,
+  "fat": 15.3,
+  "fiber": 5.2,
+  "sugar": 62.9,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 15.0
+  },
+  "source": "NEVO 1311 (Hagelslag chocolade- gem; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Fruit sprinkles (vruchtenhagel)",
+  "kcal": 393.0,
+  "protein": 0.1,
+  "carbs": 98.2,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 98.2,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 15.0
+  },
+  "source": "NEVO 442 (Hagelslag vruchten-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Chocolate flakes, milk (chocoladevlokken)",
+  "kcal": 454.0,
+  "protein": 5.8,
+  "carbs": 72.0,
+  "fat": 15.0,
+  "fiber": 3.5,
+  "sugar": 70.0,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 15.0
+  },
+  "source": "NEVO 433 (Vlokken chocolade- melk; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Aniseed sprinkles (muisjes)",
+  "kcal": 402.0,
+  "protein": 2.0,
+  "carbs": 92.0,
+  "fat": 2.4,
+  "fiber": 2.2,
+  "sugar": 79.0,
+  "serving_g": 8.0,
+  "serving": {
+   "label": "for 1 beschuit",
+   "grams": 8.0
+  },
+  "source": "NEVO 3245 (Muisjes gestampte/roze&witte/blauwe&witte; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Peanut butter (pindakaas)",
+  "kcal": 654.0,
+  "protein": 22.5,
+  "carbs": 10.0,
+  "fat": 56.4,
+  "fiber": 8.0,
+  "sugar": 5.2,
+  "serving_g": 32.0,
+  "serving": {
+   "label": "2 tbsp",
+   "grams": 32.0
+  },
+  "source": "NEVO 455 (Pindakaas; NEVO-online 2025/9.0, RIVM); serving: FDC 174266 portion '2 tbsp'"
+ },
+ {
+  "name": "Chocolate hazelnut spread",
+  "kcal": 562.0,
+  "protein": 5.7,
+  "carbs": 53.9,
+  "fat": 35.3,
+  "fiber": 2.9,
+  "sugar": 50.2,
+  "serving_g": 37.0,
+  "serving": {
+   "label": "2 tbsp",
+   "grams": 37.0
+  },
+  "source": "NEVO 436 (Pasta chocolade- hazelnoot; NEVO-online 2025/9.0, RIVM); serving: FDC 168000 portion '1 serving 2 TBSP'"
+ },
+ {
+  "name": "Apple syrup (appelstroop)",
+  "kcal": 280.0,
+  "protein": 1.8,
+  "carbs": 65.9,
+  "fat": 0.0,
+  "fiber": 4.6,
+  "sugar": 58.0,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 15.0
+  },
+  "source": "NEVO 427 (Stroop appel- rinse; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Custard, vanilla, full fat (vanillevla)",
+  "kcal": 86.0,
+  "protein": 2.3,
+  "carbs": 12.8,
+  "fat": 2.8,
+  "fiber": 0.4,
+  "sugar": 8.1,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 282 (Vla vanille- volle; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Custard, chocolate, full fat (chocoladevla)",
+  "kcal": 88.0,
+  "protein": 2.4,
+  "carbs": 13.4,
+  "fat": 2.6,
+  "fiber": 0.8,
+  "sugar": 8.2,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 276 (Vla chocolade- volle; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Custard, semi-skimmed (halfvolle vla)",
+  "kcal": 85.0,
+  "protein": 2.3,
+  "carbs": 15.1,
+  "fat": 1.7,
+  "fiber": 0.4,
+  "sugar": 10.9,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 2519 (Vla halfvolle alle smaken; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Quark, low fat (magere kwark)",
+  "kcal": 51.0,
+  "protein": 8.4,
+  "carbs": 3.8,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 3.1,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 305 (Kwark magere; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Quark, full fat (volle kwark)",
+  "kcal": 118.0,
+  "protein": 7.5,
+  "carbs": 3.6,
+  "fat": 8.0,
+  "fiber": 0.0,
+  "sugar": 2.8,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 307 (Kwark volle; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Yoghurt, full fat (volle yoghurt)",
+  "kcal": 56.0,
+  "protein": 3.8,
+  "carbs": 3.4,
+  "fat": 2.7,
+  "fiber": 0.0,
+  "sugar": 2.4,
+  "serving_g": 245.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 245.0
+  },
+  "source": "NEVO 278 (Yoghurt volle; NEVO-online 2025/9.0, RIVM); serving: FDC 171284 portion '1 cup (8 fl oz)'"
+ },
+ {
+  "name": "Yoghurt, semi-skimmed (halfvolle yoghurt)",
+  "kcal": 50.0,
+  "protein": 4.2,
+  "carbs": 4.3,
+  "fat": 1.5,
+  "fiber": 0.0,
+  "sugar": 4.3,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 1502 (Yoghurt halfvolle; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Yoghurt, low fat (magere yoghurt)",
+  "kcal": 37.0,
+  "protein": 4.1,
+  "carbs": 4.0,
+  "fat": 0.2,
+  "fiber": 0.0,
+  "sugar": 4.0,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 301 (Yoghurt magere; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Greek yoghurt, full fat (Griekse yoghurt 10%)",
+  "kcal": 119.0,
+  "protein": 3.5,
+  "carbs": 3.1,
+  "fat": 10.1,
+  "fiber": 0.0,
+  "sugar": 3.1,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 150.0
+  },
+  "source": "NEVO 3047 (Yoghurt Turkse 10% vet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Buttermilk (karnemelk)",
+  "kcal": 31.1,
+  "protein": 3.1,
+  "carbs": 3.7,
+  "fat": 0.2,
+  "fiber": 0.0,
+  "sugar": 3.7,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 289 (Melk karne-; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.036 g/ml from FDC portion '1 cup' of 'Milk, buttermilk, fluid, cultured, lowfat'; serving: standard household portion"
+ },
+ {
+  "name": "Milk, whole (volle melk)",
+  "kcal": 62.9,
+  "protein": 3.4,
+  "carbs": 4.6,
+  "fat": 3.5,
+  "fiber": 0.0,
+  "sugar": 4.6,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 279 (Melk volle; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.031 g/ml from FDC portion '1 cup' of 'Milk, whole, 3.25% milkfat, with added vitamin D'; serving: standard household portion"
+ },
+ {
+  "name": "Milk, semi-skimmed (halfvolle melk)",
+  "kcal": 46.4,
+  "protein": 3.5,
+  "carbs": 4.8,
+  "fat": 1.4,
+  "fiber": 0.0,
+  "sugar": 4.8,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 286 (Melk halfvolle; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.031 g/ml from FDC portion '1 cup' of 'Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D'; serving: standard household portion"
+ },
+ {
+  "name": "Milk, skimmed (magere melk)",
+  "kcal": 36.2,
+  "protein": 3.8,
+  "carbs": 5.1,
+  "fat": 0.1,
+  "fiber": 0.0,
+  "sugar": 5.1,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 294 (Melk magere; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.036 g/ml from FDC portion '1 cup' of 'Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)'; serving: standard household portion"
+ },
+ {
+  "name": "Chocolate milk, full fat (chocolademelk)",
+  "kcal": 86.6,
+  "protein": 3.5,
+  "carbs": 11.3,
+  "fat": 3.0,
+  "fiber": 0.5,
+  "sugar": 11.1,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 272 (Melk chocolade- volle; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.057 g/ml from FDC portion '1 cup' of 'Milk, chocolate, fluid, commercial, whole, with added vitamin A and vitamin D'; serving: standard household portion"
+ },
+ {
+  "name": "Gouda cheese, young (jonge Goudse kaas 48+)",
+  "kcal": 364.0,
+  "protein": 22.8,
+  "carbs": 0.0,
+  "fat": 29.6,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 slice (1 oz)",
+   "grams": 28.4
+  },
+  "source": "NEVO 2756 (Kaas Goudse 48+ jong; NEVO-online 2025/9.0, RIVM); serving: FDC 171241 portion '1 oz'"
+ },
+ {
+  "name": "Gouda cheese, mature (belegen Goudse kaas 48+)",
+  "kcal": 377.0,
+  "protein": 22.5,
+  "carbs": 0.0,
+  "fat": 30.8,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 slice (1 oz)",
+   "grams": 28.4
+  },
+  "source": "NEVO 2758 (Kaas Goudse 48+ belegen; NEVO-online 2025/9.0, RIVM); serving: FDC 171241 portion '1 oz'"
+ },
+ {
+  "name": "Gouda cheese, old (oude Goudse kaas 48+)",
+  "kcal": 414.0,
+  "protein": 24.6,
+  "carbs": 0.1,
+  "fat": 33.7,
+  "fiber": 0.0,
+  "sugar": 0.1,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 slice (1 oz)",
+   "grams": 28.4
+  },
+  "source": "NEVO 2759 (Kaas Goudse 48+ oud; NEVO-online 2025/9.0, RIVM); serving: FDC 171241 portion '1 oz'"
+ },
+ {
+  "name": "Edam cheese (Edammer 40+)",
+  "kcal": 324.0,
+  "protein": 25.5,
+  "carbs": 0.0,
+  "fat": 24.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 slice (1 oz)",
+   "grams": 28.4
+  },
+  "source": "NEVO 511 (Kaas Edammer 40+; NEVO-online 2025/9.0, RIVM); serving: FDC 173419 portion '1 oz'"
+ },
+ {
+  "name": "Reduced-fat Dutch cheese (30+ kaas)",
+  "kcal": 280.0,
+  "protein": 30.1,
+  "carbs": 0.0,
+  "fat": 17.7,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 slice (1 oz)",
+   "grams": 28.4
+  },
+  "source": "NEVO 1382 (Kaas 30+ gem; NEVO-online 2025/9.0, RIVM); serving: FDC 171241 portion '1 oz'"
+ },
+ {
+  "name": "Butter, salted (roomboter)",
+  "kcal": 737.0,
+  "protein": 0.7,
+  "carbs": 1.1,
+  "fat": 81.2,
+  "fiber": 0.0,
+  "sugar": 1.1,
+  "serving_g": 5.0,
+  "serving": {
+   "label": "1 pat",
+   "grams": 5.0
+  },
+  "source": "NEVO 879 (Boter gezouten; NEVO-online 2025/9.0, RIVM); serving: FDC 173410 portion '1 pat (1\" sq, 1/3\" high)'"
+ },
+ {
+  "name": "Low-fat margarine spread (halvarine)",
+  "kcal": 357.0,
+  "protein": 0.3,
+  "carbs": 1.1,
+  "fat": 39.0,
+  "fiber": 0.1,
+  "sugar": 0.3,
+  "serving_g": 5.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 5.0
+  },
+  "source": "NEVO 5410 (Halvarine Blue Band; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Smoked sausage (rookworst)",
+  "kcal": 304.0,
+  "protein": 14.1,
+  "carbs": 2.6,
+  "fat": 26.3,
+  "fiber": 0.5,
+  "sugar": 0.3,
+  "serving_g": 70.0,
+  "serving": {
+   "label": "1/4 rookworst",
+   "grams": 70.0
+  },
+  "source": "NEVO 324 (Worst rook- gekookt gem; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Frikandel, deep-fried",
+  "kcal": 251.0,
+  "protein": 13.8,
+  "carbs": 6.7,
+  "fat": 18.4,
+  "fiber": 1.8,
+  "sugar": 0.9,
+  "serving_g": 70.0,
+  "serving": {
+   "label": "1 frikandel",
+   "grams": 70.0
+  },
+  "source": "NEVO 322 (Frikandel bereid m vloeibaar frituurvet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Frikandel speciaal (with sauce and onion)",
+  "kcal": 230.0,
+  "protein": 10.2,
+  "carbs": 9.2,
+  "fat": 16.5,
+  "fiber": 1.7,
+  "sugar": 4.1,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 frikandel speciaal",
+   "grams": 100.0
+  },
+  "source": "NEVO 5356 (Frikandel speciaal; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Meat croquette, deep-fried (kroket)",
+  "kcal": 272.0,
+  "protein": 8.9,
+  "carbs": 20.9,
+  "fat": 16.6,
+  "fiber": 1.9,
+  "sugar": 2.6,
+  "serving_g": 70.0,
+  "serving": {
+   "label": "1 kroket",
+   "grams": 70.0
+  },
+  "source": "NEVO 326 (Kroket vlees- bereid m vloeibaar frituurvet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Bitterballen, deep-fried",
+  "kcal": 362.0,
+  "protein": 9.9,
+  "carbs": 20.7,
+  "fat": 26.2,
+  "fiber": 1.7,
+  "sugar": 2.7,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 bitterbal",
+   "grams": 20.0
+  },
+  "source": "NEVO 5560 (Bitterbal bereid m vloeibaar frituurvet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Cheese puff pastry, deep-fried (kaassoufflé)",
+  "kcal": 359.0,
+  "protein": 7.3,
+  "carbs": 29.8,
+  "fat": 23.1,
+  "fiber": 1.0,
+  "sugar": 1.6,
+  "serving_g": 75.0,
+  "serving": {
+   "label": "1 kaassoufflé",
+   "grams": 75.0
+  },
+  "source": "NEVO 3075 (Kaassouffle bereid m vlb frituurvet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Spring roll, deep-fried (loempia)",
+  "kcal": 181.0,
+  "protein": 7.1,
+  "carbs": 18.6,
+  "fat": 8.2,
+  "fiber": 2.0,
+  "sugar": 2.9,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 loempia",
+   "grams": 150.0
+  },
+  "source": "NEVO 369 (Loempia gefrituurd in plantaardige olie; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Sausage roll, puff pastry (saucijzenbroodje)",
+  "kcal": 356.0,
+  "protein": 7.2,
+  "carbs": 28.5,
+  "fat": 23.4,
+  "fiber": 1.4,
+  "sugar": 0.5,
+  "serving_g": 80.0,
+  "serving": {
+   "label": "1 saucijzenbroodje",
+   "grams": 80.0
+  },
+  "source": "NEVO 266 (Broodje saucijzen-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Sausage roll, bread dough (worstenbroodje)",
+  "kcal": 382.0,
+  "protein": 11.8,
+  "carbs": 34.2,
+  "fat": 21.8,
+  "fiber": 0.9,
+  "sugar": 2.9,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 worstenbroodje",
+   "grams": 100.0
+  },
+  "source": "NEVO 901 (Broodje worsten-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Fries, Dutch snack bar (patat/friet)",
+  "kcal": 263.0,
+  "protein": 3.1,
+  "carbs": 28.0,
+  "fat": 14.7,
+  "fiber": 3.2,
+  "sugar": 0.2,
+  "serving_g": 117.0,
+  "serving": {
+   "label": "1 medium portion",
+   "grams": 117.0
+  },
+  "source": "NEVO 2108 (Frites bereid gem; NEVO-online 2025/9.0, RIVM); serving: FDC 170698 portion '1 serving medium'"
+ },
+ {
+  "name": "Fries with mayo, ketchup/curry and onion (patat speciaal)",
+  "kcal": 249.0,
+  "protein": 2.6,
+  "carbs": 25.6,
+  "fat": 14.5,
+  "fiber": 2.8,
+  "sugar": 3.3,
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 200.0
+  },
+  "source": "NEVO 5394 (Frites speciaal; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Kapsalon (fries, shoarma, cheese, salad, sauce)",
+  "kcal": 216.0,
+  "protein": 9.6,
+  "carbs": 8.8,
+  "fat": 15.6,
+  "fiber": 1.2,
+  "sugar": 1.9,
+  "serving_g": 500.0,
+  "serving": {
+   "label": "1 kapsalon",
+   "grams": 500.0
+  },
+  "source": "NEVO 5396 (Frites kapsalon; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Pork shoarma, cooked (shoarmavlees)",
+  "kcal": 239.0,
+  "protein": 28.2,
+  "carbs": 0.6,
+  "fat": 13.8,
+  "fiber": 0.1,
+  "sugar": 0.4,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 100.0
+  },
+  "source": "NEVO 2906 (Shoarmavlees varkens- bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Fried battered white fish (lekkerbekje)",
+  "kcal": 210.0,
+  "protein": 19.0,
+  "carbs": 8.2,
+  "fat": 11.2,
+  "fiber": 0.2,
+  "sugar": 0.3,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 lekkerbekje",
+   "grams": 150.0
+  },
+  "source": "NEVO 818 (Lekkerbekje gefrituurd in plantaardige olie; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Herring, salted (Hollandse nieuwe/maatjes)",
+  "kcal": 172.0,
+  "protein": 17.6,
+  "carbs": 2.8,
+  "fat": 10.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 80.0,
+  "serving": {
+   "label": "1 herring",
+   "grams": 80.0
+  },
+  "source": "NEVO 350 (Haring gezouten; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Herring, pickled (zure haring/rolmops)",
+  "kcal": 208.0,
+  "protein": 16.0,
+  "carbs": 0.0,
+  "fat": 16.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 80.0,
+  "serving": {
+   "label": "1 herring",
+   "grams": 80.0
+  },
+  "source": "NEVO 1100 (Haring in (zoet)zuur; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Smoked eel (gerookte paling)",
+  "kcal": 351.0,
+  "protein": 19.1,
+  "carbs": 0.0,
+  "fat": 30.5,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 50.0
+  },
+  "source": "NEVO 603 (Paling gerookt; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Smoked mackerel fillet (gerookte makreel)",
+  "kcal": 301.0,
+  "protein": 21.1,
+  "carbs": 0.0,
+  "fat": 24.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 fillet",
+   "grams": 100.0
+  },
+  "source": "NEVO 1586 (Makreelfilet gerookt; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Mussels, boiled (mosselen)",
+  "kcal": 125.0,
+  "protein": 17.2,
+  "carbs": 7.2,
+  "fat": 3.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 portion (meat only)",
+   "grams": 150.0
+  },
+  "source": "NEVO 111 (Mosselen gekookt; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Mashed potato with kale (boerenkoolstamppot, no meat)",
+  "kcal": 82.0,
+  "protein": 1.9,
+  "carbs": 11.6,
+  "fat": 2.6,
+  "fiber": 2.0,
+  "sugar": 0.4,
+  "serving_g": 350.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 350.0
+  },
+  "source": "NEVO 1483 (Stamppot boerenkool z vlees bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Kale stamppot with smoked sausage and bacon",
+  "kcal": 137.0,
+  "protein": 5.2,
+  "carbs": 9.4,
+  "fat": 8.4,
+  "fiber": 1.6,
+  "sugar": 0.3,
+  "serving_g": 400.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 400.0
+  },
+  "source": "NEVO 5401 (Stamppot boerenkool m rookworst en spekjes; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Hotchpotch, carrot & onion mash (hutspot)",
+  "kcal": 63.0,
+  "protein": 1.1,
+  "carbs": 10.0,
+  "fat": 1.6,
+  "fiber": 1.9,
+  "sugar": 1.9,
+  "serving_g": 350.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 350.0
+  },
+  "source": "NEVO 1485 (Stamppot wortel/ui z vlees bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Sauerkraut mash (zuurkoolstamppot, no meat)",
+  "kcal": 68.0,
+  "protein": 1.5,
+  "carbs": 10.1,
+  "fat": 2.0,
+  "fiber": 1.8,
+  "sugar": 0.5,
+  "serving_g": 350.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 350.0
+  },
+  "source": "NEVO 1486 (Stamppot zuurkool z vlees bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Raw endive mash (andijviestamppot, no meat)",
+  "kcal": 65.0,
+  "protein": 1.9,
+  "carbs": 12.7,
+  "fat": 0.4,
+  "fiber": 1.5,
+  "sugar": 0.7,
+  "serving_g": 350.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 350.0
+  },
+  "source": "NEVO 1531 (Stamppot rauwe andijvie z vlees bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Split pea soup with meat (erwtensoep/snert)",
+  "kcal": 77.0,
+  "protein": 4.9,
+  "carbs": 6.3,
+  "fat": 3.0,
+  "fiber": 2.8,
+  "sugar": 0.5,
+  "serving_g": 259.0,
+  "serving": {
+   "label": "1 bowl (1 cup)",
+   "grams": 259.0
+  },
+  "source": "NEVO 5177 (Soep erwten- m vlees; NEVO-online 2025/9.0, RIVM); serving: FDC 174561 portion '1 serving 1 cup'"
+ },
+ {
+  "name": "Meat-onion stew (hachee)",
+  "kcal": 98.0,
+  "protein": 8.0,
+  "carbs": 4.7,
+  "fat": 5.1,
+  "fiber": 0.6,
+  "sugar": 0.6,
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 200.0
+  },
+  "source": "NEVO 5329 (Hachee; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Meatball, beef/pork, fried (gehaktbal)",
+  "kcal": 262.0,
+  "protein": 20.5,
+  "carbs": 5.3,
+  "fat": 17.4,
+  "fiber": 1.1,
+  "sugar": 0.5,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 gehaktbal",
+   "grams": 100.0
+  },
+  "source": "NEVO 1568 (Gehaktbal hoh m ei gebakken; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Minced-meat roll wrapped in bacon, fried (slavink)",
+  "kcal": 277.0,
+  "protein": 20.7,
+  "carbs": 1.0,
+  "fat": 21.1,
+  "fiber": 0.0,
+  "sugar": 0.4,
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 slavink",
+   "grams": 100.0
+  },
+  "source": "NEVO 1565 (Vink sla- gebakken; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Steak tartare spread (filet americain)",
+  "kcal": 240.0,
+  "protein": 14.2,
+  "carbs": 3.0,
+  "fat": 18.8,
+  "fiber": 0.9,
+  "sugar": 1.3,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 20.0
+  },
+  "source": "NEVO 810 (Filet americain; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Liver sausage (leverworst)",
+  "kcal": 294.0,
+  "protein": 14.5,
+  "carbs": 1.8,
+  "fat": 25.3,
+  "fiber": 0.5,
+  "sugar": 0.1,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "for 1 slice of bread",
+   "grams": 20.0
+  },
+  "source": "NEVO 640 (Worst lever-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Ham, lean boiled (achterham)",
+  "kcal": 134.0,
+  "protein": 18.0,
+  "carbs": 2.5,
+  "fat": 5.7,
+  "fiber": 0.1,
+  "sugar": 0.4,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 15.0
+  },
+  "source": "NEVO 784 (Ham achter-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch liquorice, sweet (zoete drop)",
+  "kcal": 333.0,
+  "protein": 7.3,
+  "carbs": 74.6,
+  "fat": 0.4,
+  "fiber": 1.0,
+  "sugar": 51.5,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 25.0
+  },
+  "source": "NEVO 522 (Drop zoete; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch liquorice, salty (zoute drop)",
+  "kcal": 330.0,
+  "protein": 12.2,
+  "carbs": 68.1,
+  "fat": 0.2,
+  "fiber": 3.1,
+  "sugar": 44.2,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 25.0
+  },
+  "source": "NEVO 520 (Drop zoute; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Liquorice allsorts (Engelse drop)",
+  "kcal": 394.0,
+  "protein": 3.7,
+  "carbs": 82.0,
+  "fat": 5.2,
+  "fiber": 2.0,
+  "sugar": 65.0,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 25.0
+  },
+  "source": "NEVO 751 (Drop Engelse; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Wine gums (winegums)",
+  "kcal": 319.0,
+  "protein": 5.0,
+  "carbs": 74.2,
+  "fat": 0.2,
+  "fiber": 0.2,
+  "sugar": 49.2,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 25.0
+  },
+  "source": "NEVO 752 (Winegum/fruitgom; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Marshmallow sweets (spekjes)",
+  "kcal": 334.0,
+  "protein": 4.1,
+  "carbs": 78.3,
+  "fat": 0.4,
+  "fiber": 0.3,
+  "sugar": 68.2,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 25.0
+  },
+  "source": "NEVO 482 (Spekkie; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Toasted ham & cheese sandwich, white bread (tosti ham-kaas)",
+  "kcal": 253.0,
+  "protein": 12.7,
+  "carbs": 27.7,
+  "fat": 9.7,
+  "fiber": 1.5,
+  "sugar": 1.3,
+  "serving_g": 130.0,
+  "serving": {
+   "label": "1 tosti",
+   "grams": 130.0
+  },
+  "source": "NEVO 5354 (Tosti ham-kaas v witbrood; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Fried rice (nasi goreng)",
+  "kcal": 144.0,
+  "protein": 4.4,
+  "carbs": 22.4,
+  "fat": 3.9,
+  "fiber": 0.9,
+  "sugar": 0.7,
+  "serving_g": 350.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 350.0
+  },
+  "source": "NEVO 471 (Nasi goreng m ei; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Fried noodles (bami goreng)",
+  "kcal": 168.0,
+  "protein": 6.6,
+  "carbs": 26.3,
+  "fat": 3.8,
+  "fiber": 1.4,
+  "sugar": 4.8,
+  "serving_g": 350.0,
+  "serving": {
+   "label": "1 plate",
+   "grams": 350.0
+  },
+  "source": "NEVO 470 (Bami goreng z ei; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Apple sauce (appelmoes)",
+  "kcal": 76.0,
+  "protein": 0.2,
+  "carbs": 17.6,
+  "fat": 0.1,
+  "fiber": 1.9,
+  "sugar": 17.1,
+  "serving_g": 127.5,
+  "serving": {
+   "label": "1/2 cup",
+   "grams": 127.5
+  },
+  "source": "NEVO 179 (Appelmoes blik/glas; NEVO-online 2025/9.0, RIVM); serving: FDC 167773 portion '1 cup' x0.5"
+ },
+ {
+  "name": "Endive, boiled (andijvie)",
+  "kcal": 22.0,
+  "protein": 1.4,
+  "carbs": 2.3,
+  "fat": 0.5,
+  "fiber": 1.7,
+  "sugar": 1.6,
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 200.0
+  },
+  "source": "NEVO 8 (Andijvie gekookt; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Belgian endive, raw (witlof)",
+  "kcal": 19.0,
+  "protein": 1.3,
+  "carbs": 2.4,
+  "fat": 0.2,
+  "fiber": 1.2,
+  "sugar": 2.4,
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 head",
+   "grams": 125.0
+  },
+  "source": "NEVO 67 (Witlof rauw; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Mashed potatoes with milk and margarine (aardappelpuree)",
+  "kcal": 83.0,
+  "protein": 2.2,
+  "carbs": 13.9,
+  "fat": 1.8,
+  "fiber": 1.2,
+  "sugar": 1.4,
+  "serving_g": 210.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 210.0
+  },
+  "source": "NEVO 121 (Aardappelpuree vers bereid m halfvolle melk en margarine; NEVO-online 2025/9.0, RIVM); serving: FDC 170037 portion '1 cup'"
+ },
+ {
+  "name": "Potatoes, boiled without skin (gekookte aardappelen)",
+  "kcal": 83.0,
+  "protein": 1.9,
+  "carbs": 17.4,
+  "fat": 0.3,
+  "fiber": 1.6,
+  "sugar": 0.2,
+  "serving_g": 167.0,
+  "serving": {
+   "label": "1 medium potato",
+   "grams": 167.0
+  },
+  "source": "NEVO 982 (Aardappelen z schil gekookt gem; NEVO-online 2025/9.0, RIVM); serving: FDC 170440 portion '1 medium (2-1/4\" to 3-1/4\" dia.)'"
+ },
+ {
+  "name": "Dutch young gin (jonge jenever)",
+  "kcal": 184.2,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 35.0,
+  "serving": {
+   "label": "1 shot (35 ml)",
+   "grams": 35.0
+  },
+  "source": "NEVO 401 (Jenever jonge; NEVO-online 2025/9.0, RIVM); per 100 ml using density 0.940 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof'; serving: standard household portion"
+ },
+ {
+  "name": "Beer, pilsner (pils)",
+  "kcal": 44.2,
+  "protein": 0.4,
+  "carbs": 3.0,
+  "fat": 0.0,
+  "fiber": 0.3,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 390 (Bier pils; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.004 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, beer, regular, all'; serving: standard household portion"
+ },
+ {
+  "name": "Beer, alcohol-free (alcoholvrij bier)",
+  "kcal": 25.9,
+  "protein": 0.3,
+  "carbs": 6.1,
+  "fat": 0.0,
+  "fiber": 0.1,
+  "sugar": 3.2,
+  "unit": "ml",
+  "serving_g": 300.0,
+  "serving": {
+   "label": "1 bottle (300 ml)",
+   "grams": 300.0
+  },
+  "source": "NEVO 1519 (Bier alcoholvrij <0,1 vol% alcohol; NEVO-online 2025/9.0, RIVM); per 100 ml using density 0.998 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, beer, light'; serving: standard household portion"
+ },
+ {
+  "name": "Beer, wheat (witbier)",
+  "kcal": 47.2,
+  "protein": 0.5,
+  "carbs": 3.7,
+  "fat": 0.0,
+  "fiber": 0.3,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 300.0,
+  "serving": {
+   "label": "1 glass (300 ml)",
+   "grams": 300.0
+  },
+  "source": "NEVO 3214 (Bier wit; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.004 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, beer, regular, all'; serving: standard household portion"
+ },
+ {
+  "name": "Beer, strong >7% (zwaar bier)",
+  "kcal": 66.2,
+  "protein": 0.5,
+  "carbs": 4.4,
+  "fat": 0.0,
+  "fiber": 0.3,
+  "sugar": 0.1,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 glass (330 ml)",
+   "grams": 330.0
+  },
+  "source": "NEVO 1468 (Bier zwaar >7 vol% alcohol; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.035 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverages, beer, higher alcohol'; serving: standard household portion"
+ },
+ {
+  "name": "Radler (beer with lemonade)",
+  "kcal": 39.2,
+  "protein": 0.4,
+  "carbs": 6.5,
+  "fat": 0.0,
+  "fiber": 0.1,
+  "sugar": 5.7,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 can (330 ml)",
+   "grams": 330.0
+  },
+  "source": "NEVO 3267 (Bier Radler; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.004 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, beer, regular, all'; serving: standard household portion"
+ },
+ {
+  "name": "Drinking yoghurt, sweetened (yoghurtdrank)",
+  "kcal": 58.5,
+  "protein": 1.6,
+  "carbs": 12.3,
+  "fat": 0.1,
+  "fiber": 0.5,
+  "sugar": 12.2,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 657 (Yoghurtdrank; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.027 g/ml from FDC portion '1 cup' of 'Kefir, lowfat, plain, LIFEWAY'; serving: standard household portion"
+ },
+ {
+  "name": "Ayran (salted yoghurt drink)",
+  "kcal": 34.2,
+  "protein": 2.4,
+  "carbs": 2.1,
+  "fat": 1.7,
+  "fiber": 0.0,
+  "sugar": 1.4,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 3201 (Yoghurtdrank Ayran Turks; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.036 g/ml from FDC portion '1 cup' of 'Milk, buttermilk, fluid, cultured, lowfat'; serving: standard household portion"
+ },
+ {
+  "name": "Potato crisps, plain (chips naturel)",
+  "kcal": 541.0,
+  "protein": 6.4,
+  "carbs": 51.3,
+  "fat": 33.5,
+  "fiber": 4.1,
+  "sugar": 0.5,
+  "serving_g": 28.0,
+  "serving": {
+   "label": "1 small bag (1 oz)",
+   "grams": 28.0
+  },
+  "source": "NEVO 2923 (Chips naturel; NEVO-online 2025/9.0, RIVM); serving: FDC 169677 portion '1 oz'"
+ },
+ {
+  "name": "Potato crisps, paprika (chips paprika)",
+  "kcal": 536.0,
+  "protein": 6.3,
+  "carbs": 53.1,
+  "fat": 32.3,
+  "fiber": 4.0,
+  "sugar": 2.6,
+  "serving_g": 28.0,
+  "serving": {
+   "label": "1 small bag (1 oz)",
+   "grams": 28.0
+  },
+  "source": "NEVO 2924 (Chips paprika ea smaken; NEVO-online 2025/9.0, RIVM); serving: FDC 169677 portion '1 oz'"
+ },
+ {
+  "name": "Prawn crackers (kroepoek)",
+  "kcal": 516.0,
+  "protein": 3.5,
+  "carbs": 62.0,
+  "fat": 28.0,
+  "fiber": 1.0,
+  "sugar": 7.5,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 handful",
+   "grams": 20.0
+  },
+  "source": "NEVO 269 (Kroepoek naturel; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Milk chocolate (melkchocolade)",
+  "kcal": 548.0,
+  "protein": 7.0,
+  "carbs": 52.0,
+  "fat": 34.1,
+  "fiber": 2.8,
+  "sugar": 49.0,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 row / 4 squares",
+   "grams": 25.0
+  },
+  "source": "NEVO 431 (Chocolade melk-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dark chocolate (pure chocolade)",
+  "kcal": 531.0,
+  "protein": 6.5,
+  "carbs": 46.7,
+  "fat": 33.7,
+  "fiber": 7.2,
+  "sugar": 41.7,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 row / 4 squares",
+   "grams": 25.0
+  },
+  "source": "NEVO 432 (Chocolade puur; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Chocolate bar, Mars",
+  "kcal": 449.0,
+  "protein": 4.1,
+  "carbs": 70.2,
+  "fat": 16.6,
+  "fiber": 1.3,
+  "sugar": 61.7,
+  "serving_g": 51.0,
+  "serving": {
+   "label": "1 bar",
+   "grams": 51.0
+  },
+  "source": "NEVO 487 (Candybar Mars; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Chocolate bar, Snickers",
+  "kcal": 484.0,
+  "protein": 8.7,
+  "carbs": 60.2,
+  "fat": 22.9,
+  "fiber": 1.3,
+  "sugar": 51.6,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 bar",
+   "grams": 50.0
+  },
+  "source": "NEVO 528 (Candybar Snickers; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Chocolate bar, Twix",
+  "kcal": 495.0,
+  "protein": 4.5,
+  "carbs": 64.6,
+  "fat": 23.9,
+  "fiber": 1.5,
+  "sugar": 48.6,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 pack (2 fingers)",
+   "grams": 50.0
+  },
+  "source": "NEVO 845 (Candybar Twix; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "M&M's, chocolate",
+  "kcal": 487.0,
+  "protein": 4.6,
+  "carbs": 68.6,
+  "fat": 20.7,
+  "fiber": 2.7,
+  "sugar": 66.4,
+  "serving_g": 45.0,
+  "serving": {
+   "label": "1 bag",
+   "grams": 45.0
+  },
+  "source": "NEVO 524 (Chocolade in krokant suikerlaagje M&M's; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Marzipan (marsepein)",
+  "kcal": 420.0,
+  "protein": 5.3,
+  "carbs": 64.2,
+  "fat": 15.3,
+  "fiber": 2.2,
+  "sugar": 60.8,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 20.0
+  },
+  "source": "NEVO 1256 (Marsepein; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Ice cream, vanilla (roomijs vanille)",
+  "kcal": 220.0,
+  "protein": 3.0,
+  "carbs": 24.9,
+  "fat": 12.0,
+  "fiber": 0.6,
+  "sugar": 19.9,
+  "serving_g": 66.0,
+  "serving": {
+   "label": "1/2 cup",
+   "grams": 66.0
+  },
+  "source": "NEVO 5345 (IJs room- vanille; NEVO-online 2025/9.0, RIVM); serving: FDC 167575 portion '1 serving 1/2 cup'"
+ },
+ {
+  "name": "Ice lolly (waterijsje)",
+  "kcal": 75.0,
+  "protein": 0.2,
+  "carbs": 18.0,
+  "fat": 0.2,
+  "fiber": 0.2,
+  "sugar": 17.0,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "1 ice lolly",
+   "grams": 60.0
+  },
+  "source": "NEVO 1474 (IJs water-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Muesli with fruit (muesli)",
+  "kcal": 341.0,
+  "protein": 10.7,
+  "carbs": 56.6,
+  "fat": 5.3,
+  "fiber": 12.0,
+  "sugar": 7.3,
+  "serving_g": 45.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 45.0
+  },
+  "source": "NEVO 2809 (Muesli m fruit/naturel; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Crunchy muesli with fruit (krokante muesli)",
+  "kcal": 419.0,
+  "protein": 8.9,
+  "carbs": 65.8,
+  "fat": 11.3,
+  "fiber": 9.3,
+  "sugar": 16.6,
+  "serving_g": 45.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 45.0
+  },
+  "source": "NEVO 5594 (Muesli krokante m fruit; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Corn flakes (Kellogg's)",
+  "kcal": 378.0,
+  "protein": 7.0,
+  "carbs": 84.0,
+  "fat": 0.9,
+  "fiber": 3.0,
+  "sugar": 8.0,
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 bowl",
+   "grams": 30.0
+  },
+  "source": "NEVO 209 (Ontbijtproduct Cornflakes Kellogg's; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Oat flakes (havervlokken)",
+  "kcal": 366.0,
+  "protein": 12.8,
+  "carbs": 59.2,
+  "fat": 6.2,
+  "fiber": 11.1,
+  "sugar": 0.8,
+  "serving_g": 40.0,
+  "serving": {
+   "label": "1 portion (dry)",
+   "grams": 40.0
+  },
+  "source": "NEVO 213 (Vlokken haver-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Croissant",
+  "kcal": 403.0,
+  "protein": 9.6,
+  "carbs": 42.2,
+  "fat": 21.2,
+  "fiber": 2.5,
+  "sugar": 4.5,
+  "serving_g": 57.0,
+  "serving": {
+   "label": "1 medium croissant",
+   "grams": 57.0
+  },
+  "source": "NEVO 2818 (Croissant gem; NEVO-online 2025/9.0, RIVM); serving: FDC 174987 portion '1 croissant, medium'"
+ },
+ {
+  "name": "Wheat tortilla wrap",
+  "kcal": 298.0,
+  "protein": 8.5,
+  "carbs": 50.8,
+  "fat": 5.5,
+  "fiber": 4.1,
+  "sugar": 3.2,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "1 wrap",
+   "grams": 60.0
+  },
+  "source": "NEVO 2359 (Wrap/tortilla obv tarwe naturel; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Crispbread, light (knäckebröd/Cracottes)",
+  "kcal": 380.0,
+  "protein": 13.0,
+  "carbs": 72.0,
+  "fat": 3.5,
+  "fiber": 4.2,
+  "sugar": 5.2,
+  "serving_g": 8.0,
+  "serving": {
+   "label": "1 cracker",
+   "grams": 8.0
+  },
+  "source": "NEVO 5264 (Cracker luchtige naturel; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Cream crackers",
+  "kcal": 448.0,
+  "protein": 9.1,
+  "carbs": 68.8,
+  "fat": 14.5,
+  "fiber": 3.0,
+  "sugar": 1.5,
+  "serving_g": 8.0,
+  "serving": {
+   "label": "1 cracker",
+   "grams": 8.0
+  },
+  "source": "NEVO 228 (Cracker cream-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Rice cake, puffed (rijstwafel)",
+  "kcal": 392.0,
+  "protein": 7.8,
+  "carbs": 81.3,
+  "fat": 3.2,
+  "fiber": 3.5,
+  "sugar": 1.0,
+  "serving_g": 8.0,
+  "serving": {
+   "label": "1 rice cake",
+   "grams": 8.0
+  },
+  "source": "NEVO 1481 (Wafel rijst- naturel m (zee)zout; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Eggs, boiled (gekookt ei)",
+  "kcal": 128.0,
+  "protein": 12.3,
+  "carbs": 0.0,
+  "fat": 8.8,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 large egg",
+   "grams": 50.0
+  },
+  "source": "NEVO 84 (Ei kippen- gekookt gem; NEVO-online 2025/9.0, RIVM); serving: FDC 173424 portion '1 large'"
+ },
+ {
+  "name": "Egg, fried in margarine (gebakken ei)",
+  "kcal": 220.0,
+  "protein": 14.4,
+  "carbs": 0.9,
+  "fat": 17.6,
+  "fiber": 0.0,
+  "sugar": 0.9,
+  "serving_g": 46.0,
+  "serving": {
+   "label": "1 large egg",
+   "grams": 46.0
+  },
+  "source": "NEVO 1314 (Ei kippen- gebakken; NEVO-online 2025/9.0, RIVM); serving: FDC 173423 portion '1 large'"
+ },
+ {
+  "name": "Mayonnaise (mayonaise)",
+  "kcal": 664.0,
+  "protein": 1.1,
+  "carbs": 3.6,
+  "fat": 71.6,
+  "fiber": 0.2,
+  "sugar": 3.4,
+  "serving_g": 13.8,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 13.8
+  },
+  "source": "NEVO 451 (Mayonaise; NEVO-online 2025/9.0, RIVM); serving: FDC 171009 portion '1 tbsp'"
+ },
+ {
+  "name": "Apple, raw, with skin",
+  "kcal": 52.0,
+  "protein": 0.3,
+  "carbs": 13.8,
+  "fat": 0.2,
+  "fiber": 2.4,
+  "sugar": 10.4,
+  "serving_g": 182.0,
+  "serving": {
+   "label": "1 medium (3\" dia)",
+   "grams": 182.0
+  },
+  "source": "USDA FDC 171688 (SR Legacy: Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)); serving: FDC portion '1 medium (3\" dia)' of same record"
+ },
+ {
+  "name": "Banana, raw",
+  "kcal": 89.0,
+  "protein": 1.1,
+  "carbs": 22.8,
+  "fat": 0.3,
+  "fiber": 2.6,
+  "sugar": 12.2,
+  "serving_g": 118.0,
+  "serving": {
+   "label": "1 medium (7\" to 7-7/8\" long)",
+   "grams": 118.0
+  },
+  "source": "USDA FDC 173944 (SR Legacy: Bananas, raw); serving: FDC portion '1 medium (7\" to 7-7/8\" long)' of same record"
+ },
+ {
+  "name": "Orange, raw",
+  "kcal": 47.0,
+  "protein": 0.9,
+  "carbs": 11.8,
+  "fat": 0.1,
+  "fiber": 2.4,
+  "sugar": 9.3,
+  "serving_g": 131.0,
+  "serving": {
+   "label": "1 fruit (2-5/8\" dia)",
+   "grams": 131.0
+  },
+  "source": "USDA FDC 169097 (SR Legacy: Oranges, raw, all commercial varieties); serving: FDC portion '1 fruit (2-5/8\" dia)' of same record"
+ },
+ {
+  "name": "Pear, raw",
+  "kcal": 57.0,
+  "protein": 0.4,
+  "carbs": 15.2,
+  "fat": 0.1,
+  "fiber": 3.1,
+  "sugar": 9.8,
+  "serving_g": 178.0,
+  "serving": {
+   "label": "1 medium",
+   "grams": 178.0
+  },
+  "source": "USDA FDC 169118 (SR Legacy: Pears, raw); serving: FDC portion '1 medium' of same record"
+ },
+ {
+  "name": "Strawberries, raw",
+  "kcal": 32.0,
+  "protein": 0.7,
+  "carbs": 7.7,
+  "fat": 0.3,
+  "fiber": 2.0,
+  "sugar": 4.9,
+  "serving_g": 144.0,
+  "serving": {
+   "label": "1 cup, whole",
+   "grams": 144.0
+  },
+  "source": "USDA FDC 167762 (SR Legacy: Strawberries, raw); serving: FDC portion '1 cup, whole' of same record"
+ },
+ {
+  "name": "Grapes, raw",
+  "kcal": 69.0,
+  "protein": 0.7,
+  "carbs": 18.1,
+  "fat": 0.2,
+  "fiber": 0.9,
+  "sugar": 15.5,
+  "serving_g": 151.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 151.0
+  },
+  "source": "USDA FDC 174683 (SR Legacy: Grapes, red or green (European type, such as Thompson seedless), raw); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Blueberries, raw",
+  "kcal": 57.0,
+  "protein": 0.7,
+  "carbs": 14.5,
+  "fat": 0.3,
+  "fiber": 2.4,
+  "sugar": 10.0,
+  "serving_g": 148.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 148.0
+  },
+  "source": "USDA FDC 171711 (SR Legacy: Blueberries, raw); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Raspberries, raw",
+  "kcal": 52.0,
+  "protein": 1.2,
+  "carbs": 11.9,
+  "fat": 0.7,
+  "fiber": 6.5,
+  "sugar": 4.4,
+  "serving_g": 123.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 123.0
+  },
+  "source": "USDA FDC 167755 (SR Legacy: Raspberries, raw); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Blackberries, raw",
+  "kcal": 43.0,
+  "protein": 1.4,
+  "carbs": 9.6,
+  "fat": 0.5,
+  "fiber": 5.3,
+  "sugar": 4.9,
+  "serving_g": 144.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 144.0
+  },
+  "source": "USDA FDC 173946 (SR Legacy: Blackberries, raw); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Kiwifruit, green, raw",
+  "kcal": 61.0,
+  "protein": 1.1,
+  "carbs": 14.7,
+  "fat": 0.5,
+  "fiber": 3.0,
+  "sugar": 9.0,
+  "serving_g": 69.0,
+  "serving": {
+   "label": "1 fruit (2\" dia)",
+   "grams": 69.0
+  },
+  "source": "USDA FDC 168153 (SR Legacy: Kiwifruit, green, raw); serving: FDC portion '1 fruit (2\" dia)' of same record"
+ },
+ {
+  "name": "Mango, raw",
+  "kcal": 60.0,
+  "protein": 0.8,
+  "carbs": 15.0,
+  "fat": 0.4,
+  "fiber": 1.6,
+  "sugar": 13.7,
+  "serving_g": 165.0,
+  "serving": {
+   "label": "1 cup pieces",
+   "grams": 165.0
+  },
+  "source": "USDA FDC 169910 (SR Legacy: Mangos, raw); serving: FDC portion '1 cup pieces' of same record"
+ },
+ {
+  "name": "Pineapple, raw",
+  "kcal": 50.0,
+  "protein": 0.5,
+  "carbs": 13.1,
+  "fat": 0.1,
+  "fiber": 1.4,
+  "sugar": 9.8,
+  "serving_g": 165.0,
+  "serving": {
+   "label": "1 cup, chunks",
+   "grams": 165.0
+  },
+  "source": "USDA FDC 169124 (SR Legacy: Pineapple, raw, all varieties); serving: FDC portion '1 cup, chunks' of same record"
+ },
+ {
+  "name": "Watermelon, raw",
+  "kcal": 30.0,
+  "protein": 0.6,
+  "carbs": 7.5,
+  "fat": 0.1,
+  "fiber": 0.4,
+  "sugar": 6.2,
+  "serving_g": 152.0,
+  "serving": {
+   "label": "1 cup, diced",
+   "grams": 152.0
+  },
+  "source": "USDA FDC 167765 (SR Legacy: Watermelon, raw); serving: FDC portion '1 cup, diced' of same record"
+ },
+ {
+  "name": "Cantaloupe melon, raw",
+  "kcal": 34.0,
+  "protein": 0.8,
+  "carbs": 8.2,
+  "fat": 0.2,
+  "fiber": 0.9,
+  "sugar": 7.9,
+  "serving_g": 156.0,
+  "serving": {
+   "label": "1 cup, diced",
+   "grams": 156.0
+  },
+  "source": "USDA FDC 169092 (SR Legacy: Melons, cantaloupe, raw); serving: FDC portion '1 cup, diced' of same record"
+ },
+ {
+  "name": "Honeydew melon, raw",
+  "kcal": 36.0,
+  "protein": 0.5,
+  "carbs": 9.1,
+  "fat": 0.1,
+  "fiber": 0.8,
+  "sugar": 8.1,
+  "serving_g": 170.0,
+  "serving": {
+   "label": "1 cup, diced (approx 20 pieces per cup)",
+   "grams": 170.0
+  },
+  "source": "USDA FDC 169911 (SR Legacy: Melons, honeydew, raw); serving: FDC portion '1 cup, diced (approx 20 pieces per cup)' of same record"
+ },
+ {
+  "name": "Peach, raw",
+  "kcal": 39.0,
+  "protein": 0.9,
+  "carbs": 9.5,
+  "fat": 0.2,
+  "fiber": 1.5,
+  "sugar": 8.4,
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 medium (2-2/3\" dia)",
+   "grams": 150.0
+  },
+  "source": "USDA FDC 169928 (SR Legacy: Peaches, yellow, raw); serving: FDC portion '1 medium (2-2/3\" dia)' of same record"
+ },
+ {
+  "name": "Nectarine, raw",
+  "kcal": 44.0,
+  "protein": 1.1,
+  "carbs": 10.6,
+  "fat": 0.3,
+  "fiber": 1.7,
+  "sugar": 7.9,
+  "serving_g": 142.0,
+  "serving": {
+   "label": "1 medium (2-1/2\" dia)",
+   "grams": 142.0
+  },
+  "source": "USDA FDC 169914 (SR Legacy: Nectarines, raw); serving: FDC portion '1 medium (2-1/2\" dia)' of same record"
+ },
+ {
+  "name": "Plum, raw",
+  "kcal": 46.0,
+  "protein": 0.7,
+  "carbs": 11.4,
+  "fat": 0.3,
+  "fiber": 1.4,
+  "sugar": 9.9,
+  "serving_g": 66.0,
+  "serving": {
+   "label": "1 fruit (2-1/8\" dia)",
+   "grams": 66.0
+  },
+  "source": "USDA FDC 169949 (SR Legacy: Plums, raw); serving: FDC portion '1 fruit (2-1/8\" dia)' of same record"
+ },
+ {
+  "name": "Apricot, raw",
+  "kcal": 48.0,
+  "protein": 1.4,
+  "carbs": 11.1,
+  "fat": 0.4,
+  "fiber": 2.0,
+  "sugar": 9.2,
+  "serving_g": 35.0,
+  "serving": {
+   "label": "1 apricot",
+   "grams": 35.0
+  },
+  "source": "USDA FDC 171697 (SR Legacy: Apricots, raw); serving: FDC portion '1 apricot' of same record"
+ },
+ {
+  "name": "Cherries, sweet, raw",
+  "kcal": 63.0,
+  "protein": 1.1,
+  "carbs": 16.0,
+  "fat": 0.2,
+  "fiber": 2.1,
+  "sugar": 12.8,
+  "serving_g": 138.0,
+  "serving": {
+   "label": "1 cup, with pits, yields",
+   "grams": 138.0
+  },
+  "source": "USDA FDC 171719 (SR Legacy: Cherries, sweet, raw); serving: FDC portion '1 cup, with pits, yields' of same record"
+ },
+ {
+  "name": "Mandarin / tangerine, raw",
+  "kcal": 53.0,
+  "protein": 0.8,
+  "carbs": 13.3,
+  "fat": 0.3,
+  "fiber": 1.8,
+  "sugar": 10.6,
+  "serving_g": 88.0,
+  "serving": {
+   "label": "1 medium (2-1/2\" dia)",
+   "grams": 88.0
+  },
+  "source": "USDA FDC 169105 (SR Legacy: Tangerines, (mandarin oranges), raw); serving: FDC portion '1 medium (2-1/2\" dia)' of same record"
+ },
+ {
+  "name": "Grapefruit, pink, raw",
+  "kcal": 42.0,
+  "protein": 0.8,
+  "carbs": 10.7,
+  "fat": 0.1,
+  "fiber": 1.6,
+  "sugar": 6.9,
+  "serving_g": 123.0,
+  "serving": {
+   "label": "0.5 fruit (3-3/4\" dia)",
+   "grams": 123.0
+  },
+  "source": "USDA FDC 174673 (SR Legacy: Grapefruit, raw, pink and red, all areas); serving: FDC portion '0.5 fruit (3-3/4\" dia)' of same record"
+ },
+ {
+  "name": "Lemon, raw (without peel)",
+  "kcal": 29.0,
+  "protein": 1.1,
+  "carbs": 9.3,
+  "fat": 0.3,
+  "fiber": 2.8,
+  "sugar": 2.5,
+  "serving_g": 58.0,
+  "serving": {
+   "label": "1 fruit (2-1/8\" dia)",
+   "grams": 58.0
+  },
+  "source": "USDA FDC 167746 (SR Legacy: Lemons, raw, without peel); serving: FDC portion '1 fruit (2-1/8\" dia)' of same record"
+ },
+ {
+  "name": "Avocado, raw",
+  "kcal": 160.0,
+  "protein": 2.0,
+  "carbs": 8.5,
+  "fat": 14.7,
+  "fiber": 6.7,
+  "sugar": 0.7,
+  "serving_g": 201.0,
+  "serving": {
+   "label": "1 avocado, NS as to Florida or California",
+   "grams": 201.0
+  },
+  "source": "USDA FDC 171705 (SR Legacy: Avocados, raw, all commercial varieties); serving: FDC portion '1 avocado, NS as to Florida or California' of same record"
+ },
+ {
+  "name": "Pomegranate, raw",
+  "kcal": 83.0,
+  "protein": 1.7,
+  "carbs": 18.7,
+  "fat": 1.2,
+  "fiber": 4.0,
+  "sugar": 13.7,
+  "serving_g": 282.0,
+  "serving": {
+   "label": "1 pomegranate (4\" dia)",
+   "grams": 282.0
+  },
+  "source": "USDA FDC 169134 (SR Legacy: Pomegranates, raw); serving: FDC portion '1 pomegranate (4\" dia)' of same record"
+ },
+ {
+  "name": "Raisins",
+  "kcal": 299.0,
+  "protein": 3.3,
+  "carbs": 79.3,
+  "fat": 0.2,
+  "fiber": 4.5,
+  "sugar": 65.2,
+  "serving_g": 43.0,
+  "serving": {
+   "label": "1 small box (1.5 oz)",
+   "grams": 43.0
+  },
+  "source": "USDA FDC 2709212 (FNDDS 2021-2023: Raisins); serving: FDC portion '1 small box (1.5 oz)' of same record"
+ },
+ {
+  "name": "Dates, Medjool",
+  "kcal": 277.0,
+  "protein": 1.8,
+  "carbs": 75.0,
+  "fat": 0.1,
+  "fiber": 6.7,
+  "sugar": 66.5,
+  "serving_g": 24.0,
+  "serving": {
+   "label": "1 date, pitted",
+   "grams": 24.0
+  },
+  "source": "USDA FDC 168191 (SR Legacy: Dates, medjool); serving: FDC portion '1 date, pitted' of same record"
+ },
+ {
+  "name": "Figs, dried",
+  "kcal": 249.0,
+  "protein": 3.3,
+  "carbs": 63.9,
+  "fat": 0.9,
+  "fiber": 9.8,
+  "sugar": 47.9,
+  "serving_g": 8.4,
+  "serving": {
+   "label": "1 fig",
+   "grams": 8.4
+  },
+  "source": "USDA FDC 174665 (SR Legacy: Figs, dried, uncooked); serving: FDC portion '1 fig' of same record"
+ },
+ {
+  "name": "Apricots, dried",
+  "kcal": 241.0,
+  "protein": 3.4,
+  "carbs": 62.6,
+  "fat": 0.5,
+  "fiber": 7.3,
+  "sugar": 53.4,
+  "serving_g": 130.0,
+  "serving": {
+   "label": "1 cup, halves",
+   "grams": 130.0
+  },
+  "source": "USDA FDC 173941 (SR Legacy: Apricots, dried, sulfured, uncooked); serving: FDC portion '1 cup, halves' of same record"
+ },
+ {
+  "name": "Prunes (dried plums)",
+  "kcal": 240.0,
+  "protein": 2.2,
+  "carbs": 63.9,
+  "fat": 0.4,
+  "fiber": 7.1,
+  "sugar": 38.1,
+  "serving_g": 9.5,
+  "serving": {
+   "label": "1 prune, pitted",
+   "grams": 9.5
+  },
+  "source": "USDA FDC 168162 (SR Legacy: Plums, dried (prunes), uncooked); serving: FDC portion '1 prune, pitted' of same record"
+ },
+ {
+  "name": "Cranberries, dried, sweetened",
+  "kcal": 308.0,
+  "protein": 0.2,
+  "carbs": 82.8,
+  "fat": 1.1,
+  "fiber": 5.3,
+  "sugar": 72.6,
+  "serving_g": 40.0,
+  "serving": {
+   "label": "0.25 cup",
+   "grams": 40.0
+  },
+  "source": "USDA FDC 171723 (SR Legacy: Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program)); serving: FDC portion '0.25 cup' of same record"
+ },
+ {
+  "name": "Fruit salad / mixed fruit, canned in juice",
+  "kcal": 46.0,
+  "protein": 0.5,
+  "carbs": 11.9,
+  "fat": 0.0,
+  "fiber": 1.0,
+  "sugar": 10.9,
+  "serving_g": 237.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 237.0
+  },
+  "source": "USDA FDC 174668 (SR Legacy: Fruit cocktail, (peach and pineapple and pear and grape and cherry), canned, juice pack, solids and liquids); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Coconut meat, raw",
+  "kcal": 354.0,
+  "protein": 3.3,
+  "carbs": 15.2,
+  "fat": 33.5,
+  "fiber": 9.0,
+  "sugar": 6.2,
+  "serving_g": 45.0,
+  "serving": {
+   "label": "1 piece (2\" x 2\" x 1/2\")",
+   "grams": 45.0
+  },
+  "source": "USDA FDC 170169 (SR Legacy: Nuts, coconut meat, raw); serving: FDC portion '1 piece (2\" x 2\" x 1/2\")' of same record"
+ },
+ {
+  "name": "Papaya, raw",
+  "kcal": 43.0,
+  "protein": 0.5,
+  "carbs": 10.8,
+  "fat": 0.3,
+  "fiber": 1.7,
+  "sugar": 7.8,
+  "serving_g": 145.0,
+  "serving": {
+   "label": "1 cup 1\" pieces",
+   "grams": 145.0
+  },
+  "source": "USDA FDC 169926 (SR Legacy: Papayas, raw); serving: FDC portion '1 cup 1\" pieces' of same record"
+ },
+ {
+  "name": "Passion fruit, raw",
+  "kcal": 97.0,
+  "protein": 2.2,
+  "carbs": 23.4,
+  "fat": 0.7,
+  "fiber": 10.4,
+  "sugar": 11.2,
+  "serving_g": 18.0,
+  "serving": {
+   "label": "1 fruit without refuse",
+   "grams": 18.0
+  },
+  "source": "USDA FDC 169108 (SR Legacy: Passion-fruit, (granadilla), purple, raw); serving: FDC portion '1 fruit without refuse' of same record"
+ },
+ {
+  "name": "Lychee, raw",
+  "kcal": 66.0,
+  "protein": 0.8,
+  "carbs": 16.5,
+  "fat": 0.4,
+  "fiber": 1.3,
+  "sugar": 15.2,
+  "serving_g": 9.6,
+  "serving": {
+   "label": "1 fruit without refuse",
+   "grams": 9.6
+  },
+  "source": "USDA FDC 169086 (SR Legacy: Litchis, raw); serving: FDC portion '1 fruit without refuse' of same record"
+ },
+ {
+  "name": "Carrot, raw",
+  "kcal": 41.0,
+  "protein": 0.9,
+  "carbs": 9.6,
+  "fat": 0.2,
+  "fiber": 2.8,
+  "sugar": 4.7,
+  "serving_g": 61.0,
+  "serving": {
+   "label": "1 medium",
+   "grams": 61.0
+  },
+  "source": "USDA FDC 170393 (SR Legacy: Carrots, raw); serving: FDC portion '1 medium' of same record"
+ },
+ {
+  "name": "Carrots, boiled",
+  "kcal": 35.0,
+  "protein": 0.8,
+  "carbs": 8.2,
+  "fat": 0.2,
+  "fiber": 3.0,
+  "sugar": 3.5,
+  "serving_g": 78.0,
+  "serving": {
+   "label": "0.5 cup slices",
+   "grams": 78.0
+  },
+  "source": "USDA FDC 170394 (SR Legacy: Carrots, cooked, boiled, drained, without salt); serving: FDC portion '0.5 cup slices' of same record"
+ },
+ {
+  "name": "Broccoli, raw",
+  "kcal": 34.0,
+  "protein": 2.8,
+  "carbs": 6.6,
+  "fat": 0.4,
+  "fiber": 2.6,
+  "sugar": 1.7,
+  "serving_g": 91.0,
+  "serving": {
+   "label": "1 cup chopped",
+   "grams": 91.0
+  },
+  "source": "USDA FDC 170379 (SR Legacy: Broccoli, raw); serving: FDC portion '1 cup chopped' of same record"
+ },
+ {
+  "name": "Broccoli, boiled",
+  "kcal": 35.0,
+  "protein": 2.4,
+  "carbs": 7.2,
+  "fat": 0.4,
+  "fiber": 3.3,
+  "sugar": 1.4,
+  "serving_g": 78.0,
+  "serving": {
+   "label": "0.5 cup, chopped",
+   "grams": 78.0
+  },
+  "source": "USDA FDC 169967 (SR Legacy: Broccoli, cooked, boiled, drained, without salt); serving: FDC portion '0.5 cup, chopped' of same record"
+ },
+ {
+  "name": "Cauliflower, raw",
+  "kcal": 25.0,
+  "protein": 1.9,
+  "carbs": 5.0,
+  "fat": 0.3,
+  "fiber": 2.0,
+  "sugar": 1.9,
+  "serving_g": 107.0,
+  "serving": {
+   "label": "1 cup chopped (1/2\" pieces)",
+   "grams": 107.0
+  },
+  "source": "USDA FDC 169986 (SR Legacy: Cauliflower, raw); serving: FDC portion '1 cup chopped (1/2\" pieces)' of same record"
+ },
+ {
+  "name": "Cauliflower, boiled",
+  "kcal": 23.0,
+  "protein": 1.8,
+  "carbs": 4.1,
+  "fat": 0.5,
+  "fiber": 2.3,
+  "sugar": 2.1,
+  "serving_g": 62.0,
+  "serving": {
+   "label": "0.5 cup (1\" pieces)",
+   "grams": 62.0
+  },
+  "source": "USDA FDC 170397 (SR Legacy: Cauliflower, cooked, boiled, drained, without salt); serving: FDC portion '0.5 cup (1\" pieces)' of same record"
+ },
+ {
+  "name": "Tomato, raw",
+  "kcal": 18.0,
+  "protein": 0.9,
+  "carbs": 3.9,
+  "fat": 0.2,
+  "fiber": 1.2,
+  "sugar": 2.6,
+  "serving_g": 123.0,
+  "serving": {
+   "label": "1 medium whole (2-3/5\" dia)",
+   "grams": 123.0
+  },
+  "source": "USDA FDC 170457 (SR Legacy: Tomatoes, red, ripe, raw, year round average); serving: FDC portion '1 medium whole (2-3/5\" dia)' of same record"
+ },
+ {
+  "name": "Cherry tomatoes, raw",
+  "kcal": 18.0,
+  "protein": 0.9,
+  "carbs": 3.9,
+  "fat": 0.2,
+  "fiber": 1.2,
+  "sugar": 2.6,
+  "serving_g": 17.0,
+  "serving": {
+   "label": "1 cherry",
+   "grams": 17.0
+  },
+  "source": "USDA FDC 170457 (SR Legacy: Tomatoes, red, ripe, raw, year round average); serving: FDC portion '1 cherry' of same record"
+ },
+ {
+  "name": "Cucumber, with peel, raw",
+  "kcal": 15.0,
+  "protein": 0.7,
+  "carbs": 3.6,
+  "fat": 0.1,
+  "fiber": 0.5,
+  "sugar": 1.7,
+  "serving_g": 52.0,
+  "serving": {
+   "label": "0.5 cup slices",
+   "grams": 52.0
+  },
+  "source": "USDA FDC 168409 (SR Legacy: Cucumber, with peel, raw); serving: FDC portion '0.5 cup slices' of same record"
+ },
+ {
+  "name": "Iceberg lettuce, raw",
+  "kcal": 14.0,
+  "protein": 0.9,
+  "carbs": 3.0,
+  "fat": 0.1,
+  "fiber": 1.2,
+  "sugar": 2.0,
+  "serving_g": 72.0,
+  "serving": {
+   "label": "1 cup shredded",
+   "grams": 72.0
+  },
+  "source": "USDA FDC 169248 (SR Legacy: Lettuce, iceberg (includes crisphead types), raw); serving: FDC portion '1 cup shredded' of same record"
+ },
+ {
+  "name": "Lettuce, green leaf, raw",
+  "kcal": 15.0,
+  "protein": 1.4,
+  "carbs": 2.9,
+  "fat": 0.1,
+  "fiber": 1.3,
+  "sugar": 0.8,
+  "serving_g": 36.0,
+  "serving": {
+   "label": "1 cup shredded",
+   "grams": 36.0
+  },
+  "source": "USDA FDC 169249 (SR Legacy: Lettuce, green leaf, raw); serving: FDC portion '1 cup shredded' of same record"
+ },
+ {
+  "name": "Spinach, raw",
+  "kcal": 23.0,
+  "protein": 2.9,
+  "carbs": 3.6,
+  "fat": 0.4,
+  "fiber": 2.2,
+  "sugar": 0.4,
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 30.0
+  },
+  "source": "USDA FDC 168462 (SR Legacy: Spinach, raw); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Spinach, boiled",
+  "kcal": 23.0,
+  "protein": 3.0,
+  "carbs": 3.8,
+  "fat": 0.3,
+  "fiber": 2.4,
+  "sugar": 0.4,
+  "serving_g": 180.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 180.0
+  },
+  "source": "USDA FDC 168463 (SR Legacy: Spinach, cooked, boiled, drained, without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Onion, raw",
+  "kcal": 40.0,
+  "protein": 1.1,
+  "carbs": 9.3,
+  "fat": 0.1,
+  "fiber": 1.7,
+  "sugar": 4.2,
+  "serving_g": 110.0,
+  "serving": {
+   "label": "1 medium (2-1/2\" dia)",
+   "grams": 110.0
+  },
+  "source": "USDA FDC 170000 (SR Legacy: Onions, raw); serving: FDC portion '1 medium (2-1/2\" dia)' of same record"
+ },
+ {
+  "name": "Bell pepper, red, raw",
+  "kcal": 26.0,
+  "protein": 1.0,
+  "carbs": 6.0,
+  "fat": 0.3,
+  "fiber": 2.1,
+  "sugar": 4.2,
+  "serving_g": 119.0,
+  "serving": {
+   "label": "1 medium (approx 2-3/4\" long, 2-1/2 dia.)",
+   "grams": 119.0
+  },
+  "source": "USDA FDC 170108 (SR Legacy: Peppers, sweet, red, raw); serving: FDC portion '1 medium (approx 2-3/4\" long, 2-1/2 dia.)' of same record"
+ },
+ {
+  "name": "Bell pepper, green, raw",
+  "kcal": 20.0,
+  "protein": 0.9,
+  "carbs": 4.6,
+  "fat": 0.2,
+  "fiber": 1.7,
+  "sugar": 2.4,
+  "serving_g": 119.0,
+  "serving": {
+   "label": "1 medium (approx 2-3/4\" long, 2-1/2\" dia)",
+   "grams": 119.0
+  },
+  "source": "USDA FDC 170427 (SR Legacy: Peppers, sweet, green, raw); serving: FDC portion '1 medium (approx 2-3/4\" long, 2-1/2\" dia)' of same record"
+ },
+ {
+  "name": "Mushrooms, white, raw",
+  "kcal": 22.0,
+  "protein": 3.1,
+  "carbs": 3.3,
+  "fat": 0.3,
+  "fiber": 1.0,
+  "sugar": 2.0,
+  "serving_g": 70.0,
+  "serving": {
+   "label": "1 cup, pieces or slices",
+   "grams": 70.0
+  },
+  "source": "USDA FDC 169251 (SR Legacy: Mushrooms, white, raw); serving: FDC portion '1 cup, pieces or slices' of same record"
+ },
+ {
+  "name": "Zucchini (courgette), raw",
+  "kcal": 17.0,
+  "protein": 1.2,
+  "carbs": 3.1,
+  "fat": 0.3,
+  "fiber": 1.0,
+  "sugar": 2.5,
+  "serving_g": 196.0,
+  "serving": {
+   "label": "1 medium",
+   "grams": 196.0
+  },
+  "source": "USDA FDC 169291 (SR Legacy: Squash, summer, zucchini, includes skin, raw); serving: FDC portion '1 medium' of same record"
+ },
+ {
+  "name": "Eggplant (aubergine), raw",
+  "kcal": 25.0,
+  "protein": 1.0,
+  "carbs": 5.9,
+  "fat": 0.2,
+  "fiber": 3.0,
+  "sugar": 3.5,
+  "serving_g": 82.0,
+  "serving": {
+   "label": "1 cup, cubes",
+   "grams": 82.0
+  },
+  "source": "USDA FDC 169228 (SR Legacy: Eggplant, raw); serving: FDC portion '1 cup, cubes' of same record"
+ },
+ {
+  "name": "Green peas, frozen, boiled",
+  "kcal": 78.0,
+  "protein": 5.2,
+  "carbs": 14.3,
+  "fat": 0.3,
+  "fiber": 4.5,
+  "sugar": 4.4,
+  "serving_g": 80.0,
+  "serving": {
+   "label": "0.5 cup",
+   "grams": 80.0
+  },
+  "source": "USDA FDC 170017 (SR Legacy: Peas, green, frozen, cooked, boiled, drained, without salt); serving: FDC portion '0.5 cup' of same record"
+ },
+ {
+  "name": "Sweet corn, canned, drained",
+  "kcal": 67.0,
+  "protein": 2.3,
+  "carbs": 14.3,
+  "fat": 1.2,
+  "fiber": 2.0,
+  "sugar": 4.4,
+  "serving_g": 164.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 164.0
+  },
+  "source": "USDA FDC 169214 (SR Legacy: Corn, sweet, yellow, canned, whole kernel, drained solids); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Green beans, boiled (sperziebonen)",
+  "kcal": 35.0,
+  "protein": 1.9,
+  "carbs": 7.9,
+  "fat": 0.3,
+  "fiber": 3.2,
+  "sugar": 3.6,
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 125.0
+  },
+  "source": "USDA FDC 169141 (SR Legacy: Beans, snap, green, cooked, boiled, drained, without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Cabbage, white, raw (witte kool)",
+  "kcal": 25.0,
+  "protein": 1.3,
+  "carbs": 5.8,
+  "fat": 0.1,
+  "fiber": 2.5,
+  "sugar": 3.2,
+  "serving_g": 89.0,
+  "serving": {
+   "label": "1 cup, chopped",
+   "grams": 89.0
+  },
+  "source": "USDA FDC 169975 (SR Legacy: Cabbage, raw); serving: FDC portion '1 cup, chopped' of same record"
+ },
+ {
+  "name": "Red cabbage, raw (rode kool)",
+  "kcal": 31.0,
+  "protein": 1.4,
+  "carbs": 7.4,
+  "fat": 0.2,
+  "fiber": 2.1,
+  "sugar": 3.8,
+  "serving_g": 89.0,
+  "serving": {
+   "label": "1 cup, chopped",
+   "grams": 89.0
+  },
+  "source": "USDA FDC 169977 (SR Legacy: Cabbage, red, raw); serving: FDC portion '1 cup, chopped' of same record"
+ },
+ {
+  "name": "Brussels sprouts, boiled (spruitjes)",
+  "kcal": 36.0,
+  "protein": 2.5,
+  "carbs": 7.1,
+  "fat": 0.5,
+  "fiber": 2.6,
+  "sugar": 1.7,
+  "serving_g": 78.0,
+  "serving": {
+   "label": "0.5 cup",
+   "grams": 78.0
+  },
+  "source": "USDA FDC 169971 (SR Legacy: Brussels sprouts, cooked, boiled, drained, without salt); serving: FDC portion '0.5 cup' of same record"
+ },
+ {
+  "name": "Kale, raw (boerenkool)",
+  "kcal": 35.0,
+  "protein": 2.9,
+  "carbs": 4.4,
+  "fat": 1.5,
+  "fiber": 4.1,
+  "sugar": 1.0,
+  "serving_g": 21.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 21.0
+  },
+  "source": "USDA FDC 168421 (SR Legacy: Kale, raw); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Leek, raw (prei)",
+  "kcal": 61.0,
+  "protein": 1.5,
+  "carbs": 14.2,
+  "fat": 0.3,
+  "fiber": 1.8,
+  "sugar": 3.9,
+  "serving_g": 89.0,
+  "serving": {
+   "label": "1 leek",
+   "grams": 89.0
+  },
+  "source": "USDA FDC 169246 (SR Legacy: Leeks, (bulb and lower leaf-portion), raw); serving: FDC portion '1 leek' of same record"
+ },
+ {
+  "name": "Celery, raw",
+  "kcal": 14.0,
+  "protein": 0.7,
+  "carbs": 3.0,
+  "fat": 0.2,
+  "fiber": 1.6,
+  "sugar": 1.3,
+  "serving_g": 64.0,
+  "serving": {
+   "label": "1 stalk, large (11\"-12\" long)",
+   "grams": 64.0
+  },
+  "source": "USDA FDC 169988 (SR Legacy: Celery, raw); serving: FDC portion '1 stalk, large (11\"-12\" long)' of same record"
+ },
+ {
+  "name": "Garlic, raw",
+  "kcal": 149.0,
+  "protein": 6.4,
+  "carbs": 33.1,
+  "fat": 0.5,
+  "fiber": 2.1,
+  "sugar": 1.0,
+  "serving_g": 3.0,
+  "serving": {
+   "label": "1 clove",
+   "grams": 3.0
+  },
+  "source": "USDA FDC 169230 (SR Legacy: Garlic, raw); serving: FDC portion '1 clove' of same record"
+ },
+ {
+  "name": "Beetroot, boiled (rode biet)",
+  "kcal": 44.0,
+  "protein": 1.7,
+  "carbs": 10.0,
+  "fat": 0.2,
+  "fiber": 2.0,
+  "sugar": 8.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "0.5 cup slices",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 169146 (SR Legacy: Beets, cooked, boiled, drained); serving: FDC portion '0.5 cup slices' of same record"
+ },
+ {
+  "name": "Asparagus, boiled",
+  "kcal": 22.0,
+  "protein": 2.4,
+  "carbs": 4.1,
+  "fat": 0.2,
+  "fiber": 2.0,
+  "sugar": 1.3,
+  "serving_g": 90.0,
+  "serving": {
+   "label": "0.5 cup",
+   "grams": 90.0
+  },
+  "source": "USDA FDC 168390 (SR Legacy: Asparagus, cooked, boiled, drained); serving: FDC portion '0.5 cup' of same record"
+ },
+ {
+  "name": "Sweet potato, baked",
+  "kcal": 90.0,
+  "protein": 2.0,
+  "carbs": 20.7,
+  "fat": 0.1,
+  "fiber": 3.3,
+  "sugar": 6.5,
+  "serving_g": 114.0,
+  "serving": {
+   "label": "1 medium (2\" dia, 5\" long, raw)",
+   "grams": 114.0
+  },
+  "source": "USDA FDC 168483 (SR Legacy: Sweet potato, cooked, baked in skin, flesh, without salt); serving: FDC portion '1 medium (2\" dia, 5\" long, raw)' of same record"
+ },
+ {
+  "name": "Potato, baked, with skin",
+  "kcal": 93.0,
+  "protein": 2.5,
+  "carbs": 21.1,
+  "fat": 0.1,
+  "fiber": 2.2,
+  "sugar": 1.2,
+  "serving_g": 173.0,
+  "serving": {
+   "label": "1 potato medium",
+   "grams": 173.0
+  },
+  "source": "USDA FDC 170093 (SR Legacy: Potatoes, baked, flesh and skin, without salt); serving: FDC portion '1 potato medium' of same record"
+ },
+ {
+  "name": "Sauerkraut, canned (zuurkool)",
+  "kcal": 19.0,
+  "protein": 0.9,
+  "carbs": 4.3,
+  "fat": 0.1,
+  "fiber": 2.9,
+  "sugar": 1.8,
+  "serving_g": 142.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 142.0
+  },
+  "source": "USDA FDC 169279 (SR Legacy: Sauerkraut, canned, solids and liquids); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Radishes, raw",
+  "kcal": 16.0,
+  "protein": 0.7,
+  "carbs": 3.4,
+  "fat": 0.1,
+  "fiber": 1.6,
+  "sugar": 1.9,
+  "serving_g": 116.0,
+  "serving": {
+   "label": "1 cup slices",
+   "grams": 116.0
+  },
+  "source": "USDA FDC 169276 (SR Legacy: Radishes, raw); serving: FDC portion '1 cup slices' of same record"
+ },
+ {
+  "name": "Pickles, dill (augurk)",
+  "kcal": 12.0,
+  "protein": 0.5,
+  "carbs": 2.4,
+  "fat": 0.3,
+  "fiber": 1.0,
+  "sugar": 1.1,
+  "serving_g": 35.0,
+  "serving": {
+   "label": "1 spear, small",
+   "grams": 35.0
+  },
+  "source": "USDA FDC 168558 (SR Legacy: Pickles, cucumber, dill or kosher dill); serving: FDC portion '1 spear, small' of same record"
+ },
+ {
+  "name": "Olives, black, canned",
+  "kcal": 116.0,
+  "protein": 0.8,
+  "carbs": 6.0,
+  "fat": 10.9,
+  "fiber": 1.6,
+  "sugar": 0.0,
+  "serving_g": 4.4,
+  "serving": {
+   "label": "1 large",
+   "grams": 4.4
+  },
+  "source": "USDA FDC 169094 (SR Legacy: Olives, ripe, canned (small-extra large)); serving: FDC portion '1 large' of same record"
+ },
+ {
+  "name": "Butternut squash, baked",
+  "kcal": 40.0,
+  "protein": 0.9,
+  "carbs": 10.5,
+  "fat": 0.1,
+  "fiber": 3.2,
+  "sugar": 2.0,
+  "serving_g": 205.0,
+  "serving": {
+   "label": "1 cup, cubes",
+   "grams": 205.0
+  },
+  "source": "USDA FDC 169296 (SR Legacy: Squash, winter, butternut, cooked, baked, without salt); serving: FDC portion '1 cup, cubes' of same record"
+ },
+ {
+  "name": "Pumpkin, boiled",
+  "kcal": 20.0,
+  "protein": 0.7,
+  "carbs": 4.9,
+  "fat": 0.1,
+  "fiber": 1.1,
+  "sugar": 2.1,
+  "serving_g": 245.0,
+  "serving": {
+   "label": "1 cup, mashed",
+   "grams": 245.0
+  },
+  "source": "USDA FDC 168449 (SR Legacy: Pumpkin, cooked, boiled, drained, without salt); serving: FDC portion '1 cup, mashed' of same record"
+ },
+ {
+  "name": "Arugula (rucola), raw",
+  "kcal": 25.0,
+  "protein": 2.6,
+  "carbs": 3.6,
+  "fat": 0.7,
+  "fiber": 1.6,
+  "sugar": 2.0,
+  "serving_g": 10.0,
+  "serving": {
+   "label": "0.5 cup",
+   "grams": 10.0
+  },
+  "source": "USDA FDC 169387 (SR Legacy: Arugula, raw); serving: FDC portion '0.5 cup' of same record"
+ },
+ {
+  "name": "Fennel bulb, raw",
+  "kcal": 31.0,
+  "protein": 1.2,
+  "carbs": 7.3,
+  "fat": 0.2,
+  "fiber": 3.1,
+  "sugar": 3.9,
+  "serving_g": 87.0,
+  "serving": {
+   "label": "1 cup, sliced",
+   "grams": 87.0
+  },
+  "source": "USDA FDC 169385 (SR Legacy: Fennel, bulb, raw); serving: FDC portion '1 cup, sliced' of same record"
+ },
+ {
+  "name": "Parsnip, boiled",
+  "kcal": 71.0,
+  "protein": 1.3,
+  "carbs": 17.0,
+  "fat": 0.3,
+  "fiber": 3.6,
+  "sugar": 4.8,
+  "serving_g": 78.0,
+  "serving": {
+   "label": "0.5 cup slices",
+   "grams": 78.0
+  },
+  "source": "USDA FDC 170009 (SR Legacy: Parsnips, cooked, boiled, drained, without salt); serving: FDC portion '0.5 cup slices' of same record"
+ },
+ {
+  "name": "Chicken breast, roasted (kipfilet)",
+  "kcal": 165.0,
+  "protein": 31.0,
+  "carbs": 0.0,
+  "fat": 3.6,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 86.0,
+  "serving": {
+   "label": "0.5 breast, bone and skin removed",
+   "grams": 86.0
+  },
+  "source": "USDA FDC 171477 (SR Legacy: Chicken, broilers or fryers, breast, meat only, cooked, roasted); serving: FDC portion '0.5 breast, bone and skin removed' of same record"
+ },
+ {
+  "name": "Chicken thigh, roasted, meat only",
+  "kcal": 179.0,
+  "protein": 24.8,
+  "carbs": 0.0,
+  "fat": 8.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 116.0,
+  "serving": {
+   "label": "1 thigh without skin",
+   "grams": 116.0
+  },
+  "source": "USDA FDC 172388 (SR Legacy: Chicken, broilers or fryers, thigh, meat only, cooked, roasted); serving: FDC portion '1 thigh without skin' of same record"
+ },
+ {
+  "name": "Chicken drumstick, roasted, with skin",
+  "kcal": 191.0,
+  "protein": 23.4,
+  "carbs": 0.0,
+  "fat": 10.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 105.0,
+  "serving": {
+   "label": "1 drumstick with skin (yield from 1 lb ready-to-cook chicken)",
+   "grams": 105.0
+  },
+  "source": "USDA FDC 173612 (SR Legacy: Chicken, broilers or fryers, drumstick, meat and skin, cooked, roasted); serving: FDC portion '1 drumstick with skin (yield from 1 lb ready-to-cook chicken)' of same record"
+ },
+ {
+  "name": "Chicken wings, roasted, with skin",
+  "kcal": 254.0,
+  "protein": 23.8,
+  "carbs": 0.0,
+  "fat": 16.9,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 173630 (SR Legacy: Chicken, broilers or fryers, wing, meat and skin, cooked, roasted); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Ground beef 85% lean, pan-browned (rundergehakt)",
+  "kcal": 256.0,
+  "protein": 27.7,
+  "carbs": 0.0,
+  "fat": 15.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 174034 (SR Legacy: Beef, ground, 85% lean meat / 15% fat, crumbles, cooked, pan-browned); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Beef burger patty 80% lean, grilled",
+  "kcal": 270.0,
+  "protein": 25.8,
+  "carbs": 0.0,
+  "fat": 17.8,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 171797 (SR Legacy: Beef, ground, 80% lean meat / 20% fat, patty, cooked, broiled); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Beef steak, sirloin, grilled",
+  "kcal": 257.0,
+  "protein": 26.8,
+  "carbs": 0.0,
+  "fat": 15.8,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 168729 (SR Legacy: Beef, top sirloin, steak, separable lean and fat, trimmed to 1/8\" fat, choice, cooked, broiled); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Beef, stewing (chuck), braised (sucadelappen)",
+  "kcal": 341.0,
+  "protein": 26.8,
+  "carbs": 0.0,
+  "fat": 25.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 169494 (SR Legacy: Beef, chuck, blade roast, separable lean and fat, trimmed to 1/8\" fat, all grades, cooked, braised); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Pork tenderloin, roasted (varkenshaas)",
+  "kcal": 143.0,
+  "protein": 26.2,
+  "carbs": 0.0,
+  "fat": 3.5,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 168250 (SR Legacy: Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Pork chop, loin, broiled (karbonade)",
+  "kcal": 209.0,
+  "protein": 25.6,
+  "carbs": 0.0,
+  "fat": 11.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 157.0,
+  "serving": {
+   "label": "1 chop without refuse (Yield from 1 cooked chop, with refuse, weighing 209g)",
+   "grams": 157.0
+  },
+  "source": "USDA FDC 167827 (SR Legacy: Pork, fresh, loin, center loin (chops), bone-in, separable lean and fat, cooked, broiled); serving: FDC portion '1 chop without refuse (Yield from 1 cooked chop, with refuse, weighing 209g)' of same record"
+ },
+ {
+  "name": "Bacon, baked (spek)",
+  "kcal": 548.0,
+  "protein": 35.7,
+  "carbs": 1.4,
+  "fat": 43.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 8.1,
+  "serving": {
+   "label": "1 slice cooked",
+   "grams": 8.1
+  },
+  "source": "USDA FDC 167914 (SR Legacy: Pork, cured, bacon, cooked, baked); serving: FDC portion '1 slice cooked' of same record"
+ },
+ {
+  "name": "Ground pork, cooked (varkensgehakt)",
+  "kcal": 297.0,
+  "protein": 25.7,
+  "carbs": 0.0,
+  "fat": 20.8,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 167903 (SR Legacy: Pork, fresh, ground, cooked); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Turkey breast, roasted",
+  "kcal": 136.0,
+  "protein": 29.5,
+  "carbs": 0.0,
+  "fat": 2.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 174516 (SR Legacy: Turkey, retail parts, breast, meat only, cooked, roasted); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Lamb chop, loin, broiled",
+  "kcal": 316.0,
+  "protein": 25.2,
+  "carbs": 0.0,
+  "fat": 23.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 64.0,
+  "serving": {
+   "label": "1 chop, excluding refuse (yield from 1 raw chop, with refuse, weighing 120 g)",
+   "grams": 64.0
+  },
+  "source": "USDA FDC 172489 (SR Legacy: Lamb, loin, separable lean and fat, trimmed to 1/4\" fat, choice, cooked, broiled); serving: FDC portion '1 chop, excluding refuse (yield from 1 raw chop, with refuse, weighing 120 g)' of same record"
+ },
+ {
+  "name": "Frankfurter / hot dog sausage (knakworst)",
+  "kcal": 315.0,
+  "protein": 11.7,
+  "carbs": 3.0,
+  "fat": 28.1,
+  "fiber": 0.0,
+  "sugar": 1.2,
+  "serving_g": 49.0,
+  "serving": {
+   "label": "1 hot dog",
+   "grams": 49.0
+  },
+  "source": "USDA FDC 173862 (SR Legacy: Frankfurter, beef, unheated); serving: FDC portion '1 hot dog' of same record"
+ },
+ {
+  "name": "Salami, pork & beef",
+  "kcal": 336.0,
+  "protein": 21.9,
+  "carbs": 2.4,
+  "fat": 25.9,
+  "fiber": 0.0,
+  "sugar": 1.0,
+  "serving_g": 12.3,
+  "serving": {
+   "label": "1 slice round",
+   "grams": 12.3
+  },
+  "source": "USDA FDC 172936 (SR Legacy: Salami, cooked, beef and pork); serving: FDC portion '1 slice round' of same record"
+ },
+ {
+  "name": "Pork sausage, cooked (braadworst)",
+  "kcal": 325.0,
+  "protein": 18.5,
+  "carbs": 1.4,
+  "fat": 27.2,
+  "fiber": 0.0,
+  "sugar": 1.1,
+  "serving_g": 23.0,
+  "serving": {
+   "label": "1 link",
+   "grams": 23.0
+  },
+  "source": "USDA FDC 174578 (SR Legacy: Pork sausage, link/patty, cooked, pan-fried); serving: FDC portion '1 link' of same record"
+ },
+ {
+  "name": "Chorizo",
+  "kcal": 341.0,
+  "protein": 19.3,
+  "carbs": 2.6,
+  "fat": 28.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 breakfast size link",
+   "grams": 20.0
+  },
+  "source": "USDA FDC 2706179 (FNDDS 2021-2023: Chorizo); serving: FDC portion '1 breakfast size link' of same record"
+ },
+ {
+  "name": "Ham, sliced, deli",
+  "kcal": 164.0,
+  "protein": 16.6,
+  "carbs": 3.6,
+  "fat": 8.8,
+  "fiber": 1.3,
+  "sugar": 1.0,
+  "serving_g": 28.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 28.0
+  },
+  "source": "USDA FDC 173864 (SR Legacy: Ham, sliced, regular (approximately 11% fat)); serving: FDC portion '1 slice' of same record"
+ },
+ {
+  "name": "Turkey breast, deli slices",
+  "kcal": 106.0,
+  "protein": 14.8,
+  "carbs": 2.2,
+  "fat": 3.8,
+  "fiber": 0.0,
+  "sugar": 0.9,
+  "serving_g": 16.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 16.0
+  },
+  "source": "USDA FDC 172941 (SR Legacy: Turkey breast, sliced, prepackaged); serving: FDC portion '1 slice' of same record"
+ },
+ {
+  "name": "Beef liver, pan-fried",
+  "kcal": 175.0,
+  "protein": 26.5,
+  "carbs": 5.2,
+  "fat": 4.7,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 168627 (SR Legacy: Beef, variety meats and by-products, liver, cooked, pan-fried); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Chicken nuggets (frozen, heated)",
+  "kcal": 298.0,
+  "protein": 13.4,
+  "carbs": 17.9,
+  "fat": 19.2,
+  "fiber": 1.8,
+  "sugar": 0.8,
+  "serving_g": 16.0,
+  "serving": {
+   "label": "1 nugget",
+   "grams": 16.0
+  },
+  "source": "USDA FDC 2706096 (FNDDS 2021-2023: Chicken nuggets, from frozen); serving: FDC portion '1 nugget' of same record"
+ },
+ {
+  "name": "Duck, roasted, meat only",
+  "kcal": 201.0,
+  "protein": 23.5,
+  "carbs": 0.0,
+  "fat": 11.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 140.0,
+  "serving": {
+   "label": "1 cup, chopped or diced",
+   "grams": 140.0
+  },
+  "source": "USDA FDC 172411 (SR Legacy: Duck, domesticated, meat only, cooked, roasted); serving: FDC portion '1 cup, chopped or diced' of same record"
+ },
+ {
+  "name": "Salmon, Atlantic farmed, cooked",
+  "kcal": 206.0,
+  "protein": 22.1,
+  "carbs": 0.0,
+  "fat": 12.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 175168 (SR Legacy: Fish, salmon, Atlantic, farmed, cooked, dry heat); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Smoked salmon (lox)",
+  "kcal": 117.0,
+  "protein": 18.3,
+  "carbs": 0.0,
+  "fat": 4.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz, boneless",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 173687 (SR Legacy: Fish, salmon, chinook, smoked); serving: FDC portion '1 oz, boneless' of same record"
+ },
+ {
+  "name": "Tuna, canned in water, drained",
+  "kcal": 86.0,
+  "protein": 19.4,
+  "carbs": 0.0,
+  "fat": 1.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 165.0,
+  "serving": {
+   "label": "1 can",
+   "grams": 165.0
+  },
+  "source": "USDA FDC 173709 (SR Legacy: Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)); serving: FDC portion '1 can' of same record"
+ },
+ {
+  "name": "Tuna, canned in oil, drained",
+  "kcal": 198.0,
+  "protein": 29.1,
+  "carbs": 0.0,
+  "fat": 8.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 171.0,
+  "serving": {
+   "label": "1 can",
+   "grams": 171.0
+  },
+  "source": "USDA FDC 173708 (SR Legacy: Fish, tuna, light, canned in oil, drained solids); serving: FDC portion '1 can' of same record"
+ },
+ {
+  "name": "Cod, Atlantic, cooked (kabeljauw)",
+  "kcal": 105.0,
+  "protein": 22.8,
+  "carbs": 0.0,
+  "fat": 0.9,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 180.0,
+  "serving": {
+   "label": "1 fillet",
+   "grams": 180.0
+  },
+  "source": "USDA FDC 171956 (SR Legacy: Fish, cod, Atlantic, cooked, dry heat); serving: FDC portion '1 fillet' of same record"
+ },
+ {
+  "name": "Tilapia, cooked",
+  "kcal": 128.0,
+  "protein": 26.1,
+  "carbs": 0.0,
+  "fat": 2.6,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 87.0,
+  "serving": {
+   "label": "1 fillet",
+   "grams": 87.0
+  },
+  "source": "USDA FDC 175177 (SR Legacy: Fish, tilapia, cooked, dry heat); serving: FDC portion '1 fillet' of same record"
+ },
+ {
+  "name": "Pollock (Alaska), cooked (koolvis)",
+  "kcal": 111.0,
+  "protein": 23.5,
+  "carbs": 0.0,
+  "fat": 1.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "1 fillet",
+   "grams": 60.0
+  },
+  "source": "USDA FDC 173681 (SR Legacy: Fish, pollock, Alaska, cooked, dry heat (may contain additives to retain moisture)); serving: FDC portion '1 fillet' of same record"
+ },
+ {
+  "name": "Shrimp, cooked (garnalen)",
+  "kcal": 90.0,
+  "protein": 17.2,
+  "carbs": 1.1,
+  "fat": 1.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz (85 g)",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 2706363 (FNDDS 2021-2023: Shrimp, steamed or boiled); serving: FDC portion 'Quantity not specified' of same record"
+ },
+ {
+  "name": "Sardines, canned in oil, drained",
+  "kcal": 208.0,
+  "protein": 24.6,
+  "carbs": 0.0,
+  "fat": 11.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 92.0,
+  "serving": {
+   "label": "1 can (3.75 oz)",
+   "grams": 92.0
+  },
+  "source": "USDA FDC 175139 (SR Legacy: Fish, sardine, Atlantic, canned in oil, drained solids with bone); serving: FDC portion '1 can (3.75 oz)' of same record"
+ },
+ {
+  "name": "Trout, rainbow, farmed, cooked (forel)",
+  "kcal": 168.0,
+  "protein": 23.8,
+  "carbs": 0.0,
+  "fat": 7.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 71.0,
+  "serving": {
+   "label": "1 fillet",
+   "grams": 71.0
+  },
+  "source": "USDA FDC 173718 (SR Legacy: Fish, trout, rainbow, farmed, cooked, dry heat); serving: FDC portion '1 fillet' of same record"
+ },
+ {
+  "name": "Plaice/flounder, cooked (schol)",
+  "kcal": 86.0,
+  "protein": 15.2,
+  "carbs": 0.0,
+  "fat": 2.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 127.0,
+  "serving": {
+   "label": "1 fillet",
+   "grams": 127.0
+  },
+  "source": "USDA FDC 174197 (SR Legacy: Fish, flatfish (flounder and sole species), cooked, dry heat); serving: FDC portion '1 fillet' of same record"
+ },
+ {
+  "name": "Fish sticks, frozen, heated (vissticks)",
+  "kcal": 277.0,
+  "protein": 11.0,
+  "carbs": 21.7,
+  "fat": 16.2,
+  "fiber": 1.5,
+  "sugar": 1.6,
+  "serving_g": 28.0,
+  "serving": {
+   "label": "1 stick (4\" x 1\" x 1/2\")",
+   "grams": 28.0
+  },
+  "source": "USDA FDC 174195 (SR Legacy: Fish, fish sticks, frozen, prepared); serving: FDC portion '1 stick (4\" x 1\" x 1/2\")' of same record"
+ },
+ {
+  "name": "Crab, cooked",
+  "kcal": 83.0,
+  "protein": 17.9,
+  "carbs": 0.0,
+  "fat": 0.7,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "3 oz",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 174205 (SR Legacy: Crustaceans, crab, blue, cooked, moist heat); serving: FDC portion '3 oz' of same record"
+ },
+ {
+  "name": "Calamari, fried",
+  "kcal": 234.0,
+  "protein": 13.8,
+  "carbs": 14.1,
+  "fat": 13.2,
+  "fiber": 0.5,
+  "sugar": 0.2,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 2706334 (FNDDS 2021-2023: Calamari, fried); serving: FDC portion 'Quantity not specified' of same record"
+ },
+ {
+  "name": "Cheddar cheese",
+  "kcal": 409.0,
+  "protein": 23.3,
+  "carbs": 2.4,
+  "fat": 34.0,
+  "fiber": 0.0,
+  "sugar": 0.3,
+  "serving_g": 21.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 21.0
+  },
+  "source": "USDA FDC 2705709 (FNDDS 2021-2023: Cheese, Cheddar); serving: FDC portion '1 slice' of same record"
+ },
+ {
+  "name": "Mozzarella, whole milk",
+  "kcal": 299.0,
+  "protein": 22.2,
+  "carbs": 2.4,
+  "fat": 22.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170845 (SR Legacy: Cheese, mozzarella, whole milk); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Feta cheese",
+  "kcal": 265.0,
+  "protein": 14.2,
+  "carbs": 3.9,
+  "fat": 21.5,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 173420 (SR Legacy: Cheese, feta); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Brie cheese",
+  "kcal": 334.0,
+  "protein": 20.8,
+  "carbs": 0.5,
+  "fat": 27.7,
+  "fiber": 0.0,
+  "sugar": 0.5,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 172177 (SR Legacy: Cheese, brie); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Camembert cheese",
+  "kcal": 300.0,
+  "protein": 19.8,
+  "carbs": 0.5,
+  "fat": 24.3,
+  "fiber": 0.0,
+  "sugar": 0.5,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 172178 (SR Legacy: Cheese, camembert); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Parmesan, grated",
+  "kcal": 420.0,
+  "protein": 28.4,
+  "carbs": 13.9,
+  "fat": 27.8,
+  "fiber": 0.0,
+  "sugar": 0.1,
+  "serving_g": 5.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 5.0
+  },
+  "source": "USDA FDC 171247 (SR Legacy: Cheese, parmesan, grated); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Cream cheese",
+  "kcal": 350.0,
+  "protein": 6.2,
+  "carbs": 5.5,
+  "fat": 34.4,
+  "fiber": 0.0,
+  "sugar": 3.8,
+  "serving_g": 14.5,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 14.5
+  },
+  "source": "USDA FDC 173418 (SR Legacy: Cheese, cream); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Cottage cheese, 4% (hüttenkäse)",
+  "kcal": 98.0,
+  "protein": 11.1,
+  "carbs": 3.4,
+  "fat": 4.3,
+  "fiber": 0.0,
+  "sugar": 2.7,
+  "serving_g": 113.0,
+  "serving": {
+   "label": "4 oz",
+   "grams": 113.0
+  },
+  "source": "USDA FDC 172179 (SR Legacy: Cheese, cottage, creamed, large or small curd); serving: FDC portion '4 oz' of same record"
+ },
+ {
+  "name": "Goat cheese, soft (geitenkaas)",
+  "kcal": 264.0,
+  "protein": 18.5,
+  "carbs": 0.0,
+  "fat": 21.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 173435 (SR Legacy: Cheese, goat, soft type); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Ricotta, whole milk",
+  "kcal": 150.0,
+  "protein": 7.5,
+  "carbs": 7.3,
+  "fat": 10.2,
+  "fiber": 0.0,
+  "sugar": 0.3,
+  "serving_g": 124.0,
+  "serving": {
+   "label": "0.5 cup",
+   "grams": 124.0
+  },
+  "source": "USDA FDC 170851 (SR Legacy: Cheese, ricotta, whole milk); serving: FDC portion '0.5 cup' of same record"
+ },
+ {
+  "name": "Cheese, Swiss (Emmental)",
+  "kcal": 393.0,
+  "protein": 27.0,
+  "carbs": 1.4,
+  "fat": 31.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 171251 (SR Legacy: Cheese, swiss); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Whipping cream, heavy (slagroom, unwhipped)",
+  "kcal": 340.0,
+  "protein": 2.8,
+  "carbs": 2.8,
+  "fat": 36.1,
+  "fiber": 0.0,
+  "sugar": 2.9,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 15.0
+  },
+  "source": "USDA FDC 170859 (SR Legacy: Cream, fluid, heavy whipping); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Sour cream",
+  "kcal": 198.0,
+  "protein": 2.4,
+  "carbs": 4.6,
+  "fat": 19.4,
+  "fiber": 0.0,
+  "sugar": 3.4,
+  "serving_g": 12.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 12.0
+  },
+  "source": "USDA FDC 171257 (SR Legacy: Cream, sour, cultured); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Creme fraiche / half-and-half",
+  "kcal": 131.0,
+  "protein": 3.1,
+  "carbs": 4.3,
+  "fat": 11.5,
+  "fiber": 0.0,
+  "sugar": 4.1,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 15.0
+  },
+  "source": "USDA FDC 171255 (SR Legacy: Cream, fluid, half and half); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Greek yogurt, plain, nonfat",
+  "kcal": 59.0,
+  "protein": 10.2,
+  "carbs": 3.6,
+  "fat": 0.4,
+  "fiber": 0.0,
+  "sugar": 3.2,
+  "serving_g": 170.0,
+  "serving": {
+   "label": "1 container",
+   "grams": 170.0
+  },
+  "source": "USDA FDC 170894 (SR Legacy: Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program)); serving: FDC portion '1 container' of same record"
+ },
+ {
+  "name": "Yogurt, fruit, low fat",
+  "kcal": 102.0,
+  "protein": 4.4,
+  "carbs": 19.1,
+  "fat": 1.1,
+  "fiber": 0.0,
+  "sugar": 19.1,
+  "serving_g": 170.0,
+  "serving": {
+   "label": "1 container (6 oz)",
+   "grams": 170.0
+  },
+  "source": "USDA FDC 171285 (SR Legacy: Yogurt, fruit, low fat, 10 grams protein per 8 ounce); serving: FDC portion '1 container (6 oz)' of same record"
+ },
+ {
+  "name": "Egg, whole, raw",
+  "kcal": 143.0,
+  "protein": 12.6,
+  "carbs": 0.7,
+  "fat": 9.5,
+  "fiber": 0.0,
+  "sugar": 0.4,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 large",
+   "grams": 50.0
+  },
+  "source": "USDA FDC 171287 (SR Legacy: Egg, whole, raw, fresh); serving: FDC portion '1 large' of same record"
+ },
+ {
+  "name": "Egg, scrambled",
+  "kcal": 149.0,
+  "protein": 10.0,
+  "carbs": 1.6,
+  "fat": 11.0,
+  "fiber": 0.0,
+  "sugar": 1.4,
+  "serving_g": 61.0,
+  "serving": {
+   "label": "1 large",
+   "grams": 61.0
+  },
+  "source": "USDA FDC 172187 (SR Legacy: Egg, whole, cooked, scrambled); serving: FDC portion '1 large' of same record"
+ },
+ {
+  "name": "Egg, poached",
+  "kcal": 143.0,
+  "protein": 12.5,
+  "carbs": 0.7,
+  "fat": 9.5,
+  "fiber": 0.0,
+  "sugar": 0.4,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 large",
+   "grams": 50.0
+  },
+  "source": "USDA FDC 172186 (SR Legacy: Egg, whole, cooked, poached); serving: FDC portion '1 large' of same record"
+ },
+ {
+  "name": "Egg white, raw",
+  "kcal": 52.0,
+  "protein": 10.9,
+  "carbs": 0.7,
+  "fat": 0.2,
+  "fiber": 0.0,
+  "sugar": 0.7,
+  "serving_g": 33.0,
+  "serving": {
+   "label": "1 large",
+   "grams": 33.0
+  },
+  "source": "USDA FDC 172183 (SR Legacy: Egg, white, raw, fresh); serving: FDC portion '1 large' of same record"
+ },
+ {
+  "name": "Omelet, plain",
+  "kcal": 154.0,
+  "protein": 10.6,
+  "carbs": 0.6,
+  "fat": 11.7,
+  "fiber": 0.0,
+  "sugar": 0.3,
+  "serving_g": 61.0,
+  "serving": {
+   "label": "1 large",
+   "grams": 61.0
+  },
+  "source": "USDA FDC 172185 (SR Legacy: Egg, whole, cooked, omelet); serving: FDC portion '1 large' of same record"
+ },
+ {
+  "name": "White rice, long-grain, cooked",
+  "kcal": 130.0,
+  "protein": 2.7,
+  "carbs": 28.2,
+  "fat": 0.3,
+  "fiber": 0.4,
+  "sugar": 0.1,
+  "serving_g": 158.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 158.0
+  },
+  "source": "USDA FDC 168878 (SR Legacy: Rice, white, long-grain, regular, enriched, cooked); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Brown rice, long-grain, cooked",
+  "kcal": 123.0,
+  "protein": 2.7,
+  "carbs": 25.6,
+  "fat": 1.0,
+  "fiber": 1.6,
+  "sugar": 0.2,
+  "serving_g": 202.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 202.0
+  },
+  "source": "USDA FDC 169704 (SR Legacy: Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Basmati rice, cooked",
+  "kcal": 130.0,
+  "protein": 2.7,
+  "carbs": 28.2,
+  "fat": 0.3,
+  "fiber": 0.4,
+  "sugar": 0.1,
+  "serving_g": 158.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 158.0
+  },
+  "source": "USDA FDC 169753 (SR Legacy: Rice, white, long-grain, regular, cooked, enriched, with salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Pasta (spaghetti/penne), cooked",
+  "kcal": 158.0,
+  "protein": 5.8,
+  "carbs": 30.9,
+  "fat": 0.9,
+  "fiber": 1.8,
+  "sugar": 0.6,
+  "serving_g": 124.0,
+  "serving": {
+   "label": "1 cup spaghetti not packed",
+   "grams": 124.0
+  },
+  "source": "USDA FDC 169737 (SR Legacy: Pasta, cooked, enriched, without added salt); serving: FDC portion '1 cup spaghetti not packed' of same record"
+ },
+ {
+  "name": "Whole-wheat pasta, cooked",
+  "kcal": 149.0,
+  "protein": 6.0,
+  "carbs": 30.1,
+  "fat": 1.7,
+  "fiber": 3.9,
+  "sugar": 0.8,
+  "serving_g": 117.0,
+  "serving": {
+   "label": "1 cup spaghetti not packed",
+   "grams": 117.0
+  },
+  "source": "USDA FDC 168910 (SR Legacy: Pasta, whole-wheat, cooked (Includes foods for USDA's Food Distribution Program)); serving: FDC portion '1 cup spaghetti not packed' of same record"
+ },
+ {
+  "name": "Pasta, dry (uncooked)",
+  "kcal": 371.0,
+  "protein": 13.0,
+  "carbs": 74.7,
+  "fat": 1.5,
+  "fiber": 3.2,
+  "sugar": 2.7,
+  "serving_g": 57.0,
+  "serving": {
+   "label": "2 oz",
+   "grams": 57.0
+  },
+  "source": "USDA FDC 169736 (SR Legacy: Pasta, dry, enriched); serving: FDC portion '2 oz' of same record"
+ },
+ {
+  "name": "Egg noodles, cooked",
+  "kcal": 138.0,
+  "protein": 4.5,
+  "carbs": 25.2,
+  "fat": 2.1,
+  "fiber": 1.2,
+  "sugar": 0.4,
+  "serving_g": 160.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 160.0
+  },
+  "source": "USDA FDC 169732 (SR Legacy: Noodles, egg, enriched, cooked); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Rice noodles, cooked",
+  "kcal": 108.0,
+  "protein": 1.8,
+  "carbs": 24.0,
+  "fat": 0.2,
+  "fiber": 1.0,
+  "sugar": 0.0,
+  "serving_g": 176.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 176.0
+  },
+  "source": "USDA FDC 168914 (SR Legacy: Rice noodles, cooked); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Couscous, cooked",
+  "kcal": 112.0,
+  "protein": 3.8,
+  "carbs": 23.2,
+  "fat": 0.2,
+  "fiber": 1.4,
+  "sugar": 0.1,
+  "serving_g": 157.0,
+  "serving": {
+   "label": "1 cup, cooked",
+   "grams": 157.0
+  },
+  "source": "USDA FDC 169700 (SR Legacy: Couscous, cooked); serving: FDC portion '1 cup, cooked' of same record"
+ },
+ {
+  "name": "Quinoa, cooked",
+  "kcal": 120.0,
+  "protein": 4.4,
+  "carbs": 21.3,
+  "fat": 1.9,
+  "fiber": 2.8,
+  "sugar": 0.9,
+  "serving_g": 185.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 185.0
+  },
+  "source": "USDA FDC 168917 (SR Legacy: Quinoa, cooked); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Bulgur, cooked",
+  "kcal": 83.0,
+  "protein": 3.1,
+  "carbs": 18.6,
+  "fat": 0.2,
+  "fiber": 4.5,
+  "sugar": 0.1,
+  "serving_g": 182.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 182.0
+  },
+  "source": "USDA FDC 170287 (SR Legacy: Bulgur, cooked); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Oatmeal / porridge made with water (havermoutpap)",
+  "kcal": 71.0,
+  "protein": 2.5,
+  "carbs": 12.0,
+  "fat": 1.5,
+  "fiber": 1.7,
+  "sugar": 0.3,
+  "serving_g": 234.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 234.0
+  },
+  "source": "USDA FDC 173905 (SR Legacy: Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "White rice, uncooked",
+  "kcal": 365.0,
+  "protein": 7.1,
+  "carbs": 80.0,
+  "fat": 0.7,
+  "fiber": 1.3,
+  "sugar": 0.1,
+  "serving_g": 185.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 185.0
+  },
+  "source": "USDA FDC 168877 (SR Legacy: Rice, white, long-grain, regular, raw, enriched); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Bagel, plain",
+  "kcal": 264.0,
+  "protein": 10.6,
+  "carbs": 52.4,
+  "fat": 1.3,
+  "fiber": 1.6,
+  "sugar": 8.4,
+  "serving_g": 99.0,
+  "serving": {
+   "label": "1 bagel",
+   "grams": 99.0
+  },
+  "source": "USDA FDC 174899 (SR Legacy: Bagels, plain, enriched, with calcium propionate (includes onion, poppy, sesame)); serving: FDC portion '1 bagel' of same record"
+ },
+ {
+  "name": "Baguette / French bread (stokbrood)",
+  "kcal": 272.0,
+  "protein": 10.8,
+  "carbs": 51.9,
+  "fat": 2.4,
+  "fiber": 2.2,
+  "sugar": 4.6,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 172675 (SR Legacy: Bread, french or vienna (includes sourdough)); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Pita bread, white",
+  "kcal": 275.0,
+  "protein": 9.1,
+  "carbs": 55.7,
+  "fat": 1.2,
+  "fiber": 2.2,
+  "sugar": 1.3,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "1 pita, large (6-1/2\" dia)",
+   "grams": 60.0
+  },
+  "source": "USDA FDC 174915 (SR Legacy: Bread, pita, white, enriched); serving: FDC portion '1 pita, large (6-1/2\" dia)' of same record"
+ },
+ {
+  "name": "Naan bread",
+  "kcal": 291.0,
+  "protein": 9.6,
+  "carbs": 50.4,
+  "fat": 5.7,
+  "fiber": 2.2,
+  "sugar": 3.5,
+  "serving_g": 90.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 90.0
+  },
+  "source": "USDA FDC 171845 (SR Legacy: Bread, naan, plain, commercially prepared, refrigerated); serving: FDC portion '1 piece' of same record"
+ },
+ {
+  "name": "Ciabatta / Italian bread",
+  "kcal": 259.0,
+  "protein": 9.5,
+  "carbs": 48.1,
+  "fat": 2.7,
+  "fiber": 2.1,
+  "sugar": 4.7,
+  "serving_g": 29.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 29.0
+  },
+  "source": "USDA FDC 174913 (SR Legacy: Bread, Italian); serving: FDC portion '1 slice' of same record"
+ },
+ {
+  "name": "Granola",
+  "kcal": 489.0,
+  "protein": 13.7,
+  "carbs": 53.9,
+  "fat": 24.3,
+  "fiber": 8.9,
+  "sugar": 19.8,
+  "serving_g": 122.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 122.0
+  },
+  "source": "USDA FDC 171646 (SR Legacy: Cereals ready-to-eat, granola, homemade); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Wheat flour, all-purpose (bloem)",
+  "kcal": 364.0,
+  "protein": 10.3,
+  "carbs": 76.3,
+  "fat": 1.0,
+  "fiber": 2.7,
+  "sugar": 0.3,
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 125.0
+  },
+  "source": "USDA FDC 168894 (SR Legacy: Wheat flour, white, all-purpose, enriched, bleached); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Breadcrumbs, dry (paneermeel)",
+  "kcal": 395.0,
+  "protein": 13.3,
+  "carbs": 72.0,
+  "fat": 5.3,
+  "fiber": 4.5,
+  "sugar": 6.2,
+  "serving_g": 108.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 108.0
+  },
+  "source": "USDA FDC 174928 (SR Legacy: Bread, crumbs, dry, grated, plain); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Popcorn, air-popped",
+  "kcal": 387.0,
+  "protein": 12.9,
+  "carbs": 77.8,
+  "fat": 4.5,
+  "fiber": 14.5,
+  "sugar": 0.9,
+  "serving_g": 8.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 8.0
+  },
+  "source": "USDA FDC 167959 (SR Legacy: Snacks, popcorn, air-popped); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Chickpeas, canned, drained (kikkererwten)",
+  "kcal": 146.0,
+  "protein": 8.2,
+  "carbs": 22.4,
+  "fat": 3.2,
+  "fiber": 7.3,
+  "sugar": 4.3,
+  "serving_g": 90.0,
+  "serving": {
+   "label": "1/2 cup",
+   "grams": 90.0
+  },
+  "source": "USDA FDC 2707418 (FNDDS 2021-2023: Chickpeas, from canned, no added fat); serving: FDC portion 'Quantity not specified' of same record"
+ },
+ {
+  "name": "Lentils, boiled (linzen)",
+  "kcal": 116.0,
+  "protein": 9.0,
+  "carbs": 20.1,
+  "fat": 0.4,
+  "fiber": 7.9,
+  "sugar": 1.8,
+  "serving_g": 198.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 198.0
+  },
+  "source": "USDA FDC 172421 (SR Legacy: Lentils, mature seeds, cooked, boiled, without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Kidney beans, red, canned (kidneybonen)",
+  "kcal": 135.0,
+  "protein": 8.7,
+  "carbs": 24.7,
+  "fat": 0.6,
+  "fiber": 8.0,
+  "sugar": 3.1,
+  "serving_g": 90.0,
+  "serving": {
+   "label": "1/2 cup",
+   "grams": 90.0
+  },
+  "source": "USDA FDC 2707383 (FNDDS 2021-2023: Kidney beans, from canned, no added fat); serving: FDC portion 'Quantity not specified' of same record"
+ },
+ {
+  "name": "Black beans, boiled",
+  "kcal": 132.0,
+  "protein": 8.9,
+  "carbs": 23.7,
+  "fat": 0.5,
+  "fiber": 8.7,
+  "sugar": 0.3,
+  "serving_g": 172.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 172.0
+  },
+  "source": "USDA FDC 173735 (SR Legacy: Beans, black, mature seeds, cooked, boiled, without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Baked beans in tomato sauce",
+  "kcal": 94.0,
+  "protein": 4.8,
+  "carbs": 21.1,
+  "fat": 0.4,
+  "fiber": 4.1,
+  "sugar": 8.0,
+  "serving_g": 254.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 254.0
+  },
+  "source": "USDA FDC 175182 (SR Legacy: Beans, baked, canned, plain or vegetarian); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "White beans, boiled (witte bonen)",
+  "kcal": 139.0,
+  "protein": 9.7,
+  "carbs": 25.1,
+  "fat": 0.3,
+  "fiber": 6.3,
+  "sugar": 0.3,
+  "serving_g": 179.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 179.0
+  },
+  "source": "USDA FDC 175203 (SR Legacy: Beans, white, mature seeds, cooked, boiled, without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Split peas, boiled (spliterwten)",
+  "kcal": 118.0,
+  "protein": 8.3,
+  "carbs": 21.1,
+  "fat": 0.4,
+  "fiber": 8.3,
+  "sugar": 2.9,
+  "serving_g": 196.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 196.0
+  },
+  "source": "USDA FDC 172429 (SR Legacy: Peas, split, mature seeds, cooked, boiled, without salt); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Tofu, firm",
+  "kcal": 78.0,
+  "protein": 9.0,
+  "carbs": 2.9,
+  "fat": 4.2,
+  "fiber": 0.9,
+  "sugar": 0.6,
+  "serving_g": 81.0,
+  "serving": {
+   "label": "0.25 block",
+   "grams": 81.0
+  },
+  "source": "USDA FDC 172448 (SR Legacy: Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)); serving: FDC portion '0.25 block' of same record"
+ },
+ {
+  "name": "Hummus",
+  "kcal": 237.0,
+  "protein": 7.8,
+  "carbs": 15.0,
+  "fat": 17.8,
+  "fiber": 5.5,
+  "sugar": 0.6,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 15.0
+  },
+  "source": "USDA FDC 174289 (SR Legacy: Hummus, commercial); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Edamame, frozen, prepared",
+  "kcal": 121.0,
+  "protein": 11.9,
+  "carbs": 8.9,
+  "fat": 5.2,
+  "fiber": 5.2,
+  "sugar": 2.2,
+  "serving_g": 155.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 155.0
+  },
+  "source": "USDA FDC 168411 (SR Legacy: Edamame, frozen, prepared); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Falafel",
+  "kcal": 514.0,
+  "protein": 8.3,
+  "carbs": 29.0,
+  "fat": 41.2,
+  "fiber": 4.8,
+  "sugar": 4.5,
+  "serving_g": 17.0,
+  "serving": {
+   "label": "1 patty",
+   "grams": 17.0
+  },
+  "source": "USDA FDC 2707408 (FNDDS 2021-2023: Falafel); serving: FDC portion '1 patty' of same record"
+ },
+ {
+  "name": "Almonds",
+  "kcal": 579.0,
+  "protein": 21.1,
+  "carbs": 21.6,
+  "fat": 49.9,
+  "fiber": 12.5,
+  "sugar": 4.3,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (23 whole kernels)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170567 (SR Legacy: Nuts, almonds); serving: FDC portion '1 oz (23 whole kernels)' of same record"
+ },
+ {
+  "name": "Walnuts",
+  "kcal": 654.0,
+  "protein": 15.2,
+  "carbs": 13.7,
+  "fat": 65.2,
+  "fiber": 6.7,
+  "sugar": 2.6,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (14 halves)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170187 (SR Legacy: Nuts, walnuts, english); serving: FDC portion '1 oz (14 halves)' of same record"
+ },
+ {
+  "name": "Cashews, dry-roasted, unsalted",
+  "kcal": 574.0,
+  "protein": 15.3,
+  "carbs": 32.7,
+  "fat": 46.4,
+  "fiber": 3.0,
+  "sugar": 5.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170571 (SR Legacy: Nuts, cashew nuts, dry roasted, without salt added); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Peanuts, dry-roasted, unsalted",
+  "kcal": 587.0,
+  "protein": 24.4,
+  "carbs": 21.3,
+  "fat": 49.7,
+  "fiber": 8.4,
+  "sugar": 4.9,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 173806 (SR Legacy: Peanuts, all types, dry-roasted, without salt); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Peanuts, salted, oil-roasted (borrelnootjes-style)",
+  "kcal": 599.0,
+  "protein": 28.0,
+  "carbs": 15.3,
+  "fat": 52.5,
+  "fiber": 9.4,
+  "sugar": 4.2,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz shelled (32 nuts)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 174261 (SR Legacy: Peanuts, all types, oil-roasted, with salt); serving: FDC portion '1 oz shelled (32 nuts)' of same record"
+ },
+ {
+  "name": "Hazelnuts",
+  "kcal": 628.0,
+  "protein": 14.9,
+  "carbs": 16.7,
+  "fat": 60.8,
+  "fiber": 9.7,
+  "sugar": 4.3,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (21 whole kernels)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170581 (SR Legacy: Nuts, hazelnuts or filberts); serving: FDC portion '1 oz (21 whole kernels)' of same record"
+ },
+ {
+  "name": "Pistachios, dry-roasted, unsalted",
+  "kcal": 572.0,
+  "protein": 21.1,
+  "carbs": 28.3,
+  "fat": 45.8,
+  "fiber": 10.3,
+  "sugar": 7.7,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (49 kernels)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170185 (SR Legacy: Nuts, pistachio nuts, dry roasted, without salt added); serving: FDC portion '1 oz (49 kernels)' of same record"
+ },
+ {
+  "name": "Macadamia nuts",
+  "kcal": 718.0,
+  "protein": 7.9,
+  "carbs": 13.8,
+  "fat": 75.8,
+  "fiber": 8.6,
+  "sugar": 4.6,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (10-12 kernels)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170178 (SR Legacy: Nuts, macadamia nuts, raw); serving: FDC portion '1 oz (10-12 kernels)' of same record"
+ },
+ {
+  "name": "Pecans",
+  "kcal": 691.0,
+  "protein": 9.2,
+  "carbs": 13.9,
+  "fat": 72.0,
+  "fiber": 9.6,
+  "sugar": 4.0,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (19 halves)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170182 (SR Legacy: Nuts, pecans); serving: FDC portion '1 oz (19 halves)' of same record"
+ },
+ {
+  "name": "Brazil nuts",
+  "kcal": 659.0,
+  "protein": 14.3,
+  "carbs": 11.7,
+  "fat": 67.1,
+  "fiber": 7.5,
+  "sugar": 2.3,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz (6 kernels)",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170569 (SR Legacy: Nuts, brazilnuts, dried, unblanched); serving: FDC portion '1 oz (6 kernels)' of same record"
+ },
+ {
+  "name": "Mixed nuts, dry-roasted, with peanuts, salted",
+  "kcal": 594.0,
+  "protein": 17.3,
+  "carbs": 25.4,
+  "fat": 51.5,
+  "fiber": 9.0,
+  "sugar": 4.8,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 168599 (SR Legacy: Nuts, mixed nuts, dry roasted, with peanuts, with salt added); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Sunflower seeds, unsalted",
+  "kcal": 582.0,
+  "protein": 19.3,
+  "carbs": 24.1,
+  "fat": 49.8,
+  "fiber": 11.1,
+  "sugar": 2.7,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz, without shell",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 2707582 (FNDDS 2021-2023: Sunflower seeds, plain, unsalted); serving: FDC portion '1 oz, without shell' of same record"
+ },
+ {
+  "name": "Pumpkin seeds, dried",
+  "kcal": 559.0,
+  "protein": 30.2,
+  "carbs": 10.7,
+  "fat": 49.0,
+  "fiber": 6.0,
+  "sugar": 1.4,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 170556 (SR Legacy: Seeds, pumpkin and squash seed kernels, dried); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Chia seeds",
+  "kcal": 486.0,
+  "protein": 16.5,
+  "carbs": 42.1,
+  "fat": 30.7,
+  "fiber": 34.4,
+  "sugar": 1.6,
+  "serving_g": 9.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 9.0
+  },
+  "source": "USDA FDC 2707590 (FNDDS 2021-2023: Chia seeds); serving: FDC portion 'Quantity not specified' of same record"
+ },
+ {
+  "name": "Flaxseed (lijnzaad)",
+  "kcal": 534.0,
+  "protein": 18.3,
+  "carbs": 28.9,
+  "fat": 42.2,
+  "fiber": 27.3,
+  "sugar": 1.6,
+  "serving_g": 10.3,
+  "serving": {
+   "label": "1 tbsp, whole",
+   "grams": 10.3
+  },
+  "source": "USDA FDC 169414 (SR Legacy: Seeds, flaxseed); serving: FDC portion '1 tbsp, whole' of same record"
+ },
+ {
+  "name": "Sesame seeds",
+  "kcal": 573.0,
+  "protein": 17.7,
+  "carbs": 23.4,
+  "fat": 49.7,
+  "fiber": 11.8,
+  "sugar": 0.3,
+  "serving_g": 9.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 9.0
+  },
+  "source": "USDA FDC 170150 (SR Legacy: Seeds, sesame seeds, whole, dried); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Almond butter",
+  "kcal": 614.0,
+  "protein": 21.0,
+  "carbs": 18.8,
+  "fat": 55.5,
+  "fiber": 10.3,
+  "sugar": 4.4,
+  "serving_g": 16.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 16.0
+  },
+  "source": "USDA FDC 168588 (SR Legacy: Nuts, almond butter, plain, without salt added); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Coffee, black, brewed (koffie)",
+  "kcal": 1.0,
+  "protein": 0.1,
+  "carbs": 0.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 cup (125 ml)",
+   "grams": 125.0
+  },
+  "source": "USDA FDC 171890 (SR Legacy: Beverages, coffee, brewed, prepared with tap water); per 100 ml using density 1.002 g/ml from FDC portion '1 cup (8 fl oz)' of 'Beverages, coffee, brewed, prepared with tap water'; serving: standard household portion"
+ },
+ {
+  "name": "Espresso",
+  "kcal": 9.0,
+  "protein": 0.1,
+  "carbs": 1.7,
+  "fat": 0.2,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 espresso (30 ml)",
+   "grams": 30.0
+  },
+  "source": "USDA FDC 171891 (SR Legacy: Beverages, coffee, brewed, espresso, restaurant-prepared); per 100 ml using density 1.001 g/ml from FDC portion '1 fl oz' of 'Beverages, coffee, brewed, espresso, restaurant-prepared'; serving: standard household portion"
+ },
+ {
+  "name": "Cappuccino",
+  "kcal": 27.4,
+  "protein": 1.7,
+  "carbs": 2.8,
+  "fat": 1.0,
+  "fiber": 0.0,
+  "sugar": 2.5,
+  "unit": "ml",
+  "serving_g": 150.0,
+  "serving": {
+   "label": "1 cup (150 ml)",
+   "grams": 150.0
+  },
+  "source": "USDA FDC 2710472 (FNDDS 2021-2023: Coffee, Cappuccino); per 100 ml using density 1.014 g/ml from FDC portion '1 cup (8 fl oz)' of 'Coffee, Cappuccino'; serving: standard household portion"
+ },
+ {
+  "name": "Latte (koffie verkeerd)",
+  "kcal": 43.6,
+  "protein": 2.9,
+  "carbs": 4.4,
+  "fat": 1.6,
+  "fiber": 0.0,
+  "sugar": 4.1,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2710386 (FNDDS 2021-2023: Coffee, Latte); per 100 ml using density 1.014 g/ml from FDC portion '1 cup (8 fl oz)' of 'Coffee, Latte'; serving: standard household portion"
+ },
+ {
+  "name": "Tea, black, brewed, unsweetened (thee)",
+  "kcal": 1.0,
+  "protein": 0.0,
+  "carbs": 0.3,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 cup (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 173227 (SR Legacy: Beverages, tea, black, brewed, prepared with tap water); per 100 ml using density 1.002 g/ml from FDC portion '1 cup (8 fl oz)' of 'Beverages, tea, black, brewed, prepared with tap water'; serving: standard household portion"
+ },
+ {
+  "name": "Green tea, brewed",
+  "kcal": 1.0,
+  "protein": 0.2,
+  "carbs": 0.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 cup (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 171917 (SR Legacy: Beverages, tea, green, brewed, regular); per 100 ml using density 1.036 g/ml from FDC portion '1 cup' of 'Beverages, tea, green, brewed, regular'; serving: standard household portion"
+ },
+ {
+  "name": "Herbal tea, brewed",
+  "kcal": 1.0,
+  "protein": 0.0,
+  "carbs": 0.2,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 cup (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 173232 (SR Legacy: Beverages, tea, herb, other than chamomile, brewed); per 100 ml using density 1.002 g/ml from FDC portion '1 cup (8 fl oz)' of 'Beverages, tea, herb, other than chamomile, brewed'; serving: standard household portion"
+ },
+ {
+  "name": "Cola, regular",
+  "kcal": 43.6,
+  "protein": 0.0,
+  "carbs": 10.8,
+  "fat": 0.3,
+  "fiber": 0.0,
+  "sugar": 10.3,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 can (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 174852 (SR Legacy: Beverages, carbonated, cola, regular); per 100 ml using density 1.038 g/ml from FDC portion '1 fl oz' of 'Beverages, carbonated, cola, regular'; serving: standard household portion"
+ },
+ {
+  "name": "Cola, diet / zero",
+  "kcal": 2.0,
+  "protein": 0.1,
+  "carbs": 0.3,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 can (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 175099 (SR Legacy: Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, contains caffeine); per 100 ml using density 1.001 g/ml from FDC portion '1 fl oz' of 'Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, contains caffeine'; serving: standard household portion"
+ },
+ {
+  "name": "Lemon-lime soda (7Up/Sprite)",
+  "kcal": 42.7,
+  "protein": 0.1,
+  "carbs": 10.9,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 10.8,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 can (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 173205 (SR Legacy: Beverages, carbonated, lemon-lime soda, no caffeine); per 100 ml using density 1.041 g/ml from FDC portion '1 fl oz' of 'Beverages, carbonated, lemon-lime soda, no caffeine'; serving: standard household portion"
+ },
+ {
+  "name": "Orange soda (Fanta-style)",
+  "kcal": 41.9,
+  "protein": 0.1,
+  "carbs": 10.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 9.4,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 can (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 2710551 (FNDDS 2021-2023: Soft drink, fruit flavored, caffeine free); per 100 ml using density 1.048 g/ml from FDC portion '1 fl oz (NFS)' of 'Soft drink, fruit flavored, caffeine free'; serving: standard household portion"
+ },
+ {
+  "name": "Tonic water",
+  "kcal": 35.1,
+  "protein": 0.0,
+  "carbs": 9.1,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 9.1,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 bottle (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 171869 (SR Legacy: Beverages, carbonated, tonic water); per 100 ml using density 1.031 g/ml from FDC portion '1 fl oz' of 'Beverages, carbonated, tonic water'; serving: standard household portion"
+ },
+ {
+  "name": "Sparkling water (spa rood)",
+  "kcal": 0.0,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 174842 (SR Legacy: Beverages, carbonated, club soda); per 100 ml using density 1.001 g/ml from FDC portion '1 fl oz' of 'Beverages, carbonated, club soda'; serving: standard household portion"
+ },
+ {
+  "name": "Water, tap",
+  "kcal": 0.0,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 173647 (SR Legacy: Beverages, water, tap, drinking); per 100 ml using density 1.001 g/ml from FDC portion '1 fl oz' of 'Beverages, water, tap, drinking'; serving: standard household portion"
+ },
+ {
+  "name": "Energy drink (Red Bull)",
+  "kcal": 44.7,
+  "protein": 0.5,
+  "carbs": 10.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 10.6,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 can (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 173210 (SR Legacy: Beverages, Energy drink, RED BULL); per 100 ml using density 1.039 g/ml from FDC portion '1 can 8.4 fl oz' of 'Beverages, Energy drink, RED BULL'; serving: standard household portion"
+ },
+ {
+  "name": "Energy drink, sugar-free",
+  "kcal": 5.1,
+  "protein": 0.3,
+  "carbs": 0.7,
+  "fat": 0.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 can (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 171870 (SR Legacy: Beverages, Energy drink, RED BULL, sugar free, with added caffeine, niacin, pantothenic acid, vitamins B6 and B12); per 100 ml using density 1.018 g/ml from FDC portion '1 serving 8.3 fl oz can' of 'Beverages, Energy drink, RED BULL, sugar free, with added caffeine, niacin, pantothenic acid, vitamins B6 and B12'; serving: standard household portion"
+ },
+ {
+  "name": "Sports drink (isotonic)",
+  "kcal": 27.3,
+  "protein": 0.0,
+  "carbs": 6.7,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 5.5,
+  "unit": "ml",
+  "serving_g": 500.0,
+  "serving": {
+   "label": "1 bottle (500 ml)",
+   "grams": 500.0
+  },
+  "source": "USDA FDC 2710771 (FNDDS 2021-2023: Sports drink, NFS); per 100 ml using density 1.048 g/ml from FDC portion '1 cup' of 'Sports drink, NFS'; serving: standard household portion"
+ },
+ {
+  "name": "Iced tea, sweetened (ice tea)",
+  "kcal": 31.4,
+  "protein": 0.0,
+  "carbs": 7.7,
+  "fat": 0.1,
+  "fiber": 0.1,
+  "sugar": 7.4,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2710494 (FNDDS 2021-2023: Tea, iced, instant, black, pre-sweetened with sugar); per 100 ml using density 1.048 g/ml from FDC portion '1 fl oz (no ice)' of 'Tea, iced, instant, black, pre-sweetened with sugar'; serving: standard household portion"
+ },
+ {
+  "name": "Orange juice (sinaasappelsap)",
+  "kcal": 51.6,
+  "protein": 0.7,
+  "carbs": 12.1,
+  "fat": 0.1,
+  "fiber": 0.3,
+  "sugar": 8.7,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 glass (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 169100 (SR Legacy: Orange juice, chilled, includes from concentrate); per 100 ml using density 1.052 g/ml from FDC portion '1 cup' of 'Orange juice, chilled, includes from concentrate'; serving: standard household portion"
+ },
+ {
+  "name": "Orange juice, freshly squeezed",
+  "kcal": 47.2,
+  "protein": 0.7,
+  "carbs": 10.9,
+  "fat": 0.2,
+  "fiber": 0.2,
+  "sugar": 8.8,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 glass (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 169098 (SR Legacy: Orange juice, raw (Includes foods for USDA's Food Distribution Program)); per 100 ml using density 1.048 g/ml from FDC portion '1 cup' of 'Orange juice, raw (Includes foods for USDA's Food Distribution Program)'; serving: standard household portion"
+ },
+ {
+  "name": "Apple juice (appelsap)",
+  "kcal": 48.2,
+  "protein": 0.1,
+  "carbs": 11.8,
+  "fat": 0.1,
+  "fiber": 0.2,
+  "sugar": 10.1,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 glass (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 173933 (SR Legacy: Apple juice, canned or bottled, unsweetened, without added ascorbic acid); per 100 ml using density 1.048 g/ml from FDC portion '1 cup' of 'Apple juice, canned or bottled, unsweetened, without added ascorbic acid'; serving: standard household portion"
+ },
+ {
+  "name": "Grapefruit juice",
+  "kcal": 40.2,
+  "protein": 0.6,
+  "carbs": 8.2,
+  "fat": 0.7,
+  "fiber": 0.7,
+  "sugar": 8.4,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 glass (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 174678 (SR Legacy: Grapefruit juice, white, canned or bottled, unsweetened); per 100 ml using density 1.086 g/ml from FDC portion '1 cup' of 'Grapefruit juice, white, canned or bottled, unsweetened'; serving: standard household portion"
+ },
+ {
+  "name": "Tomato juice",
+  "kcal": 17.5,
+  "protein": 0.9,
+  "carbs": 3.6,
+  "fat": 0.3,
+  "fiber": 0.4,
+  "sugar": 2.6,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 glass (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 170458 (SR Legacy: Tomato juice, canned, with salt added); per 100 ml using density 1.027 g/ml from FDC portion '1 cup' of 'Tomato juice, canned, with salt added'; serving: standard household portion"
+ },
+ {
+  "name": "Cranberry juice cocktail",
+  "kcal": 57.7,
+  "protein": 0.0,
+  "carbs": 14.5,
+  "fat": 0.1,
+  "fiber": 0.0,
+  "sugar": 12.7,
+  "unit": "ml",
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 glass (200 ml)",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 171903 (SR Legacy: Cranberry juice cocktail, bottled); per 100 ml using density 1.069 g/ml from FDC portion '1 cup (8 fl oz)' of 'Cranberry juice cocktail, bottled'; serving: standard household portion"
+ },
+ {
+  "name": "Multi-fruit smoothie",
+  "kcal": 60.3,
+  "protein": 2.1,
+  "carbs": 11.0,
+  "fat": 1.0,
+  "fiber": 1.0,
+  "sugar": 8.1,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 bottle (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2705514 (FNDDS 2021-2023: Fruit smoothie, with whole fruit and dairy); per 100 ml using density 0.913 g/ml from FDC portion '1 cup' of 'Fruit smoothie, with whole fruit and dairy'; serving: standard household portion"
+ },
+ {
+  "name": "Lemonade",
+  "kcal": 41.8,
+  "protein": 0.1,
+  "carbs": 10.9,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 10.4,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 173217 (SR Legacy: Lemonade, frozen concentrate, white, prepared with water); per 100 ml using density 1.045 g/ml from FDC portion '1 fl oz' of 'Lemonade, frozen concentrate, white, prepared with water'; serving: standard household portion"
+ },
+ {
+  "name": "Hot chocolate, made with milk (warme chocolademelk)",
+  "kcal": 95.4,
+  "protein": 2.9,
+  "carbs": 17.3,
+  "fat": 1.6,
+  "fiber": 0.0,
+  "sugar": 15.9,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 mug (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2705473 (FNDDS 2021-2023: Hot chocolate / cocoa, made with whole or reduced fat (2%) milk); per 100 ml using density 1.048 g/ml from FDC portion '1 cup' of 'Hot chocolate / cocoa, made with whole or reduced fat (2%) milk'; serving: standard household portion"
+ },
+ {
+  "name": "Soy drink, unsweetened (sojadrank)",
+  "kcal": 33.9,
+  "protein": 2.9,
+  "carbs": 1.8,
+  "fat": 1.7,
+  "fiber": 0.5,
+  "sugar": 0.4,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 175215 (SR Legacy: Soymilk (all flavors), unsweetened, with added calcium, vitamins A and D); per 100 ml using density 1.027 g/ml from FDC portion '1 cup' of 'Soymilk (all flavors), unsweetened, with added calcium, vitamins A and D'; serving: standard household portion"
+ },
+ {
+  "name": "Oat drink (haverdrank)",
+  "kcal": 46.4,
+  "protein": 0.7,
+  "carbs": 5.5,
+  "fat": 2.4,
+  "fiber": 0.5,
+  "sugar": 2.1,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2705412 (FNDDS 2021-2023: Oat milk); per 100 ml using density 1.031 g/ml from FDC portion '1 cup' of 'Oat milk'; serving: standard household portion"
+ },
+ {
+  "name": "Almond drink, unsweetened (amandeldrank)",
+  "kcal": 15.5,
+  "protein": 0.6,
+  "carbs": 0.4,
+  "fat": 1.3,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2705409 (FNDDS 2021-2023: Almond milk, unsweetened); per 100 ml using density 1.031 g/ml from FDC portion '1 cup' of 'Almond milk, unsweetened'; serving: standard household portion"
+ },
+ {
+  "name": "Rice drink, unsweetened",
+  "kcal": 47.7,
+  "protein": 0.3,
+  "carbs": 9.3,
+  "fat": 1.0,
+  "fiber": 0.3,
+  "sugar": 5.4,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 171942 (SR Legacy: Beverages, rice milk, unsweetened); per 100 ml using density 1.014 g/ml from FDC portion '8 fl oz (approximate weight, 1 serving)' of 'Beverages, rice milk, unsweetened'; serving: standard household portion"
+ },
+ {
+  "name": "Goat milk",
+  "kcal": 71.2,
+  "protein": 3.7,
+  "carbs": 4.6,
+  "fat": 4.3,
+  "fiber": 0.0,
+  "sugar": 4.6,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2705395 (FNDDS 2021-2023: Goat milk); per 100 ml using density 1.031 g/ml from FDC portion '1 cup' of 'Goat milk'; serving: standard household portion"
+ },
+ {
+  "name": "Beer, regular (lager)",
+  "kcal": 43.2,
+  "protein": 0.5,
+  "carbs": 3.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 bottle (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 168746 (SR Legacy: Alcoholic beverage, beer, regular, all); per 100 ml using density 1.004 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, beer, regular, all'; serving: standard household portion"
+ },
+ {
+  "name": "Beer, light",
+  "kcal": 28.9,
+  "protein": 0.2,
+  "carbs": 1.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.1,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 bottle (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 168749 (SR Legacy: Alcoholic beverage, beer, light); per 100 ml using density 0.998 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, beer, light'; serving: standard household portion"
+ },
+ {
+  "name": "Wine, red (rode wijn)",
+  "kcal": 84.5,
+  "protein": 0.1,
+  "carbs": 2.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.6,
+  "unit": "ml",
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 glass (125 ml)",
+   "grams": 125.0
+  },
+  "source": "USDA FDC 173190 (SR Legacy: Alcoholic beverage, wine, table, red); per 100 ml using density 0.994 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, wine, table, red'; serving: standard household portion"
+ },
+ {
+  "name": "Wine, white (witte wijn)",
+  "kcal": 81.5,
+  "protein": 0.1,
+  "carbs": 2.6,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 1.0,
+  "unit": "ml",
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 glass (125 ml)",
+   "grams": 125.0
+  },
+  "source": "USDA FDC 174837 (SR Legacy: Alcoholic beverage, wine, table, white); per 100 ml using density 0.994 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, wine, table, white'; serving: standard household portion"
+ },
+ {
+  "name": "Wine, rosé",
+  "kcal": 85.0,
+  "protein": 0.4,
+  "carbs": 3.9,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 3.9,
+  "unit": "ml",
+  "serving_g": 125.0,
+  "serving": {
+   "label": "1 glass (125 ml)",
+   "grams": 125.0
+  },
+  "source": "USDA FDC 171908 (SR Legacy: Alcoholic beverages, wine, rose); per 100 ml using density 1.025 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverages, wine, rose'; serving: standard household portion"
+ },
+ {
+  "name": "Sparkling wine / champagne",
+  "kcal": 76.1,
+  "protein": 0.1,
+  "carbs": 2.3,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 1.0,
+  "unit": "ml",
+  "serving_g": 100.0,
+  "serving": {
+   "label": "1 glass (100 ml)",
+   "grams": 100.0
+  },
+  "source": "USDA FDC 2710687 (FNDDS 2021-2023: Wine, sparkling); per 100 ml using density 1.014 g/ml from FDC portion '1 fl oz' of 'Wine, sparkling'; serving: standard household portion"
+ },
+ {
+  "name": "Wine, dessert/port",
+  "kcal": 159.6,
+  "protein": 0.2,
+  "carbs": 13.7,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 7.8,
+  "unit": "ml",
+  "serving_g": 75.0,
+  "serving": {
+   "label": "1 glass (75 ml)",
+   "grams": 75.0
+  },
+  "source": "USDA FDC 173176 (SR Legacy: Alcoholic beverage, wine, dessert, sweet); per 100 ml using density 0.998 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, wine, dessert, sweet'; serving: standard household portion"
+ },
+ {
+  "name": "Spirits 40% (vodka, gin, rum, whisky)",
+  "kcal": 217.1,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "unit": "ml",
+  "serving_g": 35.0,
+  "serving": {
+   "label": "1 shot (35 ml)",
+   "grams": 35.0
+  },
+  "source": "USDA FDC 174815 (SR Legacy: Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof); per 100 ml using density 0.940 g/ml from FDC portion '1 fl oz' of 'Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof'; serving: standard household portion"
+ },
+ {
+  "name": "Cider",
+  "kcal": 56.8,
+  "protein": 0.0,
+  "carbs": 6.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 6.0,
+  "unit": "ml",
+  "serving_g": 330.0,
+  "serving": {
+   "label": "1 bottle (330 ml)",
+   "grams": 330.0
+  },
+  "source": "USDA FDC 2710621 (FNDDS 2021-2023: Hard cider); per 100 ml using density 1.014 g/ml from FDC portion '1 fl oz' of 'Hard cider'; serving: standard household portion"
+ },
+ {
+  "name": "Kefir, low fat, plain",
+  "kcal": 44.2,
+  "protein": 3.9,
+  "carbs": 4.9,
+  "fat": 1.0,
+  "fiber": 0.0,
+  "sugar": 4.7,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 170904 (SR Legacy: Kefir, lowfat, plain, LIFEWAY); per 100 ml using density 1.027 g/ml from FDC portion '1 cup' of 'Kefir, lowfat, plain, LIFEWAY'; serving: standard household portion"
+ },
+ {
+  "name": "Olive oil",
+  "kcal": 884.0,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 100.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 13.5,
+  "serving": {
+   "label": "1 tablespoon",
+   "grams": 13.5
+  },
+  "source": "USDA FDC 171413 (SR Legacy: Oil, olive, salad or cooking); serving: FDC portion '1 tablespoon' of same record"
+ },
+ {
+  "name": "Sunflower oil",
+  "kcal": 884.0,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 100.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 13.6,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 13.6
+  },
+  "source": "USDA FDC 171025 (SR Legacy: Oil, sunflower, linoleic, (approx. 65%)); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Rapeseed/canola oil",
+  "kcal": 884.0,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 100.0,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 14.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 14.0
+  },
+  "source": "USDA FDC 172336 (SR Legacy: Oil, canola); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Coconut oil",
+  "kcal": 892.0,
+  "protein": 0.0,
+  "carbs": 0.0,
+  "fat": 99.1,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 13.6,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 13.6
+  },
+  "source": "USDA FDC 171412 (SR Legacy: Oil, coconut); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Ketchup",
+  "kcal": 101.0,
+  "protein": 1.0,
+  "carbs": 27.4,
+  "fat": 0.1,
+  "fiber": 0.3,
+  "sugar": 21.3,
+  "serving_g": 17.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 17.0
+  },
+  "source": "USDA FDC 168556 (SR Legacy: Catsup); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Mustard, yellow",
+  "kcal": 60.0,
+  "protein": 3.7,
+  "carbs": 5.8,
+  "fat": 3.3,
+  "fiber": 4.0,
+  "sugar": 0.9,
+  "serving_g": 5.0,
+  "serving": {
+   "label": "1 tsp or 1 packet",
+   "grams": 5.0
+  },
+  "source": "USDA FDC 172234 (SR Legacy: Mustard, prepared, yellow); serving: FDC portion '1 tsp or 1 packet' of same record"
+ },
+ {
+  "name": "Honey",
+  "kcal": 304.0,
+  "protein": 0.3,
+  "carbs": 82.4,
+  "fat": 0.0,
+  "fiber": 0.2,
+  "sugar": 82.1,
+  "serving_g": 21.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 21.0
+  },
+  "source": "USDA FDC 169640 (SR Legacy: Honey); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Sugar, white",
+  "kcal": 387.0,
+  "protein": 0.0,
+  "carbs": 100.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 99.8,
+  "serving_g": 4.2,
+  "serving": {
+   "label": "1 tsp",
+   "grams": 4.2
+  },
+  "source": "USDA FDC 169655 (SR Legacy: Sugars, granulated); serving: FDC portion '1 tsp' of same record"
+ },
+ {
+  "name": "Brown sugar",
+  "kcal": 380.0,
+  "protein": 0.1,
+  "carbs": 98.1,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 97.0,
+  "serving_g": 3.0,
+  "serving": {
+   "label": "1 tsp unpacked",
+   "grams": 3.0
+  },
+  "source": "USDA FDC 168833 (SR Legacy: Sugars, brown); serving: FDC portion '1 tsp unpacked' of same record"
+ },
+ {
+  "name": "Jam (jam/confiture)",
+  "kcal": 278.0,
+  "protein": 0.4,
+  "carbs": 68.9,
+  "fat": 0.1,
+  "fiber": 1.1,
+  "sugar": 48.5,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 20.0
+  },
+  "source": "USDA FDC 169641 (SR Legacy: Jams and preserves); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Maple syrup",
+  "kcal": 260.0,
+  "protein": 0.0,
+  "carbs": 67.0,
+  "fat": 0.1,
+  "fiber": 0.0,
+  "sugar": 60.5,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 20.0
+  },
+  "source": "USDA FDC 169661 (SR Legacy: Syrups, maple); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Soy sauce",
+  "kcal": 53.0,
+  "protein": 8.1,
+  "carbs": 4.9,
+  "fat": 0.6,
+  "fiber": 0.8,
+  "sugar": 0.4,
+  "serving_g": 16.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 16.0
+  },
+  "source": "USDA FDC 174277 (SR Legacy: Soy sauce made from soy and wheat (shoyu)); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Barbecue sauce",
+  "kcal": 172.0,
+  "protein": 0.8,
+  "carbs": 40.8,
+  "fat": 0.6,
+  "fiber": 0.9,
+  "sugar": 33.2,
+  "serving_g": 17.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 17.0
+  },
+  "source": "USDA FDC 174523 (SR Legacy: Sauce, barbecue); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Pesto",
+  "kcal": 418.0,
+  "protein": 9.8,
+  "carbs": 10.1,
+  "fat": 37.6,
+  "fiber": 1.8,
+  "sugar": 6.3,
+  "serving_g": 63.0,
+  "serving": {
+   "label": "0.25 cup",
+   "grams": 63.0
+  },
+  "source": "USDA FDC 171579 (SR Legacy: Sauce, pesto, ready-to-serve, refrigerated); serving: FDC portion '0.25 cup' of same record"
+ },
+ {
+  "name": "Tomato pasta sauce (marinara)",
+  "kcal": 50.0,
+  "protein": 1.4,
+  "carbs": 7.4,
+  "fat": 1.6,
+  "fiber": 1.8,
+  "sugar": 4.9,
+  "serving_g": 132.0,
+  "serving": {
+   "label": "1 serving 1/2 cup",
+   "grams": 132.0
+  },
+  "source": "USDA FDC 171192 (SR Legacy: Sauce, pasta, spaghetti/marinara, ready-to-serve); serving: FDC portion '1 serving 1/2 cup' of same record"
+ },
+ {
+  "name": "Gravy, beef (jus)",
+  "kcal": 53.0,
+  "protein": 3.8,
+  "carbs": 4.8,
+  "fat": 2.4,
+  "fiber": 0.4,
+  "sugar": 0.2,
+  "serving_g": 58.2,
+  "serving": {
+   "label": "1/4 cup",
+   "grams": 58.2
+  },
+  "source": "USDA FDC 171564 (SR Legacy: Gravy, beef, canned, ready-to-serve); serving: FDC 171564 portion '1 cup' x0.25"
+ },
+ {
+  "name": "Salad dressing, vinaigrette",
+  "kcal": 240.0,
+  "protein": 0.4,
+  "carbs": 12.1,
+  "fat": 21.1,
+  "fiber": 0.0,
+  "sugar": 10.8,
+  "serving_g": 14.7,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 14.7
+  },
+  "source": "USDA FDC 171019 (SR Legacy: Salad dressing, italian dressing, commercial, regular); serving: FDC portion '1 tbsp' of same record"
+ },
+ {
+  "name": "Tzatziki / garlic sauce",
+  "kcal": 91.0,
+  "protein": 5.2,
+  "carbs": 4.1,
+  "fat": 6.0,
+  "fiber": 0.2,
+  "sugar": 2.5,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 tablespoon",
+   "grams": 15.0
+  },
+  "source": "USDA FDC 2705448 (FNDDS 2021-2023: Tzatziki dip); serving: FDC portion '1 tablespoon' of same record"
+ },
+ {
+  "name": "Guacamole",
+  "kcal": 155.0,
+  "protein": 1.9,
+  "carbs": 8.4,
+  "fat": 14.2,
+  "fiber": 6.5,
+  "sugar": 0.7,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 tablespoon",
+   "grams": 15.0
+  },
+  "source": "USDA FDC 2709307 (FNDDS 2021-2023: Guacamole, NFS); serving: FDC portion '1 tablespoon' of same record"
+ },
+ {
+  "name": "Salsa",
+  "kcal": 29.0,
+  "protein": 1.5,
+  "carbs": 6.6,
+  "fat": 0.2,
+  "fiber": 1.9,
+  "sugar": 4.0,
+  "serving_g": 36.0,
+  "serving": {
+   "label": "2 tbsp",
+   "grams": 36.0
+  },
+  "source": "USDA FDC 174524 (SR Legacy: Sauce, salsa, ready-to-serve); serving: FDC portion '2 tbsp' of same record"
+ },
+ {
+  "name": "Pretzels, hard, salted",
+  "kcal": 384.0,
+  "protein": 10.0,
+  "carbs": 80.4,
+  "fat": 2.9,
+  "fiber": 3.4,
+  "sugar": 2.2,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 167555 (SR Legacy: Snacks, pretzels, hard, plain, salted); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Tortilla chips (nachos)",
+  "kcal": 472.0,
+  "protein": 7.1,
+  "carbs": 67.8,
+  "fat": 20.7,
+  "fiber": 5.4,
+  "sugar": 0.8,
+  "serving_g": 28.4,
+  "serving": {
+   "label": "1 oz",
+   "grams": 28.4
+  },
+  "source": "USDA FDC 167558 (SR Legacy: Snacks, tortilla chips, plain, white corn, salted); serving: FDC portion '1 oz' of same record"
+ },
+ {
+  "name": "Popcorn, microwave, butter",
+  "kcal": 557.0,
+  "protein": 7.5,
+  "carbs": 55.2,
+  "fat": 34.0,
+  "fiber": 10.0,
+  "sugar": 0.6,
+  "serving_g": 7.9,
+  "serving": {
+   "label": "1 cup",
+   "grams": 7.9
+  },
+  "source": "USDA FDC 174785 (SR Legacy: Snacks, popcorn, microwave, regular (butter) flavor, made with partially hydrogenated oil); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Chocolate chip cookie",
+  "kcal": 492.0,
+  "protein": 5.1,
+  "carbs": 65.4,
+  "fat": 24.7,
+  "fiber": 2.0,
+  "sugar": 32.9,
+  "serving_g": 12.9,
+  "serving": {
+   "label": "1 cookie",
+   "grams": 12.9
+  },
+  "source": "USDA FDC 172716 (SR Legacy: Cookies, chocolate chip, commercially prepared, regular, higher fat, enriched); serving: FDC portion '1 cookie' of same record"
+ },
+ {
+  "name": "Digestive / graham crackers",
+  "kcal": 430.0,
+  "protein": 6.7,
+  "carbs": 77.7,
+  "fat": 10.6,
+  "fiber": 3.4,
+  "sugar": 24.9,
+  "serving_g": 14.0,
+  "serving": {
+   "label": "1 large rectangular piece or 2 squares or 4 small rectangular pieces",
+   "grams": 14.0
+  },
+  "source": "USDA FDC 174957 (SR Legacy: Cookies, graham crackers, plain or honey (includes cinnamon)); serving: FDC portion '1 large rectangular piece or 2 squares or 4 small rectangular pieces' of same record"
+ },
+ {
+  "name": "Butter cookies (roomboterkoekjes)",
+  "kcal": 467.0,
+  "protein": 6.1,
+  "carbs": 68.9,
+  "fat": 18.8,
+  "fiber": 0.8,
+  "sugar": 20.2,
+  "serving_g": 5.0,
+  "serving": {
+   "label": "1 cookie",
+   "grams": 5.0
+  },
+  "source": "USDA FDC 174950 (SR Legacy: Cookies, butter, commercially prepared, enriched); serving: FDC portion '1 cookie' of same record"
+ },
+ {
+  "name": "Oreo-type sandwich cookies",
+  "kcal": 464.0,
+  "protein": 5.2,
+  "carbs": 71.0,
+  "fat": 19.1,
+  "fiber": 2.9,
+  "sugar": 40.7,
+  "serving_g": 36.0,
+  "serving": {
+   "label": "3 cookie",
+   "grams": 36.0
+  },
+  "source": "USDA FDC 172718 (SR Legacy: Cookies, chocolate sandwich, with creme filling, regular); serving: FDC portion '3 cookie' of same record"
+ },
+ {
+  "name": "Gingersnaps",
+  "kcal": 416.0,
+  "protein": 5.6,
+  "carbs": 76.9,
+  "fat": 9.8,
+  "fiber": 2.2,
+  "sugar": 19.9,
+  "serving_g": 7.0,
+  "serving": {
+   "label": "1 cookie",
+   "grams": 7.0
+  },
+  "source": "USDA FDC 174956 (SR Legacy: Cookies, gingersnaps); serving: FDC portion '1 cookie' of same record"
+ },
+ {
+  "name": "Doughnut, glazed",
+  "kcal": 421.0,
+  "protein": 6.1,
+  "carbs": 47.9,
+  "fat": 22.7,
+  "fiber": 2.1,
+  "sugar": 22.8,
+  "serving_g": 64.0,
+  "serving": {
+   "label": "1 doughnut medium (approx 3-3/4\" dia)",
+   "grams": 64.0
+  },
+  "source": "USDA FDC 172758 (SR Legacy: Doughnuts, yeast-leavened, glazed, enriched (includes honey buns)); serving: FDC portion '1 doughnut medium (approx 3-3/4\" dia)' of same record"
+ },
+ {
+  "name": "Blueberry muffin",
+  "kcal": 375.0,
+  "protein": 4.5,
+  "carbs": 53.0,
+  "fat": 16.1,
+  "fiber": 1.1,
+  "sugar": 31.5,
+  "serving_g": 113.0,
+  "serving": {
+   "label": "1 medium",
+   "grams": 113.0
+  },
+  "source": "USDA FDC 172765 (SR Legacy: Muffins, blueberry, commercially prepared (Includes mini-muffins)); serving: FDC portion '1 medium' of same record"
+ },
+ {
+  "name": "Brownie",
+  "kcal": 405.0,
+  "protein": 4.8,
+  "carbs": 63.9,
+  "fat": 16.3,
+  "fiber": 2.1,
+  "sugar": 36.6,
+  "serving_g": 56.0,
+  "serving": {
+   "label": "1 square, large (2-3/4\" sq x 7/8\")",
+   "grams": 56.0
+  },
+  "source": "USDA FDC 172713 (SR Legacy: Cookies, brownies, commercially prepared); serving: FDC portion '1 square, large (2-3/4\" sq x 7/8\")' of same record"
+ },
+ {
+  "name": "Chocolate cake with frosting",
+  "kcal": 389.0,
+  "protein": 3.5,
+  "carbs": 52.8,
+  "fat": 20.1,
+  "fiber": 2.2,
+  "sugar": 40.0,
+  "serving_g": 138.0,
+  "serving": {
+   "label": "1 piece (1/12 of a cake)",
+   "grams": 138.0
+  },
+  "source": "USDA FDC 174934 (SR Legacy: Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery); serving: FDC portion '1 piece (1/12 of a cake)' of same record"
+ },
+ {
+  "name": "Cheesecake",
+  "kcal": 399.0,
+  "protein": 5.3,
+  "carbs": 34.8,
+  "fat": 26.5,
+  "fiber": 0.5,
+  "sugar": 26.6,
+  "serving_g": 175.0,
+  "serving": {
+   "label": "1 piece/slice, any size",
+   "grams": 175.0
+  },
+  "source": "USDA FDC 2707861 (FNDDS 2021-2023: Cheesecake, plain); serving: FDC portion '1 piece/slice, any size' of same record"
+ },
+ {
+  "name": "Pound cake (cake)",
+  "kcal": 353.0,
+  "protein": 5.0,
+  "carbs": 53.6,
+  "fat": 14.0,
+  "fiber": 0.6,
+  "sugar": 33.4,
+  "serving_g": 49.0,
+  "serving": {
+   "label": "1 piece individually wrapped cake",
+   "grams": 49.0
+  },
+  "source": "USDA FDC 172704 (SR Legacy: Cake, pound, commercially prepared, butter (includes fresh and frozen)); serving: FDC portion '1 piece individually wrapped cake' of same record"
+ },
+ {
+  "name": "Waffle, Belgian/plain",
+  "kcal": 373.0,
+  "protein": 8.7,
+  "carbs": 41.5,
+  "fat": 18.8,
+  "fiber": 2.5,
+  "sugar": 8.3,
+  "serving_g": 135.0,
+  "serving": {
+   "label": "1 thick / Belgian waffle",
+   "grams": 135.0
+  },
+  "source": "USDA FDC 2708325 (FNDDS 2021-2023: Waffle, plain); serving: FDC portion '1 thick / Belgian waffle' of same record"
+ },
+ {
+  "name": "Crepe / thin pancake",
+  "kcal": 224.0,
+  "protein": 8.8,
+  "carbs": 22.0,
+  "fat": 11.3,
+  "fiber": 0.6,
+  "sugar": 4.5,
+  "serving_g": 65.0,
+  "serving": {
+   "label": "1 crepe, any size",
+   "grams": 65.0
+  },
+  "source": "USDA FDC 2708342 (FNDDS 2021-2023: Crepe, plain); serving: FDC portion '1 crepe, any size' of same record"
+ },
+ {
+  "name": "Gummy bears / jelly candy",
+  "kcal": 396.0,
+  "protein": 0.0,
+  "carbs": 98.9,
+  "fat": 0.0,
+  "fiber": 0.1,
+  "sugar": 59.0,
+  "serving_g": 22.0,
+  "serving": {
+   "label": "10 gummy bears",
+   "grams": 22.0
+  },
+  "source": "USDA FDC 167989 (SR Legacy: Candies, gumdrops, starch jelly pieces); serving: FDC portion '10 gummy bears' of same record"
+ },
+ {
+  "name": "Hard candy (zuurtjes)",
+  "kcal": 394.0,
+  "protein": 0.0,
+  "carbs": 98.0,
+  "fat": 0.2,
+  "fiber": 0.0,
+  "sugar": 62.9,
+  "serving_g": 6.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 6.0
+  },
+  "source": "USDA FDC 167990 (SR Legacy: Candies, hard); serving: FDC portion '1 piece' of same record"
+ },
+ {
+  "name": "White chocolate",
+  "kcal": 539.0,
+  "protein": 5.9,
+  "carbs": 59.2,
+  "fat": 32.1,
+  "fiber": 0.2,
+  "sugar": 59.0,
+  "serving_g": 85.0,
+  "serving": {
+   "label": "1 bar (3 oz)",
+   "grams": 85.0
+  },
+  "source": "USDA FDC 167571 (SR Legacy: Candies, white chocolate); serving: FDC portion '1 bar (3 oz)' of same record"
+ },
+ {
+  "name": "Chocolate-coated wafer bar (KitKat)",
+  "kcal": 518.0,
+  "protein": 6.5,
+  "carbs": 64.6,
+  "fat": 26.0,
+  "fiber": 1.0,
+  "sugar": 48.7,
+  "serving_g": 42.0,
+  "serving": {
+   "label": "1 bar (1.5 oz)",
+   "grams": 42.0
+  },
+  "source": "USDA FDC 167992 (SR Legacy: Candies, KIT KAT Wafer Bar); serving: FDC portion '1 bar (1.5 oz)' of same record"
+ },
+ {
+  "name": "Granola bar",
+  "kcal": 471.0,
+  "protein": 10.1,
+  "carbs": 64.4,
+  "fat": 19.8,
+  "fiber": 5.3,
+  "sugar": 28.6,
+  "serving_g": 21.0,
+  "serving": {
+   "label": "1 bar",
+   "grams": 21.0
+  },
+  "source": "USDA FDC 167542 (SR Legacy: Snacks, granola bars, hard, plain); serving: FDC portion '1 bar' of same record"
+ },
+ {
+  "name": "Ice cream, chocolate",
+  "kcal": 216.0,
+  "protein": 3.8,
+  "carbs": 28.2,
+  "fat": 11.0,
+  "fiber": 1.2,
+  "sugar": 25.4,
+  "serving_g": 66.0,
+  "serving": {
+   "label": "0.5 cup (4 fl oz)",
+   "grams": 66.0
+  },
+  "source": "USDA FDC 168809 (SR Legacy: Ice creams, chocolate); serving: FDC portion '0.5 cup (4 fl oz)' of same record"
+ },
+ {
+  "name": "Frozen yogurt",
+  "kcal": 159.0,
+  "protein": 4.0,
+  "carbs": 24.2,
+  "fat": 5.6,
+  "fiber": 0.0,
+  "sugar": 24.0,
+  "serving_g": 72.0,
+  "serving": {
+   "label": "0.5 cup",
+   "grams": 72.0
+  },
+  "source": "USDA FDC 168815 (SR Legacy: Frozen yogurts, vanilla, soft-serve); serving: FDC portion '0.5 cup' of same record"
+ },
+ {
+  "name": "Sorbet / sherbet",
+  "kcal": 144.0,
+  "protein": 1.1,
+  "carbs": 30.4,
+  "fat": 2.0,
+  "fiber": 1.3,
+  "sugar": 24.3,
+  "serving_g": 74.0,
+  "serving": {
+   "label": "0.5 cup (4 fl oz)",
+   "grams": 74.0
+  },
+  "source": "USDA FDC 167577 (SR Legacy: Sherbet, orange); serving: FDC portion '0.5 cup (4 fl oz)' of same record"
+ },
+ {
+  "name": "Rice pudding (rijstpap)",
+  "kcal": 108.0,
+  "protein": 3.2,
+  "carbs": 18.4,
+  "fat": 2.1,
+  "fiber": 0.3,
+  "sugar": 11.6,
+  "serving_g": 172.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 172.0
+  },
+  "source": "USDA FDC 168782 (SR Legacy: Puddings, rice, ready-to-eat); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Chocolate pudding",
+  "kcal": 142.0,
+  "protein": 2.1,
+  "carbs": 23.0,
+  "fat": 4.6,
+  "fiber": 0.0,
+  "sugar": 17.2,
+  "serving_g": 108.0,
+  "serving": {
+   "label": "1 container refrigerated, 4 oz",
+   "grams": 108.0
+  },
+  "source": "USDA FDC 168778 (SR Legacy: Puddings, chocolate, ready-to-eat); serving: FDC portion '1 container refrigerated, 4 oz' of same record"
+ },
+ {
+  "name": "Churros",
+  "kcal": 419.0,
+  "protein": 6.0,
+  "carbs": 48.9,
+  "fat": 22.2,
+  "fiber": 2.6,
+  "sugar": 23.4,
+  "serving_g": 45.0,
+  "serving": {
+   "label": "1 regular",
+   "grams": 45.0
+  },
+  "source": "USDA FDC 2708070 (FNDDS 2021-2023: Churros); serving: FDC portion '1 regular' of same record"
+ },
+ {
+  "name": "Apple turnover/strudel (appelflap-style)",
+  "kcal": 274.0,
+  "protein": 3.3,
+  "carbs": 41.1,
+  "fat": 11.2,
+  "fiber": 2.2,
+  "sugar": 25.8,
+  "serving_g": 71.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 71.0
+  },
+  "source": "USDA FDC 175032 (SR Legacy: Strudel, apple); serving: FDC portion '1 piece' of same record"
+ },
+ {
+  "name": "Danish pastry (koffiebroodje)",
+  "kcal": 403.0,
+  "protein": 7.0,
+  "carbs": 44.6,
+  "fat": 22.4,
+  "fiber": 1.3,
+  "sugar": 19.8,
+  "serving_g": 65.0,
+  "serving": {
+   "label": "1 pastry (4-1/4\" dia)",
+   "grams": 65.0
+  },
+  "source": "USDA FDC 172753 (SR Legacy: Danish pastry, cinnamon, enriched); serving: FDC portion '1 pastry (4-1/4\" dia)' of same record"
+ },
+ {
+  "name": "Pain au chocolat / chocolate croissant",
+  "kcal": 421.0,
+  "protein": 7.4,
+  "carbs": 49.4,
+  "fat": 22.8,
+  "fiber": 3.3,
+  "sugar": 19.9,
+  "serving_g": 57.0,
+  "serving": {
+   "label": "1 croissant",
+   "grams": 57.0
+  },
+  "source": "USDA FDC 2707680 (FNDDS 2021-2023: Croissant, chocolate); serving: FDC portion '1 croissant' of same record"
+ },
+ {
+  "name": "Trail mix",
+  "kcal": 454.0,
+  "protein": 10.9,
+  "carbs": 51.1,
+  "fat": 26.8,
+  "fiber": 6.4,
+  "sugar": 36.5,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 package",
+   "grams": 50.0
+  },
+  "source": "USDA FDC 2707576 (FNDDS 2021-2023: Trail mix with nuts and fruit); serving: FDC portion '1 package' of same record"
+ },
+ {
+  "name": "Beef jerky",
+  "kcal": 410.0,
+  "protein": 33.2,
+  "carbs": 11.0,
+  "fat": 25.6,
+  "fiber": 1.8,
+  "sugar": 9.0,
+  "serving_g": 20.0,
+  "serving": {
+   "label": "1 piece, large",
+   "grams": 20.0
+  },
+  "source": "USDA FDC 167536 (SR Legacy: Snacks, beef jerky, chopped and formed); serving: FDC portion '1 piece, large' of same record"
+ },
+ {
+  "name": "McDonald's Big Mac",
+  "kcal": 257.0,
+  "protein": 11.8,
+  "carbs": 20.1,
+  "fat": 15.0,
+  "fiber": 1.6,
+  "sugar": 4.0,
+  "serving_g": 219.0,
+  "serving": {
+   "label": "1 item 7.6 oz",
+   "grams": 219.0
+  },
+  "source": "USDA FDC 170720 (SR Legacy: McDONALD'S, BIG MAC); serving: FDC portion '1 item 7.6 oz' of same record"
+ },
+ {
+  "name": "McDonald's hamburger",
+  "kcal": 264.0,
+  "protein": 12.9,
+  "carbs": 30.3,
+  "fat": 10.1,
+  "fiber": 1.3,
+  "sugar": 6.0,
+  "serving_g": 95.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 95.0
+  },
+  "source": "USDA FDC 170717 (SR Legacy: McDONALD'S, Hamburger); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "McDonald's cheeseburger",
+  "kcal": 263.0,
+  "protein": 13.0,
+  "carbs": 27.8,
+  "fat": 11.8,
+  "fiber": 1.1,
+  "sugar": 6.2,
+  "serving_g": 119.0,
+  "serving": {
+   "label": "1 item 4 oz",
+   "grams": 119.0
+  },
+  "source": "USDA FDC 170320 (SR Legacy: McDONALD'S, Cheeseburger); serving: FDC portion '1 item 4 oz' of same record"
+ },
+ {
+  "name": "McDonald's Quarter Pounder with Cheese",
+  "kcal": 258.0,
+  "protein": 14.6,
+  "carbs": 19.9,
+  "fat": 14.2,
+  "fiber": 1.4,
+  "sugar": 4.9,
+  "serving_g": 199.0,
+  "serving": {
+   "label": "1 item 7.1 oz",
+   "grams": 199.0
+  },
+  "source": "USDA FDC 170719 (SR Legacy: McDONALD'S, QUARTER POUNDER with Cheese); serving: FDC portion '1 item 7.1 oz' of same record"
+ },
+ {
+  "name": "McDonald's French fries",
+  "kcal": 323.0,
+  "protein": 3.4,
+  "carbs": 42.6,
+  "fat": 15.5,
+  "fiber": 3.9,
+  "sugar": 0.2,
+  "serving_g": 117.0,
+  "serving": {
+   "label": "1 medium serving",
+   "grams": 117.0
+  },
+  "source": "USDA FDC 170721 (SR Legacy: McDONALD'S, french fries); serving: FDC portion '1 medium serving' of same record"
+ },
+ {
+  "name": "Chicken nuggets, fast food (McNuggets-style)",
+  "kcal": 307.0,
+  "protein": 15.9,
+  "carbs": 14.9,
+  "fat": 20.4,
+  "fiber": 0.9,
+  "sugar": 0.1,
+  "serving_g": 16.0,
+  "serving": {
+   "label": "1 nugget",
+   "grams": 16.0
+  },
+  "source": "USDA FDC 2706093 (FNDDS 2021-2023: Chicken nuggets, from fast food); serving: FDC portion '1 chicken bite' of same record"
+ },
+ {
+  "name": "McDonald's McChicken",
+  "kcal": 273.0,
+  "protein": 10.4,
+  "carbs": 28.0,
+  "fat": 13.2,
+  "fiber": 1.3,
+  "sugar": 3.6,
+  "serving_g": 131.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 131.0
+  },
+  "source": "USDA FDC 173305 (SR Legacy: McDONALD'S, McCHICKEN Sandwich); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "McDonald's Filet-O-Fish",
+  "kcal": 282.0,
+  "protein": 11.3,
+  "carbs": 26.4,
+  "fat": 14.6,
+  "fiber": 1.4,
+  "sugar": 3.7,
+  "serving_g": 134.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 134.0
+  },
+  "source": "USDA FDC 170319 (SR Legacy: McDONALD'S, FILET-O-FISH); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "McDonald's Egg McMuffin",
+  "kcal": 228.0,
+  "protein": 13.6,
+  "carbs": 21.7,
+  "fat": 9.7,
+  "fiber": 1.1,
+  "sugar": 2.1,
+  "serving_g": 126.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 126.0
+  },
+  "source": "USDA FDC 173307 (SR Legacy: McDONALD'S, Egg McMUFFIN); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "Milkshake, fast food, vanilla/other flavors",
+  "kcal": 148.0,
+  "protein": 3.4,
+  "carbs": 19.6,
+  "fat": 6.5,
+  "fiber": 0.9,
+  "sugar": 13.6,
+  "serving_g": 526.0,
+  "serving": {
+   "label": "1 medium",
+   "grams": 526.0
+  },
+  "source": "USDA FDC 2705509 (FNDDS 2021-2023: Milk shake, fast food, flavors other than chocolate); serving: FDC portion '1 medium' of same record"
+ },
+ {
+  "name": "Burger King Whopper",
+  "kcal": 233.0,
+  "protein": 10.7,
+  "carbs": 18.6,
+  "fat": 12.8,
+  "fiber": 1.8,
+  "sugar": 4.2,
+  "serving_g": 291.0,
+  "serving": {
+   "label": "1 item",
+   "grams": 291.0
+  },
+  "source": "USDA FDC 170727 (SR Legacy: BURGER KING, WHOPPER, no cheese); serving: FDC portion '1 item' of same record"
+ },
+ {
+  "name": "Fried chicken breast, coated, fast food (KFC-style)",
+  "kcal": 273.0,
+  "protein": 19.3,
+  "carbs": 10.7,
+  "fat": 17.0,
+  "fiber": 0.3,
+  "sugar": 0.1,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "1 medium slice",
+   "grams": 60.0
+  },
+  "source": "USDA FDC 2705978 (FNDDS 2021-2023: Chicken breast, fried, coated, skin / coating eaten, from fast food / restaurant); serving: FDC portion '1 medium slice' of same record"
+ },
+ {
+  "name": "Pizza slice, cheese (margherita), restaurant",
+  "kcal": 266.0,
+  "protein": 11.4,
+  "carbs": 33.3,
+  "fat": 9.7,
+  "fiber": 2.3,
+  "sugar": 3.6,
+  "serving_g": 119.0,
+  "serving": {
+   "label": "1 piece, large pizza",
+   "grams": 119.0
+  },
+  "source": "USDA FDC 2708614 (FNDDS 2021-2023: Pizza, cheese, from restaurant or fast food, NS as to type of crust); serving: FDC portion '1 piece, large pizza' of same record"
+ },
+ {
+  "name": "Pizza slice, pepperoni, restaurant",
+  "kcal": 282.0,
+  "protein": 11.7,
+  "carbs": 32.0,
+  "fat": 11.9,
+  "fiber": 2.3,
+  "sugar": 3.3,
+  "serving_g": 88.0,
+  "serving": {
+   "label": "1 piece, medium pizza",
+   "grams": 88.0
+  },
+  "source": "USDA FDC 2708640 (FNDDS 2021-2023: Pizza with pepperoni, from restaurant or fast food,  medium crust); serving: FDC portion '1 piece, medium pizza' of same record"
+ },
+ {
+  "name": "Frozen pizza, cheese, baked",
+  "kcal": 263.0,
+  "protein": 11.9,
+  "carbs": 28.8,
+  "fat": 11.1,
+  "fiber": 3.0,
+  "sugar": 3.7,
+  "serving_g": 97.0,
+  "serving": {
+   "label": "1 piece, NFS",
+   "grams": 97.0
+  },
+  "source": "USDA FDC 2708612 (FNDDS 2021-2023: Pizza, cheese, from frozen, thin crust); serving: FDC portion '1 piece, NFS' of same record"
+ },
+ {
+  "name": "Gyro/döner-style pita sandwich",
+  "kcal": 184.0,
+  "protein": 11.2,
+  "carbs": 18.8,
+  "fat": 6.8,
+  "fiber": 1.0,
+  "sugar": 1.7,
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 sandwich, any size",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 2706962 (FNDDS 2021-2023: Gyro sandwich); serving: FDC portion '1 sandwich, any size' of same record"
+ },
+ {
+  "name": "Hot dog in bun",
+  "kcal": 296.0,
+  "protein": 10.8,
+  "carbs": 23.7,
+  "fat": 17.4,
+  "fiber": 0.8,
+  "sugar": 3.9,
+  "serving_g": 102.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 102.0
+  },
+  "source": "USDA FDC 2707060 (FNDDS 2021-2023: Hot dog sandwich, beef, on white bun); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "Burrito, beef and bean (frozen, heated)",
+  "kcal": 239.0,
+  "protein": 7.3,
+  "carbs": 30.8,
+  "fat": 9.6,
+  "fiber": 4.2,
+  "sugar": 0.7,
+  "serving_g": 139.0,
+  "serving": {
+   "label": "1 burrito frozen",
+   "grams": 139.0
+  },
+  "source": "USDA FDC 173335 (SR Legacy: Burrito, beef and bean, frozen); serving: FDC portion '1 burrito frozen' of same record"
+ },
+ {
+  "name": "Taco, beef",
+  "kcal": 249.0,
+  "protein": 15.5,
+  "carbs": 15.3,
+  "fat": 13.9,
+  "fiber": 2.1,
+  "sugar": 0.3,
+  "serving_g": 105.0,
+  "serving": {
+   "label": "1 small/regular",
+   "grams": 105.0
+  },
+  "source": "USDA FDC 2708515 (FNDDS 2021-2023: Taco, corn tortilla, beef, cheese); serving: FDC portion '1 small/regular' of same record"
+ },
+ {
+  "name": "Onion rings, breaded, oven-heated",
+  "kcal": 276.0,
+  "protein": 4.1,
+  "carbs": 33.8,
+  "fat": 14.3,
+  "fiber": 2.2,
+  "sugar": 5.1,
+  "serving_g": 60.0,
+  "serving": {
+   "label": "10 rings, medium (2-3\" dia)",
+   "grams": 60.0
+  },
+  "source": "USDA FDC 170415 (SR Legacy: Onion rings, breaded, par fried, frozen, prepared, heated in oven); serving: FDC portion '10 rings, medium (2-3\" dia)' of same record"
+ },
+ {
+  "name": "Chicken sandwich, fried (fast food)",
+  "kcal": 250.0,
+  "protein": 16.3,
+  "carbs": 20.9,
+  "fat": 11.2,
+  "fiber": 1.4,
+  "sugar": 3.6,
+  "serving_g": 187.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 187.0
+  },
+  "source": "USDA FDC 170295 (SR Legacy: Fast foods, chicken fillet sandwich, plain with pickles); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "Sushi roll, California",
+  "kcal": 94.0,
+  "protein": 2.9,
+  "carbs": 18.4,
+  "fat": 0.7,
+  "fiber": 1.0,
+  "sugar": 2.1,
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 30.0
+  },
+  "source": "USDA FDC 2708961 (FNDDS 2021-2023: Sushi roll, California); serving: FDC portion '1 piece' of same record"
+ },
+ {
+  "name": "Sushi, salmon nigiri",
+  "kcal": 107.0,
+  "protein": 8.9,
+  "carbs": 13.4,
+  "fat": 1.7,
+  "fiber": 0.6,
+  "sugar": 0.8,
+  "serving_g": 35.0,
+  "serving": {
+   "label": "1 piece",
+   "grams": 35.0
+  },
+  "source": "USDA FDC 2708969 (FNDDS 2021-2023: Sushi, topped with salmon); serving: FDC portion '1 piece' of same record"
+ },
+ {
+  "name": "Spaghetti bolognese",
+  "kcal": 125.0,
+  "protein": 5.9,
+  "carbs": 19.2,
+  "fat": 2.6,
+  "fiber": 1.6,
+  "sugar": 2.4,
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 250.0
+  },
+  "source": "USDA FDC 2708838 (FNDDS 2021-2023: Pasta with tomato-based sauce and meat, home recipe); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Lasagna with meat",
+  "kcal": 139.0,
+  "protein": 7.5,
+  "carbs": 16.2,
+  "fat": 5.0,
+  "fiber": 1.6,
+  "sugar": 3.3,
+  "serving_g": 206.0,
+  "serving": {
+   "label": "1 piece (1/6 of 8\" square, approx 2-1/2\" x 4\")",
+   "grams": 206.0
+  },
+  "source": "USDA FDC 2708750 (FNDDS 2021-2023: Lasagna with meat); serving: FDC portion '1 piece (1/6 of 8\" square, approx 2-1/2\" x 4\")' of same record"
+ },
+ {
+  "name": "Macaroni and cheese",
+  "kcal": 223.0,
+  "protein": 8.7,
+  "carbs": 23.1,
+  "fat": 10.5,
+  "fiber": 1.2,
+  "sugar": 2.4,
+  "serving_g": 230.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 230.0
+  },
+  "source": "USDA FDC 2708811 (FNDDS 2021-2023: Macaroni or noodles with cheese); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Chicken curry with rice",
+  "kcal": 116.0,
+  "protein": 5.0,
+  "carbs": 15.1,
+  "fat": 4.0,
+  "fiber": 1.0,
+  "sugar": 1.6,
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 2706438 (FNDDS 2021-2023: Chicken curry with rice); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Caesar salad with chicken",
+  "kcal": 63.0,
+  "protein": 8.5,
+  "carbs": 3.0,
+  "fat": 1.9,
+  "fiber": 1.0,
+  "sugar": 1.0,
+  "serving_g": 311.0,
+  "serving": {
+   "label": "1 McDonald's salad",
+   "grams": 311.0
+  },
+  "source": "USDA FDC 2706818 (FNDDS 2021-2023: Chicken or turkey caesar garden salad, chicken and/or turkey, lettuce, tomato, cheese, no dressing); serving: FDC portion '1 McDonald's salad' of same record"
+ },
+ {
+  "name": "Garden salad, no dressing",
+  "kcal": 24.0,
+  "protein": 1.1,
+  "carbs": 4.6,
+  "fat": 0.2,
+  "fiber": 1.5,
+  "sugar": 1.9,
+  "serving_g": 73.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 73.0
+  },
+  "source": "USDA FDC 2709822 (FNDDS 2021-2023: Lettuce, salad with assorted vegetables including tomatoes and/or carrots, no dressing); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Chicken noodle soup",
+  "kcal": 24.0,
+  "protein": 1.2,
+  "carbs": 3.0,
+  "fat": 0.8,
+  "fiber": 0.5,
+  "sugar": 0.0,
+  "serving_g": 248.0,
+  "serving": {
+   "label": "1 serving 1 cup",
+   "grams": 248.0
+  },
+  "source": "USDA FDC 172909 (SR Legacy: Soup, chicken noodle, canned, prepared with equal volume water); serving: FDC portion '1 serving 1 cup' of same record"
+ },
+ {
+  "name": "Tomato soup",
+  "kcal": 32.0,
+  "protein": 0.7,
+  "carbs": 7.5,
+  "fat": 0.2,
+  "fiber": 0.5,
+  "sugar": 4.0,
+  "serving_g": 248.0,
+  "serving": {
+   "label": "1 serving 1 cup",
+   "grams": 248.0
+  },
+  "source": "USDA FDC 171176 (SR Legacy: Soup, tomato, canned, prepared with equal volume water, commercial); serving: FDC portion '1 serving 1 cup' of same record"
+ },
+ {
+  "name": "Ham & cheese sandwich / sub",
+  "kcal": 210.0,
+  "protein": 14.6,
+  "carbs": 19.7,
+  "fat": 8.1,
+  "fiber": 0.9,
+  "sugar": 2.5,
+  "serving_g": 160.0,
+  "serving": {
+   "label": "1 regular",
+   "grams": 160.0
+  },
+  "source": "USDA FDC 2706969 (FNDDS 2021-2023: Ham sandwich or sub, with cheese, restaurant); serving: FDC portion '1 regular' of same record"
+ },
+ {
+  "name": "Grilled cheese sandwich",
+  "kcal": 343.0,
+  "protein": 11.0,
+  "carbs": 28.1,
+  "fat": 20.8,
+  "fiber": 1.2,
+  "sugar": 4.5,
+  "serving_g": 116.0,
+  "serving": {
+   "label": "1 sandwich",
+   "grams": 116.0
+  },
+  "source": "USDA FDC 2705801 (FNDDS 2021-2023: Grilled cheese sandwich, NFS); serving: FDC portion '1 sandwich' of same record"
+ },
+ {
+  "name": "Nachos with cheese",
+  "kcal": 343.0,
+  "protein": 4.3,
+  "carbs": 34.9,
+  "fat": 21.5,
+  "fiber": 3.2,
+  "sugar": 2.2,
+  "serving_g": 80.0,
+  "serving": {
+   "label": "1 serving",
+   "grams": 80.0
+  },
+  "source": "USDA FDC 170291 (SR Legacy: Fast foods, nachos, with cheese); serving: FDC portion '1 serving' of same record"
+ },
+ {
+  "name": "Chicken curry",
+  "kcal": 107.0,
+  "protein": 6.5,
+  "carbs": 6.5,
+  "fat": 6.5,
+  "fiber": 1.4,
+  "sugar": 2.6,
+  "serving_g": 240.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 240.0
+  },
+  "source": "USDA FDC 2706437 (FNDDS 2021-2023: Chicken curry); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Pad thai with chicken",
+  "kcal": 154.0,
+  "protein": 8.1,
+  "carbs": 14.4,
+  "fat": 7.5,
+  "fiber": 1.2,
+  "sugar": 4.1,
+  "serving_g": 200.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 200.0
+  },
+  "source": "USDA FDC 2708806 (FNDDS 2021-2023: Pad Thai with chicken); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Fried chicken wings (buffalo)",
+  "kcal": 289.0,
+  "protein": 19.4,
+  "carbs": 6.0,
+  "fat": 20.2,
+  "fiber": 0.2,
+  "sugar": 0.1,
+  "serving_g": 55.0,
+  "serving": {
+   "label": "1 wing, any size",
+   "grams": 55.0
+  },
+  "source": "USDA FDC 2706065 (FNDDS 2021-2023: Chicken wing, fried, coated, from raw); serving: FDC portion '1 wing, any size' of same record"
+ },
+ {
+  "name": "Quiche lorraine",
+  "kcal": 387.0,
+  "protein": 15.5,
+  "carbs": 12.1,
+  "fat": 30.6,
+  "fiber": 0.7,
+  "sugar": 1.9,
+  "serving_g": 192.0,
+  "serving": {
+   "label": "1 piece (1/8 of 9\" dia)",
+   "grams": 192.0
+  },
+  "source": "USDA FDC 2708731 (FNDDS 2021-2023: Quiche with meat, poultry or fish); serving: FDC portion '1 piece (1/8 of 9\" dia)' of same record"
+ },
+ {
+  "name": "Paella",
+  "kcal": 169.0,
+  "protein": 9.5,
+  "carbs": 15.8,
+  "fat": 7.2,
+  "fiber": 0.6,
+  "sugar": 0.7,
+  "serving_g": 240.0,
+  "serving": {
+   "label": "1 cup",
+   "grams": 240.0
+  },
+  "source": "USDA FDC 2706723 (FNDDS 2021-2023: Paella, NFS); serving: FDC portion '1 cup' of same record"
+ },
+ {
+  "name": "Brown beans, canned (bruine bonen)",
+  "kcal": 120.0,
+  "protein": 6.5,
+  "carbs": 18.0,
+  "fat": 0.7,
+  "fiber": 7.9,
+  "sugar": 0.9,
+  "serving_g": 84.5,
+  "serving": {
+   "label": "1/2 cup",
+   "grams": 84.5
+  },
+  "source": "NEVO 660 (Bonen bruine blik/glas; NEVO-online 2025/9.0, RIVM); serving: FDC 173797 portion '1 cup' x0.5"
+ },
+ {
+  "name": "Fries sauce 25% oil (fritessaus)",
+  "kcal": 296.0,
+  "protein": 0.5,
+  "carbs": 12.0,
+  "fat": 27.3,
+  "fiber": 0.2,
+  "sugar": 6.8,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 portion (snack bar)",
+   "grams": 25.0
+  },
+  "source": "NEVO 465 (Saus frites- 25% olie; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Peanut satay sauce, ready-to-eat (satésaus/pindasaus)",
+  "kcal": 247.0,
+  "protein": 7.5,
+  "carbs": 23.5,
+  "fat": 13.2,
+  "fiber": 2.4,
+  "sugar": 19.5,
+  "serving_g": 50.0,
+  "serving": {
+   "label": "1 portion",
+   "grams": 50.0
+  },
+  "source": "NEVO 616 (Saus sate- kant-en-klaar bereid; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Curry ketchup (curry)",
+  "kcal": 129.0,
+  "protein": 0.8,
+  "carbs": 29.9,
+  "fat": 0.3,
+  "fiber": 1.5,
+  "sugar": 25.5,
+  "serving_g": 25.0,
+  "serving": {
+   "label": "1 portion (snack bar)",
+   "grams": 25.0
+  },
+  "source": "NEVO 584 (Ketchup curry-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Sweet soy sauce (ketjap manis)",
+  "kcal": 234.0,
+  "protein": 3.5,
+  "carbs": 55.0,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 55.0,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 tbsp",
+   "grams": 15.0
+  },
+  "source": "NEVO 1215 (Ketjap zoet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Sambal oelek",
+  "kcal": 36.0,
+  "protein": 1.6,
+  "carbs": 4.9,
+  "fat": 0.7,
+  "fiber": 1.9,
+  "sugar": 3.5,
+  "serving_g": 5.0,
+  "serving": {
+   "label": "1 tsp",
+   "grams": 5.0
+  },
+  "source": "NEVO 1232 (Sambal oelek; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Fruit squash, diluted 1:7 (ranja/limonadesiroop)",
+  "kcal": 29.2,
+  "protein": 0.0,
+  "carbs": 7.3,
+  "fat": 0.0,
+  "fiber": 0.0,
+  "sugar": 7.2,
+  "unit": "ml",
+  "serving_g": 250.0,
+  "serving": {
+   "label": "1 glass (250 ml)",
+   "grams": 250.0
+  },
+  "source": "NEVO 2441 (Siroop vruchtenlimonade- bereid 1 op 7; NEVO-online 2025/9.0, RIVM); per 100 ml using density 1.041 g/ml from FDC portion '1 fl oz' of 'Beverages, carbonated, lemon-lime soda, no caffeine'; serving: standard household portion"
+ },
+ {
+  "name": "Pork belly slice, fried (speklap)",
+  "kcal": 435.0,
+  "protein": 29.1,
+  "carbs": 0.0,
+  "fat": 35.4,
+  "fiber": 0.0,
+  "sugar": 0.0,
+  "serving_g": 75.0,
+  "serving": {
+   "label": "1 speklap",
+   "grams": 75.0
+  },
+  "source": "NEVO 3026 (Speklap bereid in eigen vet; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Dutch egg cake (eierkoek)",
+  "kcal": 307.0,
+  "protein": 5.9,
+  "carbs": 66.8,
+  "fat": 1.4,
+  "fiber": 1.6,
+  "sugar": 38.2,
+  "serving_g": 30.0,
+  "serving": {
+   "label": "1 eierkoek",
+   "grams": 30.0
+  },
+  "source": "NEVO 254 (Koek eier-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Almond macaroon (bitterkoekje)",
+  "kcal": 411.0,
+  "protein": 7.0,
+  "carbs": 68.7,
+  "fat": 11.5,
+  "fiber": 2.3,
+  "sugar": 50.6,
+  "serving_g": 8.0,
+  "serving": {
+   "label": "1 koekje",
+   "grams": 8.0
+  },
+  "source": "NEVO 2696 (Koekje bitter-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ },
+ {
+  "name": "Luncheon meat (boterhamworst)",
+  "kcal": 306.0,
+  "protein": 11.6,
+  "carbs": 3.5,
+  "fat": 26.9,
+  "fiber": 0.2,
+  "sugar": 0.7,
+  "serving_g": 15.0,
+  "serving": {
+   "label": "1 slice",
+   "grams": 15.0
+  },
+  "source": "NEVO 567 (Worst boterham-; NEVO-online 2025/9.0, RIVM); serving: standard household portion"
+ }
+]
