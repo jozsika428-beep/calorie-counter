@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Calorie Counter</title>
 <meta name="description" content="Free, private calorie and macro counter. No account, no ads, data stays on your device.">
-<meta name="theme-color" content="#16a34a" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f1512" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f6f7" id="themeColorMeta">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Calories">
@@ -15,38 +14,64 @@
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <!--PWA-END-->
+<link rel="stylesheet" href="fonts/fonts.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar">
   <div class="topbar-row">
-    <h1 id="viewTitle">Today</h1>
-    <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+    <button class="icon-btn back-btn" id="backBtn" hidden aria-label="Back to Settings">‹</button>
+    <h1 id="viewTitle"><span class="brand-mark" aria-hidden="true"></span><span id="viewTitleText">Calories</span></h1>
+    <div class="top-actions">
+      <span class="streak-chip" id="streakChip" title="Day streak (days in a row with food logged)"></span>
+      <button class="icon-btn" id="customizeBtn" aria-label="Customize colors and fonts" title="Customize">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 0 0 0 18c1.1 0 1.8-.8 1.8-1.8 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8Zm-5.5 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm3-4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm3 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/></svg>
+      </button>
+    </div>
   </div>
   <div class="datenav" id="dateNav">
-    <button class="icon-btn" id="prevDay" aria-label="Previous day">‹</button>
-    <label class="date-label">
-      <span id="dateLabel">Today</span>
-      <input type="date" id="datePicker" aria-label="Pick a date">
-    </label>
-    <button class="icon-btn" id="nextDay" aria-label="Next day">›</button>
-    <button class="chip" id="todayBtn">Today</button>
+    <div class="week-head">
+      <button class="icon-btn small-icon" id="prevDay" aria-label="Previous day">‹</button>
+      <label class="date-label">
+        <span id="dateLabel">Today</span>
+        <input type="date" id="datePicker" aria-label="Pick a date">
+      </label>
+      <button class="icon-btn small-icon" id="nextDay" aria-label="Next day">›</button>
+      <button class="chip" id="todayBtn">Today</button>
+    </div>
+    <div class="week-strip" id="weekStrip" role="tablist" aria-label="Days of this week"></div>
   </div>
 </header>
 
 <main>
-  <!-- TODAY -->
+  <!-- HOME -->
   <section id="view-today" class="view active">
-    <div class="card summary">
+    <div class="card cal-card" id="calCard">
+      <div class="cal-text">
+        <div class="big-num"><b id="kcalBig">0</b></div>
+        <div class="cal-label" id="kcalLabel">Calories left</div>
+        <div class="cal-sub" id="kcalSub"></div>
+      </div>
       <div class="ring-wrap" id="kcalRing"></div>
-      <div class="macro-bars" id="macroBars"></div>
     </div>
+    <div class="pager" id="macroPager">
+      <div class="pager-track" id="pagerTrack">
+        <div class="pager-page"><div class="macro-cards" id="macroCards"></div></div>
+        <div class="pager-page"><div class="macro-cards" id="microCards"></div></div>
+      </div>
+    </div>
+    <div class="dots" id="pagerDots"><button class="active" data-page="0" aria-label="Macros"></button><button data-page="1" aria-label="Fiber, sugar and weight"></button></div>
+    <div class="section-head"><h2>Recently logged</h2><span class="muted small" id="entryCount"></span></div>
     <div id="meals"></div>
     <div class="card weight-quick" id="weightQuick"></div>
   </section>
 
-  <!-- HISTORY -->
+  <!-- PROGRESS -->
   <section id="view-history" class="view">
+    <div class="duo">
+      <div class="card stat-card" id="weightCard"></div>
+      <div class="card stat-card" id="streakCard"></div>
+    </div>
     <div class="seg" id="rangeSeg" role="tablist">
       <button data-range="7" class="active">Week</button>
       <button data-range="30">Month</button>
@@ -58,8 +83,8 @@
     </div>
     <div class="card"><h2>Calories</h2><div id="chartKcal" class="chart"></div></div>
     <div class="card"><h2>Macros (g)</h2><div id="chartMacros" class="chart"></div><div class="legend" id="macroLegend"></div></div>
-    <div class="card"><h2>Averages <small>(days with entries)</small></h2><div id="avgTable"></div></div>
-    <div class="card">
+    <div class="card"><h2>Daily averages <small>(days with entries)</small></h2><div id="avgTable"></div></div>
+    <div class="card" id="weightSection">
       <h2>Weight</h2>
       <form id="weightForm" class="row-form">
         <input type="date" id="weightDate" required aria-label="Weight date">
@@ -89,6 +114,12 @@
 
   <!-- SETTINGS -->
   <section id="view-settings" class="view">
+    <button class="card row-link" id="openCustomize">
+      <span class="row-icon" aria-hidden="true">🎨</span>
+      <span class="row-main"><b>Customization</b><span class="muted small">Accent color, ring colors, theme, font &amp; text size</span></span>
+      <span class="chev" aria-hidden="true">›</span>
+    </button>
+
     <form class="card" id="goalsForm">
       <h2>Daily goals</h2>
       <div class="grid2">
@@ -132,15 +163,6 @@
     </form>
 
     <div class="card">
-      <h2>Appearance</h2>
-      <div class="seg" id="themeSeg">
-        <button data-theme="auto">Auto</button>
-        <button data-theme="light">Light</button>
-        <button data-theme="dark">Dark</button>
-      </div>
-    </div>
-
-    <div class="card">
       <h2>Data &amp; backup</h2>
       <p class="muted small">All data is stored only in this browser on this device. Export a backup regularly.</p>
       <div class="btn-col">
@@ -161,19 +183,72 @@
         <li><a href="https://fdc.nal.usda.gov/" target="_blank" rel="noopener">USDA FoodData Central</a> — nutrient data and serving sizes (public domain).</li>
         <li>Photo recognition: Google AIY <a href="https://www.kaggle.com/models/google/aiy/tfLite/vision-classifier-food-v1" target="_blank" rel="noopener">vision classifier food_V1</a> (MobileNet V1, Apache License 2.0), converted to ONNX; runs on-device with <a href="https://onnxruntime.ai" target="_blank" rel="noopener">ONNX Runtime Web</a> (MIT License). Photos never leave your device.</li>
         <li><a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a> — online product search &amp; barcode lookup; data available under the <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database License (ODbL)</a>.</li>
+        <li>Fonts (bundled, SIL Open Font License 1.1): Inter, Poppins, Nunito, Roboto, Montserrat, Lora, Playfair Display, Comic Neue and JetBrains Mono — © their respective project authors (see <code>fonts/licenses/</code>).</li>
       </ul>
       <p class="muted small">Nutrient values are shown as provided by the source (per 100 g or 100 ml); they are only rounded for display. Tap “Details &amp; source” when adding a food to see its exact values and origin.</p>
+      <p class="muted small">Visual style inspired by the Cal AI app. This is an independent free project, not affiliated with or endorsed by Cal AI, and it uses none of its name, logo or assets.</p>
     </div>
+  </section>
+
+  <!-- CUSTOMIZATION -->
+  <section id="view-customize" class="view">
+    <div class="card preview-card" id="custPreview" aria-label="Live preview">
+      <div class="preview-label">Live preview</div>
+      <div class="pv-cal">
+        <div><div class="big-num"><b>1250</b></div><div class="cal-label">Calories left</div></div>
+        <div class="pv-ring" id="pvRing"></div>
+      </div>
+      <div class="pv-macros" id="pvMacros"></div>
+      <div class="pv-row"><button type="button" class="btn primary grow" tabindex="-1">Primary button</button><span class="chip pv-chip">Chip</span></div>
+      <p class="pv-text">The quick brown fox eats 12 stroopwafels — 0123456789</p>
+    </div>
+
+    <div class="card">
+      <h2>Theme</h2>
+      <div class="seg" id="themeSeg">
+        <button data-theme="light">☀️ Light</button>
+        <button data-theme="dark">🌙 Dark</button>
+        <button data-theme="auto">⚙️ System</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Accent color</h2><span class="muted small" id="accentName"></span></div>
+      <div class="swatch-grid" id="accentGrid"></div>
+      <label class="color-row">Custom color <input type="color" id="accentCustom" value="#111111"></label>
+      <p class="muted small">Text on buttons automatically switches between white and black for readability.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Ring colors</h2><button type="button" class="btn small" id="resetRings">Reset rings</button></div>
+      <div class="ring-colors" id="ringColors"></div>
+    </div>
+
+    <div class="card">
+      <h2>Font</h2>
+      <div class="font-grid" id="fontGrid"></div>
+    </div>
+
+    <div class="card">
+      <h2>Text size</h2>
+      <div class="seg" id="sizeSeg">
+        <button data-size="small"><span style="font-size:.85em">A</span> Small</button>
+        <button data-size="normal">A Normal</button>
+        <button data-size="large"><span style="font-size:1.2em">A</span> Large</button>
+      </div>
+    </div>
+
+    <button class="btn danger block" id="resetLook">Reset to default</button>
   </section>
 </main>
 
 <button class="fab" id="fab" aria-label="Add food">+</button>
 
 <nav class="tabbar" id="tabbar">
-  <button data-view="today" class="active"><span class="ti">●</span>Today</button>
-  <button data-view="history"><span class="ti">▥</span>History</button>
-  <button data-view="foods"><span class="ti">☰</span>Foods</button>
-  <button data-view="settings"><span class="ti">⚙</span>Settings</button>
+  <button data-view="today" class="active"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg>Home</button>
+  <button data-view="history"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11h3v9zm5.5 0V5h3v15zM16 20v-7h3v7z"/></svg>Progress</button>
+  <button data-view="foods"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3v8a3 3 0 0 0 2 2.8V21h2v-7.2A3 3 0 0 0 12 11V3h-1.5v6h-1V3h-1v6h-1V3zm10 0c-1.7 0-3 2.2-3 5v5h2v8h2V3z"/></svg>Foods</button>
+  <button data-view="settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm8.4 4.6-.1-1.1 2-1.6-2-3.4-2.4.9a8 8 0 0 0-1.9-1.1L15.6 4h-4l-.4 2.8a8 8 0 0 0-1.9 1.1l-2.4-.9-2 3.4 2 1.6a7 7 0 0 0 0 2.2l-2 1.6 2 3.4 2.4-.9c.6.5 1.2.8 1.9 1.1l.4 2.6h4l.4-2.6c.7-.3 1.3-.6 1.9-1.1l2.4.9 2-3.4z"/></svg>Settings</button>
 </nav>
 
 <!-- ADD FOOD DIALOG -->

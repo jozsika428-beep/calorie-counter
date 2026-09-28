@@ -56,6 +56,13 @@ def main():
             fav = '<link rel="icon" type="image/png" href="data:image/png;base64,' + base64.b64encode(f.read()).decode() + '">'
     html = re.sub(r"<!--PWA-START-->.*?<!--PWA-END-->", fav, html, flags=re.S)
 
+    # bundled fonts: inline fonts.css with each woff2 as a base64 data URI (works from file://, offline)
+    fcss = read(os.path.join("fonts", "fonts.css"))
+    def font_uri(m):
+        with open(os.path.join(HERE, "fonts", m.group(1)), "rb") as f:
+            return "url(data:font/woff2;base64," + base64.b64encode(f.read()).decode() + ")"
+    fcss = re.sub(r"url\(([\w.-]+\.woff2)\)", font_uri, fcss)
+    html = html.replace('<link rel="stylesheet" href="fonts/fonts.css">', "<style>\n" + fcss + "\n</style>")
     html = html.replace('<link rel="stylesheet" href="styles.css">', "<style>\n" + css + "\n</style>")
     if foods is not None:
         data_js = "window.EMBEDDED_FOODS = " + json.dumps(foods, ensure_ascii=False, separators=(",", ":")) + ";"
@@ -65,7 +72,7 @@ def main():
     html = html.replace('<script src="foods-fallback.js"></script>', "<script>\n" + safe_js(head) + "\n</script>")
     html = html.replace('<script src="app.js"></script>', "<script>\n" + safe_js(app) + "\n</script>")
 
-    if 'src="app.js"' in html or 'href="styles.css"' in html:
+    if 'src="app.js"' in html or 'href="styles.css"' in html or 'fonts.css' in html:
         sys.exit("build failed: could not inline all assets (did index.html change?)")
     out = os.path.join(HERE, "calorie-counter.html")
     with open(out, "w", encoding="utf-8") as f:

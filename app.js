@@ -19,6 +19,40 @@
     { k: 'sugar', label: 'Sugar', limit: true }
   ];
   var OFF = 'https://world.openfoodfacts.org';
+  var SWATCHES = [
+    ['Black', '#111111'], ['White', '#ffffff'], ['Grey', '#9ca3af'], ['Dark grey', '#374151'],
+    ['Red', '#ef4444'], ['Dark red', '#991b1b'], ['Orange', '#f97316'], ['Amber', '#f59e0b'],
+    ['Yellow', '#facc15'], ['Lime', '#84cc16'], ['Green', '#22c55e'], ['Dark green', '#166534'],
+    ['Teal', '#14b8a6'], ['Cyan', '#06b6d4'], ['Light blue', '#38bdf8'], ['Blue', '#3b82f6'],
+    ['Navy', '#1e3a8a'], ['Indigo', '#6366f1'], ['Purple', '#9333ea'], ['Violet', '#8b5cf6'],
+    ['Magenta', '#d946ef'], ['Pink', '#ec4899'], ['Rose', '#f43f5e'], ['Brown', '#92400e'], ['Beige', '#d6c7a1']
+  ];
+  var SANS = 'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+  var FONTS = [
+    { id: 'system', name: 'System default', stack: 'system-ui,-apple-system,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif' },
+    { id: 'inter', name: 'Inter', stack: '"Inter",' + SANS },
+    { id: 'poppins', name: 'Poppins', stack: '"Poppins",' + SANS },
+    { id: 'nunito', name: 'Nunito', stack: '"Nunito",' + SANS },
+    { id: 'roboto', name: 'Roboto', stack: '"Roboto",' + SANS },
+    { id: 'montserrat', name: 'Montserrat', stack: '"Montserrat",' + SANS },
+    { id: 'lora', name: 'Lora', note: 'serif', stack: '"Lora",Georgia,"Times New Roman",serif' },
+    { id: 'playfair', name: 'Playfair Display', note: 'serif', stack: '"Playfair Display",Georgia,"Times New Roman",serif' },
+    { id: 'comic', name: 'Comic Neue', note: 'playful', stack: '"Comic Neue","Comic Sans MS","Chalkboard SE",cursive' },
+    { id: 'mono', name: 'JetBrains Mono', note: 'monospace', stack: '"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace' }
+  ];
+  var SIZES = { small: 15, normal: 16, large: 18 };
+  var RING_NAMES = [{ k: 'kcal', label: 'Calories' }, { k: 'protein', label: 'Protein' }, { k: 'carbs', label: 'Carbs' }, { k: 'fat', label: 'Fat' }];
+  var MEAL_ICON = { breakfast: '🥣', lunch: '🥗', dinner: '🍲', snacks: '🍎' };
+  function isHex(v) { return typeof v === 'string' && /^#[0-9a-f]{6}$/i.test(v); }
+  function hexRgb(h) { return [1, 3, 5].map(function (i) { return parseInt(h.substr(i, 2), 16); }); }
+  function lum(h) {
+    var c = hexRgb(h).map(function (v) { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+  }
+  function contrast(a, b) { var x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); }
+  function onColor(h) { return contrast(h, '#ffffff') >= contrast(h, '#111111') ? '#ffffff' : '#111111'; }
+  function mix(h, w, t) { var a = hexRgb(h), b = hexRgb(w); return '#' + a.map(function (v, i) { return pad2(Math.round(v + (b[i] - v) * t).toString(16)); }).join(''); }
+  function pad2(s) { return s.length < 2 ? '0' + s : s; }
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -55,7 +89,8 @@
       settings: {
         goals: { kcal: 2000, protein: 120, carbs: 225, fat: 67, fiber: 30, sugar: 50 },
         profile: { sex: 'male', age: 35, height: 180, weight: 80, activity: '1.375', goal: 'maintain' },
-        theme: 'auto'
+        theme: 'auto',
+        look: defaultLook()
       },
       days: {},
       customFoods: [],
@@ -64,6 +99,9 @@
       recent: [],
       weights: {}
     };
+  }
+  function defaultLook() {
+    return { accent: '#111111', rings: { kcal: null, protein: '#e5534b', carbs: '#e8973d', fat: '#4f8ef7' }, font: 'system', size: 'normal' };
   }
   var state = load();
   function load() {
@@ -78,6 +116,19 @@
     s.settings = Object.assign({}, d.settings, s.settings || {});
     s.settings.goals = Object.assign({}, d.settings.goals, s.settings.goals || {});
     s.settings.profile = Object.assign({}, d.settings.profile, s.settings.profile || {});
+    var lk = s.settings.look && typeof s.settings.look === 'object' ? s.settings.look : {};
+    var dl = defaultLook();
+    s.settings.look = {
+      accent: isHex(lk.accent) ? lk.accent.toLowerCase() : dl.accent,
+      rings: {},
+      font: FONTS.some(function (f) { return f.id === lk.font; }) ? lk.font : dl.font,
+      size: SIZES[lk.size] ? lk.size : dl.size
+    };
+    ['kcal', 'protein', 'carbs', 'fat'].forEach(function (k) {
+      var v = lk.rings && lk.rings[k];
+      s.settings.look.rings[k] = isHex(v) ? v.toLowerCase() : (lk.rings && k in lk.rings && v === null ? null : dl.rings[k]);
+    });
+    if (['light', 'dark', 'auto'].indexOf(s.settings.theme) < 0) s.settings.theme = 'auto';
     ['days', 'weights'].forEach(function (k) { if (!s[k] || typeof s[k] !== 'object' || Array.isArray(s[k])) s[k] = {}; });
     ['customFoods', 'recipes', 'favorites', 'recent'].forEach(function (k) { if (!Array.isArray(s[k])) s[k] = []; });
     s.version = 1;
@@ -130,19 +181,89 @@
     }).catch(function () { /* keep fallback */ });
   }
 
-  // ---------- theme ----------
-  function applyTheme() {
-    var t = state.settings.theme;
-    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
-    else document.documentElement.removeAttribute('data-theme');
-    $$('#themeSeg button').forEach(function (b) { b.classList.toggle('active', b.dataset.theme === t); });
-  }
+  // ---------- theme & customization ----------
+  var THEMES = { light: { bg: '#f6f6f7', card: '#ffffff', text: '#111114' }, dark: { bg: '#0d0d0f', card: '#1a1a1d', text: '#f4f4f5' } };
   function isDark() {
     var t = state.settings.theme;
     if (t === 'dark') return true;
     if (t === 'light') return false;
-    return window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
+    return !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches);
   }
+  function fontById(id) { return FONTS.filter(function (f) { return f.id === id; })[0] || FONTS[0]; }
+  // Resolves the stored look into the actual colours used for the current theme (keeps everything readable).
+  function resolveLook() {
+    var look = state.settings.look, dark = isDark(), th = THEMES[dark ? 'dark' : 'light'];
+    var accent = look.accent;
+    if (contrast(accent, th.bg) < 1.35) accent = dark ? (lum(accent) < 0.05 ? '#f4f4f5' : mix(accent, '#ffffff', 0.35)) : accent;
+    var border = !dark && contrast(accent, th.bg) < 1.35 ? '#d4d4d8' : 'transparent';
+    var rings = {};
+    RING_NAMES.forEach(function (r) {
+      var c = look.rings[r.k] || accent;
+      if (r.k === 'kcal' && !look.rings.kcal) c = accent;
+      if (contrast(c, th.card) < 1.35) c = th.text;
+      rings[r.k] = c;
+    });
+    return { dark: dark, accent: accent, onAccent: onColor(accent), border: border, rings: rings, font: fontById(look.font), size: SIZES[look.size] || 16, bg: th.bg };
+  }
+  function applyLook() {
+    var r = resolveLook(), root = document.documentElement, st = root.style;
+    root.classList.toggle('dark', r.dark);
+    root.setAttribute('data-theme', r.dark ? 'dark' : 'light');
+    st.setProperty('--accent', r.accent);
+    st.setProperty('--on-accent', r.onAccent);
+    var rgb = hexRgb(r.accent).join(',');
+    st.setProperty('--accent-soft', 'rgba(' + rgb + ',' + (r.dark ? '.22' : '.12') + ')');
+    st.setProperty('--btn-border', r.border);
+    st.setProperty('--kcal', r.rings.kcal);
+    st.setProperty('--protein', r.rings.protein);
+    st.setProperty('--carbs', r.rings.carbs);
+    st.setProperty('--fat', r.rings.fat);
+    st.setProperty('--font', r.font.stack);
+    st.setProperty('--fs', r.size + 'px');
+    var m = document.getElementById('themeColorMeta'); if (m) m.setAttribute('content', r.bg);
+    $$('#themeSeg button').forEach(function (b) { b.classList.toggle('active', b.dataset.theme === state.settings.theme); });
+  }
+  function applyTheme() { applyLook(); if (ui && ui.view === 'customize') renderCustomize(); }
+  if (window.matchMedia) {
+    var mq = matchMedia('(prefers-color-scheme: dark)');
+    var onMq = function () { if (state.settings.theme === 'auto') { applyLook(); if (ui.view === 'customize') renderCustomize(); } };
+    if (mq.addEventListener) mq.addEventListener('change', onMq); else if (mq.addListener) mq.addListener(onMq);
+  }
+  function miniRing(pct, color, size, stroke, inner) {
+    var R = (size - stroke) / 2, C = 2 * Math.PI * R, p = Math.max(0, Math.min(1, pct || 0)), c = size / 2;
+    return '<svg viewBox="0 0 ' + size + ' ' + size + '" aria-hidden="true"><circle cx="' + c + '" cy="' + c + '" r="' + R + '" fill="none" stroke="var(--line)" stroke-width="' + stroke + '"/>' +
+      (p > 0 ? '<circle cx="' + c + '" cy="' + c + '" r="' + R + '" fill="none" stroke="' + color + '" stroke-width="' + stroke + '" stroke-linecap="round" stroke-dasharray="' +
+        (C * p).toFixed(1) + ' ' + C.toFixed(1) + '" transform="rotate(-90 ' + c + ' ' + c + ')"/>' : '') + (inner || '') + '</svg>';
+  }
+  function renderCustomize() {
+    var look = state.settings.look, r = resolveLook();
+    $$('#themeSeg button').forEach(function (b) { b.classList.toggle('active', b.dataset.theme === state.settings.theme); });
+    $('#accentGrid').innerHTML = SWATCHES.map(function (sw) {
+      var on = sw[1] === look.accent;
+      return '<button type="button" class="swatch' + (on ? ' active' : '') + '" data-accent="' + sw[1] + '" title="' + sw[0] + '" aria-label="' + sw[0] +
+        '" aria-pressed="' + on + '" style="background:' + sw[1] + ';--sw-on:' + onColor(sw[1]) + '"></button>';
+    }).join('');
+    var named = SWATCHES.filter(function (sw) { return sw[1] === look.accent; })[0];
+    $('#accentName').textContent = named ? named[0] : 'Custom ' + look.accent;
+    $('#accentCustom').value = look.accent;
+    $('#ringColors').innerHTML = RING_NAMES.map(function (x) {
+      var val = look.rings[x.k];
+      return '<label class="ring-row"><span class="dot" style="--c:' + r.rings[x.k] + '"></span><span class="rn">' + x.label +
+        (x.k === 'kcal' && !val ? ' <small>(follows accent)</small>' : '') + '</span><input type="color" data-ring="' + x.k + '" value="' + (val || r.rings[x.k]) +
+        '" aria-label="' + x.label + ' ring color"></label>';
+    }).join('');
+    $('#fontGrid').innerHTML = FONTS.map(function (f) {
+      var on = f.id === look.font;
+      return '<button type="button" class="font-tile' + (on ? ' active' : '') + '" data-font="' + f.id + '" aria-pressed="' + on + '" style="font-family:' + esc(f.stack) +
+        '"><b>Aa 123</b><span>' + f.name + (f.note ? ' · ' + f.note : '') + '</span></button>';
+    }).join('');
+    $$('#sizeSeg button').forEach(function (b) { b.classList.toggle('active', b.dataset.size === look.size); });
+    $('#pvRing').innerHTML = miniRing(0.5, 'var(--kcal)', 80, 9, '');
+    $('#pvMacros').innerHTML = [['protein', 'Protein', 0.7], ['carbs', 'Carbs', 0.45], ['fat', 'Fat', 0.3]].map(function (m) {
+      return '<div>' + miniRing(m[2], 'var(--' + m[0] + ')', 40, 5, '') + m[1] + '</div>';
+    }).join('');
+  }
+  function setLook(fn) { fn(state.settings.look); save(); applyLook(); renderCustomize(); }
 
   // ---------- toast ----------
   var toastTimer;
@@ -160,7 +281,12 @@
     ui.view = v;
     $$('.view').forEach(function (s) { s.classList.toggle('active', s.id === 'view-' + v); });
     $$('#tabbar button').forEach(function (b) { b.classList.toggle('active', b.dataset.view === v); });
-    $('#viewTitle').textContent = { today: 'Today', history: 'History', foods: 'Foods', settings: 'Settings' }[v];
+    $$('#tabbar button').forEach(function (b) { if (v === 'customize') b.classList.toggle('active', b.dataset.view === 'settings'); });
+    $('#viewTitleText').textContent = { today: 'Calories', history: 'Progress', foods: 'Foods', settings: 'Settings', customize: 'Customization' }[v];
+    $('.brand-mark').hidden = v !== 'today';
+    $('#backBtn').hidden = v !== 'customize';
+    $('#streakChip').hidden = v !== 'today' && v !== 'history';
+    $('#customizeBtn').hidden = v === 'customize';
     $('#dateNav').classList.toggle('hidden', v !== 'today');
     $('#fab').classList.toggle('hidden', v !== 'today');
     render();
@@ -181,57 +307,93 @@
     else if (ui.view === 'history') renderHistory();
     else if (ui.view === 'foods') renderFoods();
     else if (ui.view === 'settings') renderSettings();
+    else if (ui.view === 'customize') renderCustomize();
+    renderStreakChip();
   }
   function dayEntries(k) { return state.days[k] || []; }
   function dayTotals(k) { var t = zero(); dayEntries(k).forEach(function (e) { sumInto(t, e.n); }); return t; }
 
+  var FLAME = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 1.7c.4 3-1 4.8-2.6 6.5C9.2 10 7.5 11.8 7.5 15a4.5 4.5 0 0 0 9 .2c0-1.7-.7-2.9-1.5-4 .1 1.4-.4 2.4-1.4 2.8.4-2.6-.1-4.8-1.1-6.7 1.9.3 4.6 2.9 5.3 6.2.9-1 1.2-2.4 1.1-3.8 1.3 1.6 2.1 3.6 2.1 5.5a7.5 7.5 0 0 1-15 0c0-4.7 2.8-7.2 4.7-9.3 1.5-1.6 2.6-2.8 2.8-4.2z"/></svg>';
   function ringSVG(val, goal) {
-    var R = 58, C = 2 * Math.PI * R, pct = goal > 0 ? Math.min(val / goal, 1) : 0;
-    var over = goal > 0 && val > goal;
-    var color = over ? 'var(--danger)' : 'var(--kcal)';
+    var pct = goal > 0 ? val / goal : 0, over = goal > 0 && val > goal;
     return '<svg viewBox="0 0 140 140" role="img" aria-label="Calories ' + Math.round(val) + ' of ' + Math.round(goal) + '">' +
-      '<circle cx="70" cy="70" r="' + R + '" fill="none" stroke="var(--line)" stroke-width="12"/>' +
-      '<circle cx="70" cy="70" r="' + R + '" fill="none" stroke="' + color + '" stroke-width="12" stroke-linecap="round" ' +
-      'stroke-dasharray="' + (C * pct).toFixed(1) + ' ' + C.toFixed(1) + '" transform="rotate(-90 70 70)"/></svg>';
+      miniRing(pct, over ? 'var(--danger)' : 'var(--kcal)', 140, 13, '').replace(/^<svg[^>]*>|<\/svg>$/g, '') + '</svg>';
+  }
+  function weekStart(k) { var d = parseKey(k), wd = (d.getDay() + 6) % 7; return addDays(k, -wd); }
+  function streak() {
+    var t = todayKey(), k = dayEntries(t).length ? t : addDays(t, -1), n = 0;
+    while (dayEntries(k).length && n < 3650) { n++; k = addDays(k, -1); }
+    return n;
+  }
+  function renderStreakChip() { var el = $('#streakChip'); if (el) el.textContent = '🔥 ' + streak(); }
+  function renderWeek() {
+    var ws = weekStart(ui.date), t = todayKey(), g = num(state.settings.goals.kcal);
+    var html = '';
+    for (var i = 0; i < 7; i++) {
+      var k = addDays(ws, i), d = parseKey(k), kc = dayTotals(k).kcal, has = dayEntries(k).length > 0;
+      var wd = d.toLocaleDateString('en-GB', { weekday: 'short' }).slice(0, 3);
+      var ring = has ? miniRing(g > 0 ? kc / g : 1, kc > g && g > 0 ? 'var(--danger)' : 'var(--kcal)', 36, 3, '') :
+        '<svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="16.5" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".6"/></svg>';
+      ring = ring.replace('</svg>', '<text x="18" y="22.5" text-anchor="middle" class="dn">' + d.getDate() + '</text></svg>');
+      html += '<button type="button" role="tab" class="day' + (k === ui.date ? ' sel' : '') + (k === t ? ' today' : '') + (k > t ? ' future' : '') + '" data-day="' + k +
+        '" aria-selected="' + (k === ui.date) + '" aria-label="' + d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' }) + (has ? ', ' + Math.round(kc) + ' kcal' : '') +
+        '"><span class="wd">' + wd + '</span>' + ring + '</button>';
+    }
+    $('#weekStrip').innerHTML = html;
+  }
+  function macroCard(value, goal, label, color, limit, unit) {
+    unit = unit == null ? 'g' : unit;
+    var left = goal - value, over = goal > 0 && value > goal;
+    var big = goal > 0 ? (limit ? fmt(value) + '<small>/' + fmt(goal) + unit + '</small>' : fmt(Math.abs(left)) + '<small>' + unit + '</small>') : fmt(value) + '<small>' + unit + '</small>';
+    var lab = goal > 0 ? (limit ? label + ' (max)' : label + (left >= 0 ? ' left' : ' over')) : label;
+    var pct = goal > 0 ? value / goal : 0;
+    return '<div class="mcard' + (over && limit ? ' over' : '') + '"><div class="mv">' + big + '</div><div class="ml">' + lab + '</div><div class="mring">' +
+      miniRing(pct, over ? 'var(--danger)' : color, 72, 7, '') + '<span>' + (goal > 0 ? Math.round(pct * 100) + '%' : '–') + '</span></div></div>';
   }
   function renderToday() {
     var g = state.settings.goals, t = dayTotals(ui.date);
     $('#dateLabel').textContent = dateLabel(ui.date);
     $('#datePicker').value = ui.date;
     $('#todayBtn').style.visibility = ui.date === todayKey() ? 'hidden' : 'visible';
+    renderWeek();
     var left = g.kcal - t.kcal;
-    $('#kcalRing').innerHTML = ringSVG(t.kcal, g.kcal) +
-      '<div class="ring-center"><b>' + Math.round(Math.abs(left)) + '</b><span>' + (left >= 0 ? 'kcal left' : 'kcal over') +
-      '</span><span>' + Math.round(t.kcal) + ' / ' + Math.round(g.kcal) + '</span></div>';
-    $('#macroBars').innerHTML = MACROS.map(function (m) {
-      var v = t[m.k], goal = num(g[m.k]), pct = goal > 0 ? Math.min(100, v / goal * 100) : 0;
-      var over = m.limit && goal > 0 && v > goal;
-      return '<div class="mbar' + (over ? ' over' : '') + '"><div class="mbar-top"><b>' + m.label + (m.limit ? ' <small>max</small>' : '') + '</b><span>' +
-        fmt(v) + ' / ' + fmt(goal) + ' g</span></div><div class="track"><div class="fill" style="width:' + pct.toFixed(1) +
-        '%;background:' + (over ? 'var(--danger)' : 'var(--' + m.k + ')') + '"></div></div></div>';
-    }).join('');
+    $('#kcalBig').textContent = Math.round(Math.abs(left));
+    $('#kcalLabel').textContent = left >= 0 ? 'Calories left' : 'Calories over';
+    $('#kcalSub').textContent = Math.round(t.kcal) + ' / ' + Math.round(g.kcal) + ' kcal eaten';
+    $('#kcalRing').innerHTML = ringSVG(t.kcal, g.kcal) + '<div class="ring-icon">' + FLAME + '</div>';
+    $('#macroCards').innerHTML = macroCard(t.protein, num(g.protein), 'Protein', 'var(--protein)') +
+      macroCard(t.carbs, num(g.carbs), 'Carbs', 'var(--carbs)') + macroCard(t.fat, num(g.fat), 'Fat', 'var(--fat)');
+    var wKeys = Object.keys(state.weights).filter(function (k) { return k <= ui.date; }).sort();
+    var lw = wKeys.length ? state.weights[wKeys[wKeys.length - 1]] : null;
+    $('#microCards').innerHTML = macroCard(t.fiber, num(g.fiber), 'Fiber', 'var(--fiber)') + macroCard(t.sugar, num(g.sugar), 'Sugar', 'var(--sugar)', true) +
+      '<div class="mcard"><div class="mv">' + (lw != null ? lw + '<small>kg</small>' : '–') + '</div><div class="ml">Weight</div><div class="mring"><span style="font-size:1.8rem">⚖️</span></div></div>';
 
     var entries = dayEntries(ui.date);
+    $('#entryCount').textContent = entries.length ? entries.length + (entries.length === 1 ? ' item' : ' items') : '';
     $('#meals').innerHTML = MEALS.map(function (m) {
       var list = entries.filter(function (e) { return e.meal === m.id; });
       var mt = zero(); list.forEach(function (e) { sumInto(mt, e.n); });
-      return '<div class="card meal" data-meal="' + m.id + '"><div class="meal-head"><div><h2>' + m.name + '</h2><div class="meta">' +
-        Math.round(mt.kcal) + ' kcal · P ' + fmt(mt.protein) + ' · C ' + fmt(mt.carbs) + ' · F ' + fmt(mt.fat) + '</div></div>' +
+      return '<div class="meal-group" data-meal="' + m.id + '"><div class="meal-head"><div><h3>' + MEAL_ICON[m.id] + ' ' + m.name + '</h3><div class="meta">' +
+        (list.length ? Math.round(mt.kcal) + ' kcal · P ' + fmt(mt.protein) + ' · C ' + fmt(mt.carbs) + ' · F ' + fmt(mt.fat) : 'Nothing logged yet') + '</div></div>' +
         '<div class="meal-actions">' + (list.length > 1 ? '<button class="btn small" data-save-meal="' + m.id + '" title="Save as reusable meal">Save</button>' : '') +
-        '<button class="btn small" data-add-meal="' + m.id + '" aria-label="Add to ' + m.name + '">+ Add</button></div></div>' +
-        '<div class="list">' + (list.length ? list.map(entryRow).join('') : '<div class="empty">Nothing logged yet</div>') + '</div></div>';
+        '<button class="add-mini" data-add-meal="' + m.id + '" aria-label="Add to ' + m.name + '">+</button></div></div>' +
+        list.map(entryRow).join('') + '</div>';
     }).join('');
 
     var w = state.weights[ui.date];
     $('#weightQuick').innerHTML = '<form class="row-form" id="weightQuickForm"><input type="number" step="0.1" min="20" max="400" inputmode="decimal" ' +
-      'id="weightQuickKg" placeholder="Weight (kg) — optional" aria-label="Weight in kg" value="' + (w != null ? w : '') + '"><button class="btn" type="submit">' +
+      'id="weightQuickKg" placeholder="Weight (kg) — optional" aria-label="Weight in kg" value="' + (w != null ? w : '') + '"><button class="btn primary" type="submit">' +
       (w != null ? 'Update' : 'Log weight') + '</button></form>';
   }
   function entryRow(e) {
     var amt = e.quick ? 'Quick add' : (e.servings ? r1(e.servings) + ' × ' + servingLabel(e.food) + ' · ' : '') + r1(e.amount) + ' ' + (e.unit || 'g');
-    return '<button class="item" data-entry="' + e.id + '"><div class="main"><div class="name">' + esc(e.name) + '</div><div class="sub">' +
-      esc(amt) + ' · P ' + fmt(e.n.protein) + ' C ' + fmt(e.n.carbs) + ' F ' + fmt(e.n.fat) + '</div></div><div class="kcal">' +
-      Math.round(e.n.kcal) + '</div></button>';
+    var time = e.ts ? new Date(e.ts).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }) : '';
+    return '<button class="food-card" data-entry="' + e.id + '"><span class="thumb" aria-hidden="true">' + MEAL_ICON[e.meal] + '</span><span class="fc-main">' +
+      '<span class="fc-top"><span class="fc-name">' + esc(e.name) + '</span><span class="fc-time">' + time + '</span></span>' +
+      '<span class="fc-kcal">🔥 ' + Math.round(e.n.kcal) + ' kcal</span>' +
+      '<span class="fc-sub">' + esc(amt) + '</span>' +
+      '<span class="macro-chips"><span><i style="background:var(--protein)"></i>' + fmt(e.n.protein) + 'g</span><span><i style="background:var(--carbs)"></i>' +
+      fmt(e.n.carbs) + 'g</span><span><i style="background:var(--fat)"></i>' + fmt(e.n.fat) + 'g</span></span></span></button>';
   }
 
   // ---------- food lists (search) ----------
@@ -853,7 +1015,16 @@
     $('#avgTable').innerHTML = '<table><tr><th>Nutrient</th><th>Avg/day</th><th>Goal</th><th>%</th></tr>' + NUTR.map(function (k) {
       var a = avg[k] / d; return '<tr><td>' + (k === 'kcal' ? 'Calories' : k[0].toUpperCase() + k.slice(1)) + '</td><td>' + fmt(a, k) + (k === 'kcal' ? '' : ' g') + '</td><td>' + fmt(num(g[k]), k) + '</td><td>' + (g[k] ? Math.round(a / g[k] * 100) + '%' : '–') + '</td></tr>';
     }).join('') + '</table><p class="muted small">' + logged.length + ' of ' + n + ' days logged.</p>';
-    // weight
+    // weight + streak cards
+    var wAll = Object.keys(state.weights).sort();
+    var lastW = wAll.length ? state.weights[wAll[wAll.length - 1]] : null, firstW = wAll.length ? state.weights[wAll[0]] : null;
+    var diff = lastW != null && wAll.length > 1 ? r1(lastW - firstW) : null;
+    $('#weightCard').innerHTML = '<div class="sl">My weight</div><div class="sv">' + (lastW != null ? lastW + ' kg' : '–') + '</div><div class="muted small">' +
+      (diff != null ? (diff > 0 ? '+' : '') + diff + ' kg since ' + parseKey(wAll[0]).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : 'Log to track change') +
+      '</div><button class="btn primary" id="logWeightBtn" type="button">Log weight <span aria-hidden="true">›</span></button>';
+    var st = streak(), ws = weekStart(todayKey()), dots = '';
+    for (var j = 0; j < 7; j++) { var dk = addDays(ws, j); dots += '<span>' + 'MTWTFSS'[j] + '<i class="' + (dayEntries(dk).length ? 'on' : '') + '"></i></span>'; }
+    $('#streakCard').innerHTML = '<div class="flame" aria-hidden="true">🔥</div><div class="sv">' + st + '</div><div class="sl">Day streak</div><div class="streak-dots">' + dots + '</div>';
     if (!$('#weightDate').value) $('#weightDate').value = todayKey();
     var wk = Object.keys(state.weights).sort();
     var pts = wk.filter(function (k) { return k >= addDays(end, -Math.max(n, 90) + 1) && k <= end; }).map(function (k) { return { k: k, v: num(state.weights[k]) }; });
@@ -914,7 +1085,31 @@
     $('#todayBtn').onclick = function () { setDate(todayKey()); };
     $('#datePicker').addEventListener('click', function () { try { if (this.showPicker) this.showPicker(); } catch (e) { /* ignore */ } });
     $('#datePicker').addEventListener('change', function () { if (this.value) setDate(this.value); });
-    $('#themeToggle').onclick = function () { state.settings.theme = isDark() ? 'light' : 'dark'; save(); applyTheme(); };
+    $('#weekStrip').addEventListener('click', function (e) { var b = e.target.closest('[data-day]'); if (b) setDate(b.dataset.day); });
+    $('#macroPager').addEventListener('scroll', function () {
+      var p = this, i = Math.round(p.scrollLeft / Math.max(1, p.scrollWidth - p.clientWidth));
+      $$('#pagerDots button').forEach(function (d) { d.classList.toggle('active', +d.dataset.page === i); });
+    }, { passive: true });
+    $('#pagerDots').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-page]'); if (!b) return; var p = $('#macroPager');
+      p.scrollTo({ left: +b.dataset.page * (p.scrollWidth - p.clientWidth), behavior: 'smooth' });
+    });
+    $('#customizeBtn').onclick = function () { showView('customize'); };
+    $('#openCustomize').onclick = function () { showView('customize'); };
+    $('#backBtn').onclick = function () { showView('settings'); };
+    $('#view-history').addEventListener('click', function (e) {
+      if (e.target.closest('#logWeightBtn')) { $('#weightSection').scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(function () { $('#weightKg').focus(); }, 300); }
+    });
+    // customization
+    $('#accentGrid').addEventListener('click', function (e) { var b = e.target.closest('[data-accent]'); if (b) setLook(function (l) { l.accent = b.dataset.accent; }); });
+    $('#accentCustom').addEventListener('input', function () { var v = this.value.toLowerCase(); if (isHex(v)) { state.settings.look.accent = v; save(); applyLook(); } });
+    $('#accentCustom').addEventListener('change', function () { var v = this.value.toLowerCase(); if (isHex(v)) setLook(function (l) { l.accent = v; }); });
+    $('#ringColors').addEventListener('input', function (e) { var i = e.target.closest('[data-ring]'); if (i && isHex(i.value)) { state.settings.look.rings[i.dataset.ring] = i.value.toLowerCase(); save(); applyLook(); var dot = i.parentNode.querySelector('.dot'); if (dot) dot.style.setProperty('--c', getComputedStyle(document.documentElement).getPropertyValue('--' + i.dataset.ring)); } });
+    $('#ringColors').addEventListener('change', function () { renderCustomize(); });
+    $('#resetRings').onclick = function () { setLook(function (l) { l.rings = defaultLook().rings; }); toast('Ring colors reset'); };
+    $('#fontGrid').addEventListener('click', function (e) { var b = e.target.closest('[data-font]'); if (b) setLook(function (l) { l.font = b.dataset.font; }); });
+    $('#sizeSeg').addEventListener('click', function (e) { var b = e.target.closest('[data-size]'); if (b) setLook(function (l) { l.size = b.dataset.size; }); });
+    $('#resetLook').onclick = function () { state.settings.look = defaultLook(); state.settings.theme = 'auto'; save(); applyLook(); renderCustomize(); toast('Look reset to default'); };
     $('#fab').onclick = function () { openAdd(); };
 
     $('#meals').addEventListener('click', function (e) {
@@ -1047,7 +1242,7 @@
         '<button type="button" class="btn primary block" id="applyGoals">Use these goals</button><p class="muted small">Estimates only — adjust based on your progress.</p></div>';
       $('#applyGoals').onclick = function () { state.settings.goals = g; save(); renderSettings(); toast('Goals updated'); };
     });
-    $('#themeSeg').addEventListener('click', function (e) { var b = e.target.closest('button'); if (b) { state.settings.theme = b.dataset.theme; save(); applyTheme(); } });
+    $('#themeSeg').addEventListener('click', function (e) { var b = e.target.closest('button'); if (b) { state.settings.theme = b.dataset.theme; save(); applyLook(); renderCustomize(); } });
     $('#exportJson').onclick = exportJson;
     $('#exportCsv').onclick = exportCsv;
     $('#exportCsvDaily').onclick = exportCsvDaily;
@@ -1059,7 +1254,7 @@
 
     // re-render when the day changes (app left open overnight) and on theme change
     document.addEventListener('visibilitychange', function () { if (!document.hidden && ui.view === 'today') renderToday(); });
-    window.addEventListener('storage', function (e) { if (e.key === STORE_KEY) { state = load(); render(); } });
+    window.addEventListener('storage', function (e) { if (e.key === STORE_KEY) { state = load(); applyLook(); render(); } });
   }
 
   // ---------- service worker ----------
@@ -1069,12 +1264,12 @@
   }
 
   // ---------- init ----------
-  applyTheme();
+  applyLook();
   bind();
   registerSW();
   showView('today');
   initFoods().then(function () { if (ui.view === 'settings') renderSettings(); });
 
   // expose a tiny debug hook (used by tests)
-  window.CalorieApp = { state: function () { return state; }, foods: function () { return FOODS; }, foodSource: function () { return foodSource; }, calcGoals: calcGoals, photoMatches: function (l, m) { return photoMatches(l, m || 3); } };
+  window.CalorieApp = { state: function () { return state; }, foods: function () { return FOODS; }, foodSource: function () { return foodSource; }, calcGoals: calcGoals, look: function () { return JSON.parse(JSON.stringify(state.settings.look)); }, resolvedLook: resolveLook, fonts: FONTS, swatches: SWATCHES, photoMatches: function (l, m) { return photoMatches(l, m || 3); } };
 })();
